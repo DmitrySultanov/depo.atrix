@@ -263,111 +263,6 @@ a{
 	height: 0;
 }
 
-// .jselector{
-// 	cursor: pointer;
-// 	width: 100%;
-// 	background-color: #567783;
-// 	border-radius: 5px;
-// 	height: 42px;
-// 	font-size: 14px;
-// 	line-height: 42px;
-// 	color: #e0e9eb;
-
-
-// 	.wrap{
-// 		padding: 0 30px 0 15px;
-// 		position: relative;
-
-// 		span{
-// 			opacity: .5;
-// 			white-space: nowrap;
-// 			text-overflow: ellipsis;
-// 			overflow: hidden;
-// 			display: block;
-// 		}
-// 	}
-
-// 	&:hover{
-// 		background-color: #b4e536;
-// 		color: #567783;
-
-// 		.wrap{
-// 			&:after{
-// 				background-position: bottom;
-// 			}
-
-// 			span{
-// 				opacity: 1;
-// 			}
-// 		}
-// 	}
-
-// 	select{
-// 		display: none;
-// 	}
-
-// 	button{
-// 		display: none;
-// 	}
-
-// 	.dropdown{
-// 		position: absolute;
-// 		left: -3000px;
-// 		width: 100%;
-// 		background: #567783;
-// 		z-index: 89;
-// 		transition: opacity .4s;
-// 		opacity: 0;
-// 		top: calc(100% + 5px);
-// 		font-size: 15px;
-// 		line-height: 35px;
-// 		color: #2d2d2b;
-// 		border-radius: 5px;
-
-// 		&.shown{
-// 			left: 0;
-// 			opacity: 1;
-
-// 		}
-// 		ul{
-// 			max-height: 250px;
-// 			overflow: auto;
-// 			margin: 10px 0;
-
-// 			li{
-// 				padding: 9px 30px 9px 0px;
-// 				box-sizing: border-box;
-// 				-webkit-box-sizing: border-box;
-// 				-o-box-sizing: border-box;
-// 				-moz-box-sizing: border-box;
-// 				text-align: left;
-// 				font-size: 14px;
-// 				font-family: 'MullerRegular';
-// 				line-height: 16px;
-// 				color: #cbdadd;
-// 				@include transition(.3s);
-// 				border-radius: 4px;
-// 				margin:0 20px;
-
-// 				&.selected{
-// 					background: #45636d;
-// 					font-family: 'MullerExtraBold';
-// 					@include transition(.3s);
-// 					padding-left: 15px;
-
-// 					&:hover{
-// 						background: #45636d;
-// 					}
-// 				}
-
-// 				&:hover{
-// 					color: #b4e536;
-// 				}
-// 			}
-// 		}
-// 	}
-// }
-
 .form{
 	position: relative;
 
@@ -677,7 +572,6 @@ header{
 			}
 
 			.h-menu{
-				overflow: hidden;
 
 				.menu-item{
 					height: 100%;
@@ -692,6 +586,7 @@ header{
 					}
 
 					&.has-child{
+						position: relative;
 
 						&:before{
 							content: '';
@@ -706,13 +601,13 @@ header{
 							pointer-events: none;
 						}
 
-						a{
+						>a{
 							position: relative;
 
 							&:after{
 								content: '';
 								background: $yellow;
-								border-radius: 25px 25px 0 0;
+								border-radius: 20px 20px 0 0;
 								position: absolute;
 								padding: 12px 35px 23px 25px;
 								top: -10px;
@@ -747,6 +642,51 @@ header{
 									color: #252525;
 								}
 							} 
+
+							.submenu{
+								z-index: 97;
+								opacity: 1;
+								@include transform(translateY(0px));
+								@include transition(.3s);
+							}
+						}
+
+						.submenu{
+							position: absolute;
+							top: 100%;
+							width: 215px;
+							left: -25px;
+							z-index: -11;
+							opacity: 0;
+							@include transform(translateY(10px));
+							@include transition(.3s);
+
+
+							li{
+								background: #fff;
+								z-index: 96;
+								border-bottom: 1px solid #e8e8e8;
+
+								&:last-child{
+									border-bottom-color: transparent;
+									border-radius: 0 0 20px 20px;
+
+									a{
+										padding-bottom: 15px;
+									}
+								}
+
+								a{
+									display: block;
+									padding: 13px 25px;
+									font-size: 16px;
+									color: #252525;
+
+									&:hover{
+										color: #ff3333;
+									}
+								}
+							}
 						}
 					}
 				}

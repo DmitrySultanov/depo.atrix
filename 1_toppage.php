@@ -50,13 +50,20 @@
 							<div class="menu-item flex align"><a href="#">Каталог</a></div>
 							<div class="menu-item flex align has-child">
 								<a href="#"><span>Каталог</span></a>
-								<!-- <ul class="submenu">
-									<li>Пункт 1</li>
-									<li>Пункт 2</li>
-								</ul> -->
+								<ul class="submenu">
+									<li><a href="#">Пункт 1</a></li>
+									<li><a href="#">Пункт 2</a></li>
+								</ul>
 							</div>
 							<div class="menu-item flex align"><a href="#">Проекты</a></div>
-							<div class="menu-item flex align"><a href="#">Дилеры</a></div>
+							<div class="menu-item flex align has-child">
+								<a href="#"><span>Дилеры</span></a>
+								<ul class="submenu">
+									<li><a href="#">Меридиан</a></li>
+									<li><a href="#">Игроман</a></li>
+									<li><a href="#">бубен-тауэр</a></li>
+								</ul>
+							</div>
 							<div class="menu-item flex align"><a href="#">Услуги</a></div>
 							<div class="menu-item flex align"><a href="#">Контакты</a></div>
 						</div>
