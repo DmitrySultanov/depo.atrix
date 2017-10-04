@@ -1466,7 +1466,7 @@ footer{
 
 		>.flex{
 			>div{
-				height: 322px;
+				min-height: 322px;
 				border-radius: 5px;
 				background: #fff;
 
@@ -1500,6 +1500,12 @@ footer{
 							font-family: $glight;
 							padding-left: 54px;
 						}
+					}
+				}
+
+				&.withBadge{
+					.project-desc{
+						padding-bottom: 55px!important;
 					}
 				}
 
@@ -1584,7 +1590,8 @@ footer{
 					}
 
 					.project-desc{
-						padding: 28px;
+						padding: 25px;
+						position: relative;
 
 						p{
 							font-size: 16px;
@@ -1592,6 +1599,12 @@ footer{
 							color: #454b56;
 							font-family: $gbold;
 						}
+					}
+
+					.badge{
+						position: absolute;
+						bottom: 23px;
+						left: 25px;
 					}
 				}
 

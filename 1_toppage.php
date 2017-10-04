@@ -470,15 +470,16 @@
 							</div>
 						</div>
 
-						<div class="project-block photo">
+						<div class="project-block photo withBadge">
 							<a href="#"></a>
-							<div class="shadow"></div>
 							<div class="project-item">
+								<div class="shadow"></div>
 								<img src="templates/img/project-item.png" alt=""/>
 							</div>
 							<div class="project-desc">
 								<p>Площадка ЖК «Мечта» поселок в селе Ягодное</p>
 							</div>
+							<div class="badge honors">ФОТО</div>
 						</div>
 
 						<div class="project-block video">
@@ -497,35 +498,38 @@
 
 				<div class="projects-row">
 					<div class="flex jcsb">
-						<div class="project-block photo">
+						<div class="project-block photo withBadge">
 							<a href="#"></a>
-							<div class="shadow"></div>
 							<div class="project-item">
+								<div class="shadow"></div>
 								<img src="templates/img/project-item.png" alt=""/>
 							</div>
 							<div class="project-desc">
 								<p>Площадка ЖК «Мечта» поселок в селе Ягодное</p>
 							</div>
+							<div class="badge honors">ФОТО</div>
 						</div>
-						<div class="project-block photo">
+						<div class="project-block photo withBadge">
 							<a href="#"></a>
-							<div class="shadow"></div>
 							<div class="project-item">
+								<div class="shadow"></div>
 								<img src="templates/img/project-item.png" alt=""/>
 							</div>
 							<div class="project-desc">
 								<p>Площадка ЖК «Мечта» поселок в селе Ягодное</p>
 							</div>
+							<div class="badge honors">ФОТО</div>
 						</div>
-						<div class="project-block photo">
+						<div class="project-block photo withBadge">
 							<a href="#"></a>
-							<div class="shadow"></div>
 							<div class="project-item">
+								<div class="shadow"></div>
 								<img src="templates/img/project-item.png" alt=""/>
 							</div>
 							<div class="project-desc">
 								<p>Площадка ЖК «Мечта» поселок в селе Ягодное</p>
 							</div>
+							<div class="badge honors">ФОТО</div>
 						</div>
 					</div>
 				</div>
