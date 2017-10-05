@@ -24,7 +24,7 @@ $(document).ready(function(){
     prevButton: '.main-banner-slider .button-prev',
     loop: true,
     speed: 500,
-    // effect: 'coverflow',
+    effect: 'coverflow',
   })   
 
   function headerClone(){

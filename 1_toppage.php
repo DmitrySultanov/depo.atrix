@@ -110,7 +110,7 @@
 		<div class="main-banner-slider">
 			<div class="swiper-container">
 			    <div class="swiper-wrapper">
-			        <div class="swiper-slide" style="background-image: url('templates/img/card-item3.jpg')">
+			        <div class="swiper-slide" style="background-image: url('templates/img/main-banner-slide1.jpg')">
 			        	<div class="container">
 			        		<div class="clearfix">
 				        		<div class="leftside">
@@ -269,7 +269,18 @@
 					</div>
 				</div>
 				<div class="btn-wrap">
-					<a href="#" class="border-btn"><img src="templates/img/more_ico.png" alt="">Показать все</a>
+					<!-- <a href="#" class="border-btn quadraSpinnerBtn"><img src="templates/img/more_ico.png" alt="">Показать все</a> -->
+					<a href="#" class="border-btn quadraSpinnerBtn">
+						<div>
+							<div class="loader">
+							  <span></span>
+							  <span></span>
+							  <span></span>
+							  <span></span>
+							</div>
+						</div>
+						Показать все
+					</a>
 				</div>
 				<div class="romb f" data-100-bottom="transform: translateY(110%);" data-top="transform: translateY(0%);"><img src="templates/img/romb2.png" alt=""/></div>
 				<div class="romb s" data-bottom="transform: translateY(0%);" data-top="transform: translateY(110%);"><img src="templates/img/romb2.png" alt=""/></div>
