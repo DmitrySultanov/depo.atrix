@@ -60,7 +60,7 @@
 								<a href="#"><span>Дилеры</span></a>
 								<ul class="submenu">
 									<li><a href="#">Меридиан</a></li>
-									<li><a href="#">Игроман</a></li>
+									<li><a href="#">Игромания</a></li>
 									<li><a href="#">бубен-тауэр</a></li>
 								</ul>
 							</div>
@@ -104,6 +104,7 @@
 							</div>
 						</div>
 					</div>
+					<button type="button" class="menu-btn"><span></span></button>
 				</div>
 			</div>
 		</header>
@@ -607,6 +608,7 @@
 
 			        <div class="swiper-wrapper">
 			            <div class="swiper-slide">
+			            	<a href="#"></a>
 			            	<div class="slide-desc">
 			            		<p class="good-name">Проведена спец оценка предприятия</p>
 			            		<p><span>12.07.2017</span></p>
@@ -614,6 +616,7 @@
 			            	</div>
 			            </div>
 			            <div class="swiper-slide">
+			            	<a href="#"></a>
 			            	<div class="slide-desc">
 			            		<p class="good-name">В Иркутске прошла «Байкальская строительная неделя».</p>
 			            		<p><span>12.07.2017</span></p>
@@ -621,6 +624,7 @@
 			            	</div>
 			            </div>
 			            <div class="swiper-slide">
+			            	<a href="#"></a>
 			            	<div class="slide-desc">
 			            		<p class="good-name">В Иркутске прошла «Байкальская строительная неделя».</p>
 			            		<p><span>12.07.2017</span></p>
@@ -628,6 +632,7 @@
 			            	</div>
 			            </div>
 			            <div class="swiper-slide">
+			            	<a href="#"></a>
 			            	<div class="slide-desc">
 			            		<p class="good-name">Проведена спец оценка предприятия</p>
 			            		<p><span>12.07.2017</span></p>
@@ -635,6 +640,7 @@
 			            	</div>
 			            </div>
 			            <div class="swiper-slide">
+			            	<a href="#"></a>
 			            	<div class="slide-desc">
 			            		<p class="good-name">В Иркутске прошла «Байкальская строительная неделя».</p>
 			            		<p><span>12.07.2017</span></p>
@@ -642,6 +648,7 @@
 			            	</div>
 			            </div>
 			            <div class="swiper-slide">
+			            	<a href="#"></a>
 			            	<div class="slide-desc">
 			            		<p class="good-name">Проведена спец оценка предприятия</p>
 			            		<p><span>12.07.2017</span></p>
@@ -649,6 +656,7 @@
 			            	</div>
 			            </div>
 			            <div class="swiper-slide">
+			            	<a href="#"></a>
 			            	<div class="slide-desc">
 			            		<p class="good-name">Проведена спец оценка предприятия</p>
 			            		<p><span>12.07.2017</span></p>
@@ -742,6 +750,9 @@
 				</div>
 			</div>
 		</div>	
+		<div id="scrolltotop">
+			<span>наверх</span>
+		</div>
 	</footer>
 	
 

@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-	// $('.select-single select').jselector();
-
 	$("[data-fancybox]").fancybox({
     image : {
       protect: true
@@ -28,17 +26,33 @@ $(document).ready(function(){
   })   
 
   function headerClone(){
-    $(document).scroll(function(){
+
+    $('#scrolltotop').on('click', function(){
+      $('html, body').animate({'scrollTop': 0});
+    });
+
+    var fooOffset = $('footer').offset().top;
+    var fooHeight = $('footer').height();
+    var fscroll = fooOffset - fooHeight - 1000;
+
+    $(window).scroll(function(){
       var scrollHeightDown = parseInt(($('header').height() + 200 + 'px')),
           scrollHeightUp = parseInt(($('header').height() + 350 + 'px')),
           headerClone = $('.top-row.clone'),
           s = $(this).scrollTop();
 
+
       if(s > scrollHeightDown){
         headerClone.addClass('active');
-      } else{
+      } else if(s < scrollHeightDown){
         headerClone.removeClass('active');
       }
+
+      if($(window).scrollTop() > fscroll){
+        $('#scrolltotop').addClass('active');
+      } else if($(window).scrollTop() < fscroll){
+        $('#scrolltotop').removeClass('active');
+      } 
     })
   }
   headerClone();
@@ -50,15 +64,14 @@ $(document).ready(function(){
       prevButton: '.catalog-slider .button-prev',
       // centeredSlides: true,
       // paginationClickable: true,
+      loop: true,
       spaceBetween: 30
   });
   var newsSlider = new Swiper('.news-slider .swiper-container', {
-      // slidesPerView: 4,
       width: 270,
       nextButton: '.news-slider .button-next',
       prevButton: '.news-slider .button-prev',
-      // centeredSlides: true,
-      // paginationClickable: true,
+      loop: true,
       spaceBetween: 30
   });
 
