@@ -32,8 +32,8 @@
 						</div>
 						<div>
 							<div class="h-entrance">
-								<a href="#">Вход</a>
-								<a href="#">Регистрация</a>
+								<a href="#" class="entrance-btn">Вход</a>
+								<a href="#" class="reg-btn">Регистрация</a>
 							</div>
 							<div class="h-basket">
 								<div class="basket-count"><i class="panton b">w</i><span>2</span></div>
@@ -95,8 +95,8 @@
 						</div>
 						<div>
 							<div class="h-entrance">
-								<a href="#">Вход</a>
-								<a href="#">Регистрация</a>
+								<a href="#" class="entrance-btn">Вход</a>
+								<a href="#" class="reg-btn">Регистрация</a>
 							</div>
 							<div class="h-basket">
 								<div class="basket-count"><i class="panton b">w</i><span>2</span></div>
@@ -727,7 +727,7 @@
 					<div class="form search-form">
 						<form action="" target="blank">
 							<input type="text" name="search" placeholder="Поиск" data-msg-required="Введите запрос">
-							<button type="submit"></button>
+							<button type="submit" class="search-btn"></button>
 						</form>
 					</div>
 				</div>

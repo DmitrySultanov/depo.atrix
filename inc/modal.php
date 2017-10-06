@@ -1,97 +1,131 @@
-<div class="modal">
+<div class="modal sign-in">
 	<div class="flex">
 		<div class="modal_wrap">
-			<button type="button" class="close"></button>
-			<div class="reg_auth">
-				<div class="tab_wrapper">
-					<ul class="tabs">
-						<li class="active">Авторизация</li>
-						<li>Регистрация</li>
-					</ul>
-					<ul class="tab_content">
-						<li class="auth">
-							<div class="form">
-								<form action="">
-									<div class="element">
-										<label>
-											<input type="text" class="email required" name="email" placeholder="Введите E-mail" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<div class="element">
-										<label>
-											<input type="password" class="required" name="confirm_password" placeholder="Введите пароль" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<button type="submit" class="blue_btn">Войти</button>
-								</form>
-								<a href="#" class="forgot">Забыли пароль?</a>
+			<button type="button" class="modal-close"><i class="panton c">I</i></button>
+			<div class="flex">
+				<div class="leftside">
+					<div class="modal-title">
+						Вход в личный кабинет
+					</div>
+					<div class="form">
+						<form action="" target="post-form">
+							<div class="element">
+								<p>Логин</p>
+								<input type="text" class="required" name="login" data-msg-required="Заполните поле">
 							</div>
-							<div class="soc_block">
-								<span>Войти через Соц. сети:</span>
-								<ul class="rec_soc">
-									<li><a href="#" style="background-image: url('templates/img/rec_vk.png')" target="_blank" rel="nofollow"></a></li>
-									<li><a href="#" style="background-image: url('templates/img/rec_fb.png')" target="_blank" rel="nofollow"></a></li>
-									<li><a href="#" style="background-image: url('templates/img/rec_tw.png')" target="_blank" rel="nofollow"></a></li>
-									<li><a href="#" style="background-image: url('templates/img/rec_goo.png')" target="_blank" rel="nofollow"></a></li>
-								</ul>
+							<div class="element">
+								<p>Пароль</p>
+								<input type="text" class="required" name="password">
 							</div>
-						</li>
-						<li class="reg">
-							<div class="form">
-								<form action="">
-									<div class="element">
-										<label>
-											<input type="text" class="required" name="name" placeholder="Введите Имя *" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<div class="element">
-										<label>
-											<input type="text" class="required" name="surname" placeholder="Введите Имя *" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<div class="element">
-										<label>
-											<input type="text" class="required" name="fathername" placeholder="Введите Фамилию *" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<div class="element">
-										<label>
-											<input type="text" class="required" name="city" placeholder="Введите Город *" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<div class="spaicer"></div>
-									<div class="element">
-										<label>
-											<input type="text" class="email required" name="email" placeholder="Введите E-mail *" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<div class="element">
-										<label>
-											<input type="password" class="required" id="password" name="password" placeholder="Введите пароль *" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<div class="element">
-										<label>
-											<input type="password" class="required" name="confirm_password" placeholder="Повторите Пароль *" data-msg-required="Пожалуйста заполните поле">
-										</label>
-									</div>
-									<button type="submit" class="blue_btn">Зарегистрироваться</button>
-									<div class="checkbox">
-										<label class="pers_data">
-											<input type="checkbox"><i></i><span>Согласен на обработку данных и т.п.</span>
-											<a href="#" class="more">Подробнее</a>
-										</label>
-									</div>
-								</form>
+							<input type="hidden" value="Вход в личный кабинет">
+							<div class="btn-wrap tal">
+								<button type="submit" class="btn btn-large">Войти</button>
+								<a href="#" class="forgot-pass">Забыли пароль?</a>
 							</div>
-						</li>
-					</ul>
+						</form>
+					</div>
+				</div>
+				<div class="rightside flex">
+					<div class="r-content">
+						<p>После регистрации на сайте вам будет доступно отслеживание состояния заказов, 
+						личный кабинет и другие новые возможности.</p>
+						<a href="#" class="btn btn-small">Регистрация</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
+<div class="modal forgot-pass">
+	<div class="flex">
+		<div class="modal_wrap">
+			<button type="button" class="modal-close"><i class="panton c">I</i></button>
+			<div class="flex">
+				<div class="leftside">
+					<div class="modal-title">
+						Забыли пароль?
+					</div>
+					<div class="form">
+						<form action="" target="post-form">
+							<div class="element">
+								<p>Ваш E-mail</p>
+								<input type="text" class="email required" name="email" data-msg-required="Заполните поле">
+							</div>
+							<input type="hidden" value="Забыли пароль?">
+							<div class="btn-wrap tal">
+								<button type="submit" class="btn btn-large">Восстановить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="rightside flex">
+					<div class="r-content">
+						<p>Контрольная строка для смены пароля, а также ваши регистрационные данные, будут высланы вам по E-Mail.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal change-pass">
+	<div class="flex">
+		<div class="modal_wrap">
+			<button type="button" class="modal-close"><i class="panton c">I</i></button>
+			<div class="flex">
+				<div class="leftside">
+					<div class="modal-title">
+						Забыли пароль?
+					</div>
+					<div class="form">
+						<form action="" target="post-form">
+							<div class="element">
+								<p>Ваш E-mail</p>
+								<input type="text" class="email required" name="email" data-msg-required="Заполните поле">
+							</div>
+							<div class="element">
+								<p>Новый пароль</p>
+								<input type="password" class="required" name="password" id="password">
+							</div>
+							<div class="element">
+								<p>Подтверждение пароля</p>
+								<input type="password" class="required" name="confirm_password">
+							</div>
+							<input type="hidden" value="Забыли пароль?">
+							<div class="btn-wrap tal">
+								<button type="submit" class="btn btn-large">Восстановить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="rightside flex top">
+					<div class="r-content">
+						<p>Придумайте пароль длиной не менее 6 символов</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal changed-pass">
+	<div class="flex">
+		<div class="modal_wrap">
+			<button type="button" class="modal-close"><i class="panton c">I</i></button>
+			<div class="rightside-panel">
+				<div class="modal-title">Пароль успешно сменен!</div>
+				<div class="r-content">
+					<p>На ваш E-mail высланы новые регистрационные данные.
+					Для продолжения Вам необходимо авторизоваться с новым паролем.</p>
+					<div class="btn-wrap tal">
+						<a href="#" class="btn btn-large">Войти</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <div class="overlay"></div>
 
