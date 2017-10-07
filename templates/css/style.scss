@@ -1334,6 +1334,34 @@ footer{
 		}
 	}
 
+	.girl-anim{
+		position: absolute;
+		right: 70px;
+		bottom: 0;
+
+		img{
+			z-index: 22;
+		}
+
+		.romb{
+			position: absolute;
+			top: 0;
+			left: -69px;
+			z-index: 0;
+
+			&.s{
+				top: auto;
+				bottom: 5%;
+				left: auto;
+				right: -69px;
+			}
+
+			&.f{
+				top: 5%;
+			}
+		}
+	}
+
 	&.answer-questions{
 		height: 130px;
 		margin-top: 64px;

@@ -284,7 +284,7 @@
 					</a>
 				</div>
 				<div class="romb f" data-100-bottom="transform: translateY(110%);" data-top="transform: translateY(0%);"><img src="templates/img/romb2.png" alt=""/></div>
-				<div class="romb s" data-bottom="transform: translateY(0%);" data-top="transform: translateY(110%);"><img src="templates/img/romb2.png" alt=""/></div>
+				<div class="romb s" data-bottom="transform: translateY(80%);" data-top="transform: translateY(10%);"><img src="templates/img/romb2.png" alt=""/></div>
 				<div class="romb t" data-center="transform: translateY(0%);" data-top="transform: translateY(50%);"><img src="templates/img/romb1.png" alt=""/></div>
 				<div class="romb fr" data-bottom="transform: translateY(100%);" data-top="transform: translateY(0%);"><img src="templates/img/romb1.png" alt=""/></div>
 			</div>
@@ -469,7 +469,7 @@
 			</div>
 		</div>
 		<div class="our-projects">
-			<div class="container">
+			<div class="container rombs-animate">
 				<h2 class="section-title">Наши проекты</h2>
 				<p class="after-title">В данном разделе мы разместили свои лучште работы и отзывы клиентов</p>
 				<div class="projects-row">
@@ -549,6 +549,11 @@
 				<div class="btn-wrap">
 			    	<a href="#" class="border-btn"><img src="templates/img/blue-arrow-right.png" alt=""/>Все проекты</a>
 			    </div>
+
+			    <div class="romb f" data-100-bottom="transform: translateY(110%);" data-top="transform: translateY(0%);"><img src="templates/img/romb2.png" alt=""/></div>
+				<div class="romb s" data-bottom="transform: translateY(80%);" data-top="transform: translateY(10%);"><img src="templates/img/romb2.png" alt=""/></div>
+				<div class="romb t" data-center="transform: translateY(0%);" data-top="transform: translateY(50%);"><img src="templates/img/romb1.png" alt=""/></div>
+				<div class="romb fr" data-bottom="transform: translateY(100%);" data-top="transform: translateY(0%);"><img src="templates/img/romb1.png" alt=""/></div>
 			</div>
 		</div>
 		<div class="blue-panel">
@@ -561,6 +566,11 @@
 							<a href="#" class="btn btn-large">Регистрация</a>
 						</div>
 					</div>
+				</div>
+				<div class="girl-anim">
+					<img src="templates/img/girl.png" alt=""/>
+					<div class="romb s" data-bottom="transform: translateY(0%);" data-center="transform: translateY(-45%);"><img src="templates/img/romb4.png" alt=""/></div>
+					<div class="romb f" data-bottom="transform: translateY(0%);" data-center="transform: translateY(28%);"><img src="templates/img/romb3.png" alt=""/></div>
 				</div>
 			</div>
 		</div>
