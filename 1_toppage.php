@@ -45,7 +45,7 @@
 			</div>	
 			<div class="bottom-row">
 				<div class="container">
-					<div class="flex flex-main">
+					<div class="flex flex-main" id="search">
 						<div class="flex h-menu jcsb">
 							<div class="menu-item flex align"><a href="#">Каталог</a></div>
 							<div class="menu-item flex align has-child">
@@ -67,8 +67,11 @@
 							<div class="menu-item flex align"><a href="#">Услуги</a></div>
 							<div class="menu-item flex align"><a href="#">Контакты</a></div>
 						</div>
-						<div class="h-search flex">
-							<a href="#"><i class="panton a">j</i></a>
+						<form action="" target="post_form" class="search-box">
+					      <input type="text" class="text search-input" placeholder="Введите фразу...">
+					    </form>
+						<div class="h-search search-button flex">
+							<a href="#" class="search-toggle" data-selector="#search"><i class="panton a">j</i></a>
 						</div>
 					</div>
 				</div>
@@ -569,7 +572,7 @@
 				</div>
 				<div class="girl-anim">
 					<img src="templates/img/girl.png" alt=""/>
-					<div class="romb s" data-bottom="transform: translateY(0%);" data-center="transform: translateY(-45%);"><img src="templates/img/romb4.png" alt=""/></div>
+					<div class="romb s" data-100-bottom="transform: translateY(0%);" data-center="transform: translateY(-45%);"><img src="templates/img/romb4.png" alt=""/></div>
 					<div class="romb f" data-bottom="transform: translateY(0%);" data-center="transform: translateY(28%);"><img src="templates/img/romb3.png" alt=""/></div>
 				</div>
 			</div>

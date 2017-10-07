@@ -147,4 +147,13 @@ $(document).ready(function(){
   $(".modal_wrap, .modal-close").on('click', function(event){
       event.stopPropagation();
   });
+
+  $('.flex-main').on('click', '.search-toggle', function(e) {
+    var selector = $(this).data('selector');
+
+    $(selector).toggleClass('show').find('.search-input').focus();
+    $(this).toggleClass('active');
+
+    e.preventDefault();
+  });
 });
