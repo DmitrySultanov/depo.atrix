@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  $('.jselect').jselector();  
+
 	$("[data-fancybox]").fancybox({
     image : {
       protect: true
