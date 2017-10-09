@@ -1568,9 +1568,9 @@ footer{
 		}
 	}
 
-	// .swiper-container{
-	// 	overflow: visible!important;
-	// }
+	.swiper-container{
+		overflow: visible!important;
+	}
 
 	.swiper-slide{
 		background: #fff;
@@ -2223,11 +2223,18 @@ footer{
 	-webkit-align-items: flex-start;
 }
 
-.filter{
+
+// боковая панель (каталог)
+aside{
+	margin-bottom: 30px;
+}
+.aside-panel{
 	width: 270px;
 	background: #fff;
 	border-radius: 5px;
 	@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
+}
+.filter{
 
 	.filter-title{
 		padding: 17px 14px;
@@ -2238,7 +2245,7 @@ footer{
 		border-radius: 5px 5px 0 0;
 	}
 
-	ul{
+	.filter-list{
 		li{
 			padding: 14px 10px 14px 14px;
 			border-bottom: 1px solid #d4ecf8;
@@ -2310,6 +2317,124 @@ footer{
 		}
 	}
 }
+.accordion-sizes{
+	border-radius: 5px;
+
+	li{
+		border-bottom: 1px solid #d4ecf8;
+
+		&:first-child{
+
+			.acc-title{
+				border-radius: 5px 5px 0 0;
+			}
+		}
+
+		&:last-child{
+			border-bottom: transparent;
+
+			.acc-title{
+				border-radius: 0 0 5px 5px;
+			}
+		}
+	}
+
+	.acc-title{
+		cursor: pointer;
+		padding: 16px 20px;
+		font-size: 15px;
+		color: #454b56;
+		font-family: $gmedium;
+		position: relative;
+		background: #f9fdff;
+
+		&:after{
+			content: '';
+			background: url('../img/blue-arrow-right.png');
+			width: 8px;
+			height: 10px;
+			position: absolute;
+			top: 50%;
+			right: 20px;
+			margin-top: -5px;
+			@include transition(.3s);
+			@include transform(rotate(90deg));
+		}
+
+		&.active{
+			background: #fff;
+
+			&:after{
+				@include transition(.3s);
+				@include transform(rotate(-90deg));
+			}
+		}
+	}
+
+	.acc-hidden{
+		display: none;
+		padding: 0 15px;
+	}
+}
+.size-price-slider{
+	padding-bottom: 30px;
+
+	.formCost{
+		input{
+			width: 106px;
+			height: 46px;
+			border: 1px solid #d4edfa;
+			border-radius: 3px;
+			background: #f6fcff;
+			padding: 0 10px;
+			font-size: 15px;
+			color: #454b56;
+		}
+
+		em{
+			color: #c5e2f0;
+			line-height: 48px;
+			font-style: normal;
+		}
+	}
+
+	.sliderCont{
+		margin-top: 20px;
+		padding: 0 20px;
+
+		.ui-widget.ui-widget-content{
+			border: none;
+			background: url('../img/ui-bar.jpg') repeat-x;
+			height: 12px;
+		}
+		.ui-slider-horizontal .ui-slider-range{
+			background: transparent;
+		}
+
+		.ui-slider-handle{
+			background: url('../img/ui-handle.jpg');
+			width: 20px;
+			height: 20px;
+			border: none;
+			cursor: pointer;
+		}
+	}
+}
+.form-sizes{
+	.btn-wrap{
+		margin-top: 30px;
+
+		.reset{
+			font-size: 15px;
+			color: $blue;
+			border-bottom: 1px dashed #9fcae7;
+			display: inline-block;
+			margin: 12px 0 0 15px;
+		}
+	}
+}
+////////////////////////
+
 
 .catalog-cards{
 	width: calc(100% - 300px);

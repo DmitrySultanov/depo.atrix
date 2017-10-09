@@ -38,33 +38,99 @@
 				</div>
 			</div>
 			<div class="flex-main flex jcsb catalog-wrap">
-				<aside class="filter">
-					<h2 class="filter-title">Фильтр</h2>
-					<ul>
-						<li><label class="all-check"><input type="checkbox" checked><i></i><span>Все</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Резиновые малые формы</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Горки</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Игровые комплексы</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Качели</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Карусели</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Качалки балансиры</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Качалки на пружине</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Песочницы</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Машинки, кораблики</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Монструм</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Беседки</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Спортивное оборудование</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Лавочки</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Благоустройство</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Столики</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Урны</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Ограждения</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Для воркаут</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Тренажёры</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Для дошкольных учеждений</span></label></li>
-						<li><label><input type="checkbox"><i></i><span>Заглушки</span></label></li>
-					</ul>
-				</aside>
+				<div class="filter">
+					<aside class="aside-panel">
+						<h2 class="filter-title">Фильтр</h2>
+						<ul class="filter-list">
+							<li><label class="all-check"><input type="checkbox" checked><i></i><span>Все</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Резиновые малые формы</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Горки</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Игровые комплексы</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Качели</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Карусели</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Качалки балансиры</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Качалки на пружине</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Песочницы</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Машинки, кораблики</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Монструм</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Беседки</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Спортивное оборудование</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Лавочки</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Благоустройство</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Столики</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Урны</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Ограждения</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Для воркаут</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Тренажёры</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Для дошкольных учеждений</span></label></li>
+							<li><label><input type="checkbox"><i></i><span>Заглушки</span></label></li>
+						</ul>
+					</aside>
+
+					<aside>
+						<form action="" class="form-sizes">
+							<div class="aside-panel">
+								<ul class="accordion accordion-sizes">
+									<li>
+										<div class="acc-title">
+											<span>Ширина</span>
+										</div>
+										<div class="acc-hidden">
+											<div class="size-price-slider">
+												<div class="formCost flex jcsb">
+													<input type="text" class="minCost" data-val="400" value="400">
+													<em>—</em>
+													<input type="text" class="maxCost" data-val="6000" value="6000">
+												</div>
+												<div class="sliderCont">
+													<div class="slider-ui"></div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="acc-title">
+											<span>Глубина</span>
+										</div>
+										<div class="acc-hidden">
+											<div class="size-price-slider">
+												<div class="formCost flex jcsb">
+													<input type="text" class="minCost" data-val="200" value="200">
+													<em>—</em>
+													<input type="text" class="maxCost" data-val="3000" value="3000">
+												</div>
+												<div class="sliderCont">
+													<div class="slider-ui"></div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="acc-title">
+											<span>Высота</span>
+										</div>
+										<div class="acc-hidden">
+											<div class="size-price-slider">
+												<div class="formCost flex jcsb">
+													<input type="text" class="minCost" data-val="100" value="100">
+													<em>—</em>
+													<input type="text" class="maxCost" data-val="2000" value="2000">
+												</div>
+												<div class="sliderCont">
+													<div class="slider-ui"></div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="btn-wrap tal">
+								<button type="submit" class="btn btn-small">Показать</button>
+								<a href="#" class="reset">Сбросить</a>
+							</div>
+						</form>
+					</aside>
+				</div>
 				<div class="catalog-cards flex jcsb">
 					<div class="card">
 						<a href="#"></a>

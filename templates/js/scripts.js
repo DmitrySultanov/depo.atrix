@@ -60,14 +60,18 @@ $(document).ready(function(){
       prevButton: '.catalog-slider .button-prev',
       // centeredSlides: true,
       // paginationClickable: true,
-      loop: true,
+      // noSwiping: true,
+      // noSwipingClass: 'swiper-no-swiping',
+      loop: false,
       spaceBetween: 30
   });
   var newsSlider = new Swiper('.news-slider .swiper-container', {
       width: 270,
       nextButton: '.news-slider .button-next',
       prevButton: '.news-slider .button-prev',
-      loop: true,
+      // noSwiping: true,
+      // noSwipingClass: 'swiper-no-swiping',
+      loop: false,
       spaceBetween: 30
   });
 
@@ -157,5 +161,77 @@ $(document).ready(function(){
     $(this).toggleClass('active');
 
     e.preventDefault();
+  });
+
+  function accordion(){
+    $('.accordion').each(function(){
+      var $item = $('.acc-item', $(this)),
+          $title = $('.acc-title', $(this)),
+          $hidden = $('.acc-hidden', $(this));
+
+      $title.on('click', function(){
+        $(this).toggleClass('active');
+
+        if($(this).hasClass('active')){
+          // $(this).addClass('active');
+          $(this).siblings('.acc-hidden').slideDown();
+        } else{
+          $(this).removeClass('active');
+          $(this).siblings('.acc-hidden').slideUp('fast');
+        }
+      });
+
+    });
+  }
+  accordion();
+
+  $('.size-price-slider').each(function(){
+    var $this = $(this),
+        uiSldr = $('.slider-ui', $this),
+        minCost = $this.find('input.minCost'),
+        maxCost = $this.find('input.maxCost');
+
+
+    uiSldr.slider({
+      min: +minCost.data('val'),
+      max: +maxCost.data('val'),
+      values: [0,6000],
+      range: true,
+      stop: function(event, ui) {
+        minCost.val(uiSldr.slider("values",0));
+        maxCost.val(uiSldr.slider("values",1));
+      },
+      slide: function(event, ui){
+        minCost.val(uiSldr.slider("values",0));
+        maxCost.val(uiSldr.slider("values",1));
+      }
+    });
+
+    $("input#minCost").change(function(){
+
+      var value1=$("input#minCost").val();
+      var value2=$("input#maxCost").val();
+
+        if(parseInt(value1) > parseInt(value2)){
+        value1 = value2;
+        $("input#minCost").val(value1);
+      }
+      $("#slider").slider("values",0,value1); 
+    });
+  });
+
+    
+  $("input#maxCost").change(function(){
+      
+    var value1=$("input#minCost").val();
+    var value2=$("input#maxCost").val();
+    
+    if (value2 > 120000) { value2 = 120000; $("input#maxCost").val(120000)}
+
+    if(parseInt(value1) > parseInt(value2)){
+      value2 = value1;
+      $("input#maxCost").val(value2);
+    }
+    $("#slider").slider("values",1,value2);
   });
 });

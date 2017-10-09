@@ -220,7 +220,7 @@
 					</div>
 				</div>
 
-				<div class="swiper-container">
+				<div class="swiper-container swiper-no-swiping">
 			        <div class="swiper-wrapper">
 			            <div class="swiper-slide">
 			            	<a href="#"></a>
@@ -509,7 +509,7 @@
 		</div>
 		<div class="drag-slider news-slider">
 			<div class="container">
-				<div class="swiper-container">
+				<div class="swiper-container swiper-no-swiping">
 					<div class="before-slider clearfix">
 						<h2 class="section-title">Новости</h2>
 						<div class="slider-btns">
