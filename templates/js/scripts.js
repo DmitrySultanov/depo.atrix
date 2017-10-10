@@ -100,7 +100,7 @@ $(document).ready(function(){
     }
   );
 
-  var s = skrollr.init(); 
+  var s = skrollr.init({forceHeight: false}); 
 
 
   var phold;
@@ -179,6 +179,7 @@ $(document).ready(function(){
           $(this).removeClass('active');
           $(this).siblings('.acc-hidden').slideUp('fast');
         }
+
       });
 
     });
