@@ -131,7 +131,7 @@
 						</form>
 					</aside>
 				</div>
-				<div class="catalog-cards flex jcsb">
+				<div class="main-panel flex jcsb">
 					<div class="card">
 						<a href="#"></a>
 		            	<div class="badge inslide hit">ХИТ</div>
