@@ -6,6 +6,7 @@
 	<? include('inc/head.php'); ?>
 </head>
 <body>
+	<div class="card-screen"></div>
 	<div class="wrapper">
 		<? include('inc/header.php'); ?>
 		<div class="container">
@@ -112,9 +113,9 @@
 				</li>
 			</ul>
 
-			<div class="flex-main flex jcsb">
+			<div class="flex-main flex jcsb aifs tabs-wrapper">
 				<aside class="aside-panel">
-					<ul>
+					<ul class="ul tabs">
 						<li><a href="#">Описание</a></li>
 						<li><a href="#">Техническая информация</a></li>
 						<li><a href="#">Материалы и цвета</a></li>
@@ -123,16 +124,22 @@
 				</aside>
 
 				<div class="main-panel">
-					<h2>Описание</h2>
-					<p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский 
-					набор слов, но это не совсем так. Его корни уходят в один фрагмент 
-					классической латыни 45 года н.э., то есть более двух тысячелетий назад.</p>
-					<p>Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат 
-					Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", 
-					и занялся его поисками в классической латинской литературе. В результате 
-					он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 
-					книги "de Finibus Bonorum et Malorum" ("О пределах добра и зла"), написанной 
-					Цицероном в 45 году н.э.</p>
+					<div class="card-txt-desc">
+						<ul class="tab-content">
+							<li>
+								<h2>Описание</h2>
+								<p>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский 
+								набор слов, но это не совсем так. Его корни уходят в один фрагмент 
+								классической латыни 45 года н.э., то есть более двух тысячелетий назад.</p>
+								<p>Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат 
+								Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", 
+								и занялся его поисками в классической латинской литературе. В результате 
+								он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 
+								книги "de Finibus Bonorum et Malorum" ("О пределах добра и зла"), написанной 
+								Цицероном в 45 году н.э.</p>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -140,7 +147,7 @@
 			<div class="drag-slider catalog-slider">
 				<div class="container">
 					<div class="before-slider clearfix">
-						<h2>Рекомендуем</h2>
+						<h2 class="slider-title">Рекомендуем</h2>
 						<div class="slider-btns">
 							<button type="button" class="slider-btn button-prev"></button>
 				    		<button type="button" class="slider-btn button-next"></button>
@@ -151,8 +158,8 @@
 				        <div class="swiper-wrapper">
 				            <div class="swiper-slide">
 				            	<a href="#"></a>
-				            	<div class="badge inslide hit">ХИТ</div>
 				            	<div class="badge inslide new">НОВИНКА</div>
+				            	<div class="badge inslide hit">ХИТ</div>
 				            	<div class="slide-item">
 				            		<img src="templates/img/card-item4.jpg" alt=""/>
 				            		<div class="to-basket flex">

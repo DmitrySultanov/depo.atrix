@@ -131,12 +131,12 @@ $(document).ready(function(){
       slidesToScroll: 1,
       arrows: false,
       fade: true,
-      asNavFor: '.slider-nav'
+      asNavFor: '.card-slider-nav'
     });
     $('.card-slider-nav').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      asNavFor: '.slider-for',
+      asNavFor: '.card-slider-for',
       // centerMode: true,
       focusOnSelect: true
     });
