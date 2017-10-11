@@ -32,7 +32,7 @@
 			        		</div>
 			        	</div>
 			        </div>
-			        <div class="swiper-slide" style="background-image: url('templates/img/main-banner-slide1.jpg')">
+			        <div class="swiper-slide" style="background-image: url('templates/img/main-banner-slide2.jpg')">
 			        	<div class="container">
 			        		<div class="clearfix">
 				        		<div class="leftside">
