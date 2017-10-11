@@ -252,4 +252,13 @@ $(document).ready(function(){
     }
     $("#slider").slider("values",1,value2);
   });
+  
+
+  function cbChange(obj) {
+    var cbs = document.getElementsByClassName("cb"); 
+    for (var i = 0; i < cbs.length; i++) {
+      cbs[i].checked = true;
+    }
+    obj.checked = false;
+  }
 });
