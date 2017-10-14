@@ -12,7 +12,7 @@
 		<div class="container">
 			<h1>Оформление заказа</h1>
 			<div class="w-panel-sides ordering">
-				<div class="w-large">
+				<div class="w-large wht">
 					<section>
 						<h2 class="s-title">Тип покупателя</h2>
 						<div class="switcher">
@@ -190,7 +190,7 @@
 					</section>
 				</div>
 
-				<div class="w-small">
+				<div class="w-small wht">
 					<div class="s-title">Ваш заказ</div>
 					<ul class="order-goods">
 						<li>
