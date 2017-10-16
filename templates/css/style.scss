@@ -1865,6 +1865,11 @@ footer{
 		.select{
 			margin-top: 20px;
 		}
+
+		.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+			width: 8px;
+			background: #aec2cc;
+		}
 	}
 
 	.container{
@@ -3615,7 +3620,55 @@ aside{
 	}
 }
 
+// Дилеры
+.after-select-ul{
+	margin-top: 20px;
+	max-height: 180px;
 
+	li{
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 5px;
+		min-height: 70px;
+
+		img{
+			float: left;
+			max-width: 70px;
+			max-height: 70px;
+		}
+
+		.item-desc{
+			vertical-align: top;
+			padding-left: 90px;
+
+			p{
+				font-size: 14px;
+				line-height: 26px;
+				color: #454b56;
+				font-family: 'gothampro';
+				margin-top: 0px;
+
+				strong{
+					font-family: $gmedium;
+					font-size: 16px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+.entry{
+	p{
+		font-size: 15px;
+		line-height: 22px;
+		color: #454b56;
+		margin-top: 24px;
+	}
+}
 
 .blue-back-btn{
 	width: 100px;
@@ -3699,6 +3752,17 @@ aside{
 	padding: 0!important;
 }
 
+.h--align{
+	text-align: center;
+}
+
+.oh{
+	overflow: hidden;
+}
+
+.mt0{
+	margin-top: 0!important;
+}
 
 .j{
 	.animitem{
@@ -3908,13 +3972,7 @@ aside{
 	display: none;
 }
 
-.h--align{
-	text-align: center;
-}
 
-.oh{
-	overflow: hidden;
-}
 
 .jselector{
 	cursor: pointer;

@@ -33,7 +33,6 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
       var scrollHeightDown = parseInt(($('header').height() + 200 + 'px')),
-          scrollHeightUp = parseInt(($('header').height() + 350 + 'px')),
           headerClone = $('.top-row.clone'),
           s = $(this).scrollTop();
 
@@ -261,4 +260,9 @@ $(document).ready(function(){
     }
     obj.checked = false;
   }
+
+  $('.after-select-ul').mCustomScrollbar({
+    theme:"dark", 
+    scrollbarPosition:"outside"
+  });
 });
