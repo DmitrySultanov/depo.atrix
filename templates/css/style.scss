@@ -3487,6 +3487,17 @@ aside{
 }
 .news-wrapper{
 
+	.list-news-items{
+		position: relative;
+	}
+
+	.news-items{
+		&.blocks{
+			position: absolute;
+			top: 0;
+		}
+	}
+
 
 	.news-item{
 		background: #fff;
@@ -3499,6 +3510,27 @@ aside{
 	    margin-bottom: 30px;
 	    position: relative;
 	    width: 270px;
+	    height: 310px;
+	    z-index: 2;
+
+	    &.blocks__block{
+		    -webkit-transition: all 0.7s;
+			transition: all 0.7s;
+			z-index: 1;
+
+			// -webkit-transform-origin: 0% 100%;
+	  //   	transform-origin: 0% 100%;
+
+			// &:nth-child(2n){
+			// 	-webkit-transform-origin: 33% 100%;
+	  //   		transform-origin: 33% 100%;
+			// }
+			// &:nth-child(3n){
+			// 	-webkit-transform-origin: 66% 100%;
+	  //   		transform-origin: 66% 100%;
+			// }
+	    }
+
 
 	    >a{
 	    	position: absolute;
@@ -3617,6 +3649,59 @@ aside{
 				}
 			}
 		}
+	}
+
+	.news-content{
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    height: 100vh;
+	    width: 100%;
+
+	    .news-content__content{
+	    	will-change: transform, opacity;
+		    display: -webkit-box;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -webkit-box-align: center;
+		    -ms-flex-align: center;
+		    align-items: center;
+		    -webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		    justify-content: center;
+		    text-align: center;
+		    -webkit-box-orient: vertical;
+		    -webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		    flex-direction: column;
+		    position: fixed;
+		    overflow: auto;
+		    width: 100%;
+		    z-index: 3;
+		    top: 0;
+		    left: 0;
+		    height: 100vh;
+		    font-size: 20px;
+		    opacity: 0;
+		    visibility: hidden;
+		    text-align: center;
+		    -webkit-transform: scale(0.9);
+		    transform: scale(0.9);
+		    -webkit-transition: all 0.5s;
+		    transition: all 0.5s;
+		    transition-delay: .7s;
+
+		    &.active{
+		    	opacity: 1;
+			    transform: scale(1);
+			    visibility: visible;
+			    background: #fff;
+		    }
+	    }
 	}
 }
 
