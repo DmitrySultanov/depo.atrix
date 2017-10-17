@@ -3514,21 +3514,15 @@ aside{
 	    z-index: 2;
 
 	    &.blocks__block{
-		    -webkit-transition: all 0.7s;
-			transition: all 0.7s;
 			z-index: 1;
+			-webkit-transition: ease-out 0.9s ;
+			transition: ease-out 0.9s ;
 
-			// -webkit-transform-origin: 0% 100%;
-	  //   	transform-origin: 0% 100%;
+			&.active{
+		        -webkit-transition: ease-in 0.9s ;
+				transition: ease-in 0.9s ;
+			}
 
-			// &:nth-child(2n){
-			// 	-webkit-transform-origin: 33% 100%;
-	  //   		transform-origin: 33% 100%;
-			// }
-			// &:nth-child(3n){
-			// 	-webkit-transform-origin: 66% 100%;
-	  //   		transform-origin: 66% 100%;
-			// }
 	    }
 
 
@@ -3659,7 +3653,6 @@ aside{
 	    top: 0;
 	    bottom: 0;
 	    left: 0;
-	    height: 100vh;
 	    width: 100%;
 
 	    .news-content__content{
@@ -3685,21 +3678,25 @@ aside{
 		    top: 0;
 		    left: 0;
 		    height: 100vh;
-		    font-size: 20px;
 		    opacity: 0;
 		    visibility: hidden;
-		    text-align: center;
 		    -webkit-transform: scale(0.9);
 		    transform: scale(0.9);
-		    -webkit-transition: all 0.5s;
-		    transition: all 0.5s;
-		    transition-delay: .7s;
+	    	-webkit-transition: all .3s;
+    		transition: all .3s;
+
+    		.container{
+    			height: auto;
+    		}
+		    
 
 		    &.active{
+			   	-webkit-transition: ease-in-out .5s;
+	    		transition: ease-in-out .5s;
 		    	opacity: 1;
 			    transform: scale(1);
 			    visibility: visible;
-			    background: #fff;
+			    // background: #fff;
 		    }
 	    }
 	}
@@ -3758,12 +3755,18 @@ aside{
 .blue-back-btn{
 	width: 100px;
 	height: 100%;
-	background: #2688f5;
+	background: rgba(38, 136, 245, 0.8);
 	position: fixed;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	z-index: 11;
+	@include transition(.2s);
+
+	&:hover{
+		background: rgba(38, 136, 245, 1);
+		@include transition(.2s);
+	}
 
 	a{
 		position: absolute;

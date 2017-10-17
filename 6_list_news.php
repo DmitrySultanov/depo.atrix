@@ -351,6 +351,13 @@
 								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
 								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
 								XVI века.</p>
+								<div class="news-icons flex jcsb">
+									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
+									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
+								</div>
+								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+								XVI века.</p>
 							</div>
 						</div>
 					</div>
@@ -398,14 +405,13 @@
 			wWidth = $(window).outerWidth();
 			bHeight = block.outerHeight();
 			bWidth = block.outerWidth();
-			xVal = Math.round(wWidth / bWidth) + 0.03;
-			yVal = wHeight / bHeight + 0.03;
+			xVal = Math.round(wWidth / bWidth) * 3;
+			yVal = wHeight / bHeight * 3;
 
 			expand = function() {
 			  var aBlock, num;
 			  num = $(this).index();
 			  aBlock = block.eq(num);
-			  $('body').addClass('oh');
 			  if (!aBlock.hasClass('active')) {
 			    bname.css('opacity', '0');
 			    aBlock.css({
@@ -414,20 +420,24 @@
 			    });
 			    aBlock.addClass('active');
 			    openContent(num);
-			    $('.news-content').css('z-index', '22');
+			    $('.news-content').css('z-index', '101');
 
+			  	$('body').addClass('oh');
 			    return false
 			  }
 			};
 
 			openContent = function(num) {
 			  var aContent;
-			  content.css({
-			    'transition': 'all 0.3s 0.4s ease-out',
-			    '-webkit-transition': 'all 0.3s 0.4s ease-out'
-			  });
+			  // content.css({
+			  //   'transition': 'all 0.4s 0.5s ease-out',
+			  //   '-webkit-transition': 'all 0.4s 0.5s ease-out'
+			  // });
 			  aContent = content.eq(num);
-			  aContent.addClass('active');
+			  setTimeout(function(){
+			  	aContent.addClass('active');
+			  },500);
+			  $('.news-items.blocks').css('z-index','100');
 			};
 
 			closeContent = function() {
@@ -442,8 +452,10 @@
 			  });
 			  block.removeClass('active');
 			  content.removeClass('active');
+
 			  $('body').removeClass('oh');
 			  $('.news-content').css('z-index', '-1');
+			  $('.news-items.blocks').css('z-index','0');
 
 			  return false
 			};
@@ -457,7 +469,7 @@
 			  var wHeight;
 			  var aBlock;
 			  if (block.hasClass('active')) {
-			    aBlock = $('.blocks__block.active');
+			    aBlock = $('.news-item.blocks__block.active');
 			    wHeight = $(window).height();
 			    wWidth = $(window).width();
 			    bHeight = block.height();
