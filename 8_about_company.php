@@ -14,7 +14,7 @@
 			<h1>Компания</h1>
 			<div class="w-panel-sides large-sides list-news">
 				<div class="w-large list-news-items">
-					<div class="entry">
+					<div class="about">
 						<p class="mt0">Компании "Атрикс" 6 лет и все это время, основой нашей деятельности была и остается забота о детях. Поэтому в центре всего, что мы планируем, 
 						проектируем и производим, находится ребенок и, в первую очередь, мы думаем о его здоровье, развитии и безопасности.</p>
 						<p>Для выхода на международный рынок нами активно ведется подготовка к сертификации в международном центре TUV на соответствие Европейской норме EN 1176 . 
@@ -48,7 +48,7 @@
 		<div class="drag-slider honored-awards-slider">
 			<div class="container">
 				<div class="before-slider clearfix">
-					<h2>Заслуженные награды</h2>
+					<h2 class="slider-title">Заслуженные награды</h2>
 					
 					<div class="slider-btns">
 						<button type="button" class="slider-btn button-prev"></button>
@@ -201,7 +201,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="blue-panel answer-questions">
+		<div class="blue-panel answer-questions mt0">
 			<div class="container">
 				<div class="aq-wrap flex align">
 					<strong>Ответим на ваши вопросы</strong>
