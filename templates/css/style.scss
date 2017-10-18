@@ -3593,29 +3593,6 @@ aside{
 	    }
 	}
 
-	.see-us{
-		background: url('../img/see-us.png');
-		width: 270px;
-		height: 400px;
-		padding: 25px;
-
-		p{
-			font-size: 23px;
-			line-height: 26px;
-			font-family: $gmedium;
-			color: #fff;
-			margin-top: 5px;
-		}
-
-		.btn{
-			margin-top: 145px;
-
-			i{
-				margin-right: 8px;
-			}
-		}
-	}
-
 	.date{
 		font-size: 20px;
 		color: #8999a6;
@@ -3740,8 +3717,161 @@ aside{
 	}
 }
 
+//о  компании
+.honored-awards-slider{
+	margin-top: 60px;
+	background: #2481e8;
+	padding: 60px 0;
+
+	h2{
+		font-family: $gmedium;
+		font-size: 28px;
+		color: #fff;
+	}
+
+	.slider-btns{
+		.slider-btn{
+
+			&:after{
+				background-position: top;
+			}
+		}
+	}
+
+	.swiper-container{
+		overflow: hidden!important;
+	}
+
+	.swiper-slide{
+		background: transparent;
+	}
+
+	.award-ico{
+		float: left;
+		vertical-align: top;
+
+		img{
+			max-width: 70px;
+			max-height: 70px;
+		}
+	}
+
+	.award-desc{
+		padding-left: 100px;
+		vertical-align: top;
+
+		.award-txt{
+			font-size: 18px;
+			line-height: 26px;
+			color: #fff;
+			font-family: $gmedium;
+		}
+
+		.award-time{
+			font-size: 15px;
+			margin-top: 10px;
+			color: #fff;
+		}
+
+		.award-download{
+			margin-top: 30px;
+
+			span{
+				margin-left: 15px;
+				text-transform: uppercase;
+				font-size: 14px;
+				color: rgba(255,255,255, .54);
+			}
+		}
+	}
+}
+
+.leadership{
+	margin-top: 60px;
+
+	h2{
+		font-size: 28px;
+		color: #342e2e;
+		font-family: $gbold;
+	}
+
+	.ldsp-wrap{
+		margin-top: 50px;
+
+		li{
+			width: 33.33%;
+			overflow: hidden;
+			padding-right: 20px;
+			margin-bottom: 40px;
+
+			.l-ico{
+				float: left;
+
+				img{
+					width: 150px;
+					height: 150px;
+				}
+			}
+
+			.l-desc{
+				padding-top: 20px;
+				padding-left: 180px;
+
+				>div{
+					margin-top: 10px;
+				}
+
+				.leader-name{
+					font-size: 16px;
+					color: #454b56;
+					font-family: $gmedium;
+				}
+
+				.leader-rang{
+					font-size: 15px;
+					color: #454b56;
+				}
+
+				.leader-phone{
+					font-size: 15px;
+					color: #454b56;
+				}
+
+				.leader-phone{
+					font-size: 15px;
+					color: #2481e8;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
 
 
+
+
+.see-us{
+	background: url('../img/see-us.png');
+	width: 270px;
+	height: 400px;
+	padding: 25px;
+
+	p{
+		font-size: 23px;
+		line-height: 26px;
+		font-family: $gmedium;
+		color: #fff;
+		margin-top: 5px;
+	}
+
+	.btn{
+		margin-top: 145px;
+
+		i{
+			margin-right: 8px;
+		}
+	}
+}
 
 .entry{
 	p{
@@ -3793,7 +3923,6 @@ aside{
 		margin-top: 5px;
 	}
 }
-
 
 .rombs-animate{
 
@@ -4049,6 +4178,19 @@ aside{
 .list-news-screen{
 	background: url('../screens/list-news-screen.jpg');
 	height: 1958px;
+	background-position: top center;
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	left: 9px;
+	right: 0;
+	z-index: 99;
+	margin: auto;
+	display: none;
+}
+.about-screen{
+	background: url('../screens/about-screen.jpg');
+	height: 3094px;
 	background-position: top center;
 	opacity: .5;
 	position: absolute;

@@ -73,6 +73,13 @@ $(document).ready(function(){
       loop: false,
       spaceBetween: 30
   });
+  var awardsSlider = new Swiper('.honored-awards-slider .swiper-container', {
+      slidesPerView: 3,
+      nextButton: '.honored-awards-slider .button-next',
+      prevButton: '.honored-awards-slider .button-prev',
+      loop: false
+      // spaceBetween: 30
+  });
 
   function questionMe(){
     $('.question-btn').hover(
