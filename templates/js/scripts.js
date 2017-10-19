@@ -187,7 +187,7 @@ $(document).ready(function(){
   });
 
   function accordeon(){
-    $('.accordion').each(function(){
+    $('.accordeon').each(function(){
       var $item = $('.acc-item', $(this)),
           $title = $('.acc-title', $(this)),
           $hidden = $('.acc-hidden', $(this));
@@ -199,8 +199,8 @@ $(document).ready(function(){
           // $(this).addClass('active');
           $(this).siblings('.acc-hidden').slideDown();
         } else{
-          $(this).removeClass('active');
-          $(this).siblings('.acc-hidden').slideUp('fast');
+          $(this).siblings('.acc-hidden').slideUp(400);
+            $(this).removeClass('active');
         }
 
       });
@@ -277,22 +277,25 @@ $(document).ready(function(){
 
     var $wrapper = $('.tabs-wrapper');
 
+
     $wrapper.each(function(){
       var $this = $(this);
 
-      $('.tab_content >li:not(":first")', $this).hide();
+      $('.tab-content >li:not(":first")', $this).hide();
 
       $('.tabs li', $this).each(function(i){
-        $(this).attr('data-tab', i)
+        $(this).attr('data-tab', i);
       });
 
       $('.tab-content>li', $this).each(function(i){
-        $(this).attr('data-tab', i)
+        $(this).attr('data-tab', i);
       });
 
       $('.tabs li', $this).on('click', function(){
         var dataTab = $(this).data('tab');
         var getWrapper = $(this).closest('.tabs-wrapper');
+        var txt = $(this).text();
+        $('h1').text(txt);
 
         getWrapper.find('.tabs li').removeClass('active');
         $(this).addClass('active');
@@ -303,4 +306,5 @@ $(document).ready(function(){
     });
   }
   tabs();
+
 });

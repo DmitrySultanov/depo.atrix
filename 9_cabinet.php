@@ -7,6 +7,7 @@
 </head>
 <body>
 	<div class="lk-one-screen"></div>
+	<div class="claim-screen"></div>
 	<div class="wrapper">
 		<? include('inc/header.php'); ?>
 		<div class="container">
@@ -23,7 +24,7 @@
 					</ul>
 				</aside>
 				<ul class="tab-content flex">
-					<!-- <li class="flex">
+					<li class="flex wht shadow">
 						<div class="lside">
 							<div class="form">
 								<form action="" target="post_form">
@@ -43,7 +44,10 @@
 								</form>
 							</div>
 						</div>
-					</li> -->
+					</li>
+					<li>
+						скоро тут будет страница
+					</li>
 					<li>
 						<div class="filter filter-row flex align jcsb">
 							<div class="f-wrap">
@@ -57,25 +61,89 @@
 							<button type="button" class="btn btn-small noshadow">Написать</button>
 						</div>
 
-						<div class="claims-accordeon">
+						<div class="claims-accordeon accordeon">
 							<div class="ca-thead ca-row flex">
 								<div class="col">№ Заказа</div>
 								<div class="col">Дата составления</div>
 								<div class="col">основание</div>
 								<div class="col">Статус</div>
 							</div>
-							<div class="ca-row">
-								<div class="ca-title flex">
+							<div class="ca-row acc-item">
+								<div class="ca-title flex acc-title">
 									<div class="col"><span>098777</span></div>
 									<div class="col"><span>11.07.2017</span></div>
 									<div class="col"><span>Брак</span></div>
 									<div class="col"><span>Принята, на рассмотрении</span></div>
 								</div>
-								<div class="ca-hidden">
-									<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
+								<div class="ca-hidden acc-hidden">
+									<div class="claim-row">
+										<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
+										<div class="form">
+											<form action="" target="post_form">
+												<div class="element">
+													<textarea name="" placeholder="Комментарий если он есть"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="claim-row">
+										<span>Ответ на претензию:</span> <a href="#">ответ на претензию №098777.pdf</a>
+										<div class="form">
+											<form action="" target="post_form">
+												<div class="element">
+													<textarea name="" placeholder="Комментарий если он есть"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="btn-row">
+										<button type="button" class="btn btn-small claim-remove">Удалить</button>
+									</div>
+								</div>
+							</div>
+							<div class="ca-row acc-item">
+								<div class="ca-title flex acc-title">
+									<div class="col"><span>098777</span></div>
+									<div class="col"><span>11.07.2017</span></div>
+									<div class="col"><span>Брак</span></div>
+									<div class="col"><span>Принята, на рассмотрении</span></div>
+								</div>
+								<div class="ca-hidden acc-hidden">
+									<div class="claim-row">
+										<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
+										<div class="form">
+											<form action="" target="post_form">
+												<div class="element">
+													<textarea name="" placeholder="Комментарий если он есть"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="claim-row">
+										<span>Ответ на претензию:</span> <a href="#">ответ на претензию №098777.pdf</a>
+										<div class="form">
+											<form action="" target="post_form">
+												<div class="element">
+													<textarea name="" placeholder="Комментарий если он есть"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="btn-row">
+										<button type="button" class="btn btn-small claim-remove">Удалить</button>
+									</div>
 								</div>
 							</div>
 						</div>
+					</li>
+					<li>
+						скоро тут будет страница
+					</li>
+					<li>
+						скоро тут будет страница
+					</li>
+					<li>
+						скоро тут будет страница
 					</li>
 				</ul>
 			</div>
