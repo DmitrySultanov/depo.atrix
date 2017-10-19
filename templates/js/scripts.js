@@ -186,7 +186,7 @@ $(document).ready(function(){
     e.preventDefault();
   });
 
-  function accordion(){
+  function accordeon(){
     $('.accordion').each(function(){
       var $item = $('.acc-item', $(this)),
           $title = $('.acc-title', $(this)),
@@ -207,7 +207,7 @@ $(document).ready(function(){
 
     });
   }
-  accordion();
+  accordeon();
 
   $('.size-price-slider').each(function(){
     var $this = $(this),
@@ -272,4 +272,35 @@ $(document).ready(function(){
     theme:"dark", 
     scrollbarPosition:"outside"
   });
+
+  function tabs() {
+
+    var $wrapper = $('.tabs-wrapper');
+
+    $wrapper.each(function(){
+      var $this = $(this);
+
+      $('.tab_content >li:not(":first")', $this).hide();
+
+      $('.tabs li', $this).each(function(i){
+        $(this).attr('data-tab', i)
+      });
+
+      $('.tab-content>li', $this).each(function(i){
+        $(this).attr('data-tab', i)
+      });
+
+      $('.tabs li', $this).on('click', function(){
+        var dataTab = $(this).data('tab');
+        var getWrapper = $(this).closest('.tabs-wrapper');
+
+        getWrapper.find('.tabs li').removeClass('active');
+        $(this).addClass('active');
+
+        getWrapper.find('.tab-content>li').hide();
+        getWrapper.find('.tab-content>li[data-tab='+dataTab+']').fadeIn('slow');
+      });
+    });
+  }
+  tabs();
 });

@@ -3879,17 +3879,35 @@ aside{
 			padding: 17px 25px;
 			border-bottom: 1px solid #ebf4fd;
 			cursor: pointer;
+
+			&.active{
+				color: #4d5258;
+			}
+		}
+	}
+
+	.tab-content{
+		width: calc(100% - 300px);
+		align-items: flex-start;
+		-webkit-align-items: flex-start;
+
+		>li{
+			width: 100%;
 		}
 	}
 
 	.main-panel{
-		padding: 22px 25px 48px;
 		background: #fff;
 		border-radius: 5px;
 		@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
+
+		&.nostyles{
+			padding: 0;
+		}
 	}
 
 	.form{
+		padding: 22px 25px 48px;
 
 		input{
 			background: #fff;
@@ -3900,11 +3918,99 @@ aside{
 		width: 52%;
 	}
 
-	.tab-content{
+	.filter.filter-row{
 		width: 100%;
+		padding: 10px 30px 10px;
+		overflow: hidden;
+		@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
+		background: #fff;
+		border-radius: 5px;
 
-		li{
+		.filter-title{
+			background: transparent;
+			display: inline-block;
+			padding: 0;
+		}
 
+		.filter-list{
+			display: inline-block;
+
+			li{
+				display: inline-block;
+				border-bottom: none;
+				padding: 0;
+				margin-left: 30px;
+			}
+		}
+
+		.f-wrap{
+			width: calc(100% - 160px);
+			display: inline-block;
+		}
+
+		.btn{
+			float: right;
+		}
+	}
+
+	.claims-accordeon{
+		@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
+		background: #fff;
+		border-radius: 5px;
+		margin-top: 15px;
+
+
+		.ca-row{
+			padding: 0 30px;
+
+			.col{
+				padding: 20px 0;
+
+				&:nth-child(1){
+					width: 20%;
+				}
+				&:nth-child(2){
+					width: 20%;
+				}
+				&:nth-child(3){
+					width: 20%;
+				}
+				&:nth-child(4){
+					width: 20%;
+				}
+
+				span{
+					color: #333366;
+					font-size: 15px;
+					line-height: 18px;
+				}
+
+				a{
+					font-size: 15px;
+					color: #5495eb;
+					border-bottom: 1px solid #b9d5f7;
+				}
+			}
+
+			.ca-title{
+				cursor: pointer;
+			}
+
+			.ca-hidden{
+				span{
+					color: #454b56;
+				}
+			}
+		}
+
+		.ca-thead{
+			border-bottom: 1px solid #d4ecf8;
+
+			.col{
+				font-size: 13px;
+				color: rgba(118, 122, 129, 0.8);
+				text-transform: uppercase;
+			}
 		}
 	}
 }
@@ -4595,3 +4701,4 @@ aside{
 		color: #738497;
 	}
 }
+
