@@ -14,27 +14,104 @@
 			<div class="flex-main flex jcsb cabinet tabs-wrapper">
 				<aside class="aside-panel">
 					<ul class="tabs">
-						<li>Персональные данные</li>
-						<li>История заказов</li>
-						<li class="active">Претензии</li>
-						<li>Загрузки</li>
-						<li>Сменить пароль</li>
-						<li>Онлайн конструктор</li>
+						<li><a href="#">Персональные данные</a></li>
+						<li><a href="#">История заказов</a></li>
+						<li class="active"><a href="#">Претензии</a></li>
+						<li><a href="#">Загрузки</a></li>
+						<li><a href="#">Сменить пароль</a></li>
+						<li><a href="#">Онлайн конструктор</a></li>
 					</ul>
 				</aside>
-				<div class="main-panel flex jcsb nostyles">
-					<div class="filter filter-row">
-						<div class="f-wrap">
-							<div class="filter-title">Фильтр</div>
-							<ul class="filter-list">
-								<li><label class="all-check"><input type="checkbox" checked><i></i><span>Все</span></label></li>
-								<li><label><input type="checkbox"><i></i><span>Текущие</span></label></li>
-								<li><label><input type="checkbox"><i></i><span>Завершенные</span></label></li>
-							</ul>
+				<ul class="tab-content">
+					<li>
+						<div class="filter filter-row flex align jcsb">
+							<div class="f-wrap">
+								<div class="filter-title">Фильтр</div>
+								<ul class="filter-list">
+									<li><label class="all-check"><input type="checkbox" checked><i></i><span>Все</span></label></li>
+									<li><label><input type="checkbox"><i></i><span>Текущие</span></label></li>
+									<li><label><input type="checkbox"><i></i><span>Завершенные</span></label></li>
+								</ul>
+							</div>
+							<button type="button" class="btn btn-small noshadow">Написать</button>
 						</div>
-						<button type="button" class="btn btn-large noshadow">Написать</button>
-					</div>
-				</div>
+
+						<div class="claims-accordeon accordeon">
+							<div class="ca-thead ca-row flex">
+								<div class="col">№ Заказа</div>
+								<div class="col">Дата составления</div>
+								<div class="col">основание</div>
+								<div class="col">Статус</div>
+							</div>
+							<div class="ca-row acc-item">
+								<div class="ca-title flex acc-title">
+									<div class="col"><span>098777</span></div>
+									<div class="col"><span>11.07.2017</span></div>
+									<div class="col"><span>Брак</span></div>
+									<div class="col"><span>Принята, на рассмотрении</span></div>
+								</div>
+								<div class="ca-hidden acc-hidden">
+									<div class="claim-row">
+										<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
+										<div class="form">
+											<form action="" target="post_form">
+												<div class="element">
+													<textarea name="" placeholder="Комментарий если он есть"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="claim-row">
+										<span>Ответ на претензию:</span> <a href="#">ответ на претензию №098777.pdf</a>
+										<div class="form">
+											<form action="" target="post_form">
+												<div class="element">
+													<textarea name="" placeholder="Комментарий если он есть"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="btn-row">
+										<button type="button" class="btn btn-small claim-remove">Удалить</button>
+									</div>
+								</div>
+							</div>
+							<div class="ca-row acc-item">
+								<div class="ca-title flex acc-title">
+									<div class="col"><span>098777</span></div>
+									<div class="col"><span>11.07.2017</span></div>
+									<div class="col"><span>Брак</span></div>
+									<div class="col"><span>Принята, на рассмотрении</span></div>
+								</div>
+								<div class="ca-hidden acc-hidden">
+									<div class="claim-row">
+										<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
+										<div class="form">
+											<form action="" target="post_form">
+												<div class="element">
+													<textarea name="" placeholder="Комментарий если он есть"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="claim-row">
+										<span>Ответ на претензию:</span> <a href="#">ответ на претензию №098777.pdf</a>
+										<div class="form">
+											<form action="" target="post_form">
+												<div class="element">
+													<textarea name="" placeholder="Комментарий если он есть"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="btn-row">
+										<button type="button" class="btn btn-small claim-remove red-btn">Удалить</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<div class="blue-panel answer-questions">

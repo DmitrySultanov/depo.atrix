@@ -293,6 +293,13 @@ a{
 		font-family: $gmedium;
 		padding: 10px 35px 11px;
 	}
+
+	&.red-btn{
+		background: #ff3333;
+		border-color: #ff3333;
+		color: #fff;
+		@include box-shadow(none);
+	}
 }
 
 .border-btn{
@@ -2489,6 +2496,8 @@ footer{
 	padding: 13px 10px;
 	overflow: hidden;
 	margin-right: 10px;
+	min-width: 100px;
+	text-align: center;
 
 	button{
 		border: none;
@@ -2544,6 +2553,7 @@ footer{
 		border: none;
 		font-size: 16px;
 		color: #384048;
+		background: transparent;
 		font-family: $gmedium;
 	}
 }
@@ -3434,6 +3444,13 @@ aside{
 						text-decoration: line-through;
 						font-family: $gmedium;
 						margin: 5px 0;
+
+						span{
+							font-size: 15px;
+							color: #dd0922;
+							text-decoration: line-through;
+							font-family: $gmedium;
+						}
 					}
 				}
 
@@ -3872,17 +3889,26 @@ aside{
 	align-items: flex-start;
 	-webkit-align-items: flex-start;
 
+	.side-pad{
+		padding: 0 30px;
+	}
+
 	.tabs{
 		li{
-			font-size: 16px;
-			color: $blue;
-			font-family: $gmedium;
-			padding: 17px 25px;
 			border-bottom: 1px solid #ebf4fd;
-			cursor: pointer;
+			a{
+				font-size: 16px;
+				color: $blue;
+				font-family: $gmedium;
+				padding: 17px 25px;
+				text-decoration: none;
+				display: block;
+			}
 
 			&.active{
-				color: #4d5258;
+				a{
+					color: #4d5258;
+				}
 			}
 		}
 	}
@@ -3892,13 +3918,9 @@ aside{
 		align-items: flex-start;
 		-webkit-align-items: flex-start;
 
-		>li{
+		>li, >div{
 			width: 100%;
 			border-radius: 5px;
-
-			&.shadow{
-				@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
-			}
 		}
 	}
 
@@ -4051,13 +4073,6 @@ aside{
 				border-top: 1px solid #d4ecf8;
 				margin: 0 -30px;
 				margin-top: 20px;
-
-				.claim-remove{
-					background: #ff3333;
-					border-color: #ff3333;
-					color: #fff;
-					@include box-shadow(none);
-				}
 			}
 		}
 
@@ -4070,6 +4085,123 @@ aside{
 				color: rgba(118, 122, 129, 0.8);
 				text-transform: uppercase;
 			}
+		}
+	}
+
+	.tc-title{
+		font-size: 23px;
+		color: #384048;
+		font-family: $gmedium;
+		padding: 27px 30px 24px;
+		border-bottom: 1px solid #d4ecf8;
+
+		&.negmar{
+			margin: 0 -30px;
+		}
+	}
+
+	.history-orders{
+		width: 100%;
+		border-radius: 5px;
+
+		.enter_num{
+			input{
+				float: none;
+			}
+		}
+
+		table{
+			margin: 14px 0;
+
+			tr{
+				&:last-child{
+					border-bottom: none;
+				}
+
+				td{
+					padding: 10px 0;
+					vertical-align: middle;
+
+					&:first-child{
+						padding-right: 10px;
+						width: 33%;
+						text-align: left;
+					}
+
+					>span{
+						font-size: 15px;
+						color: #767a81;
+					}
+
+					p{
+						color: #454b56;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+
+		.basket-goods{
+			margin-top: 0;
+
+			table{
+				margin-top: 0px;
+
+				thead td{
+					font-size: 12px;
+					padding: 21px 0 19px;
+				}
+
+				tbody{
+					tr{
+						td{
+							padding: 35px 0 30px;
+
+							.total{
+								font-size: 23px;
+							}
+
+							&:nth-child(2){
+								width: 25%;
+							}
+							&:nth-child(3){
+								width: 25%;
+							}
+							&:nth-child(4){
+								width: 17%;
+							}
+						}
+
+						&:last-child{
+							td{
+								padding: 14px 0 4px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.order-notify{
+		margin-top: 30px;
+		border-radius: 5px;
+		padding: 45px 45px;
+
+		.notify-ico{
+			i{
+				font-size: 50px;
+				background: #fee23d;
+				border-radius: 50%;
+			}
+		}
+
+		.notify-desc{
+			color: #454b56;
+			font-size: 16px;
+			line-height: 20px;
+			font-family: $gbold;
+			width: calc(100% - 90px);
 		}
 	}
 }
@@ -4186,6 +4318,10 @@ aside{
 
 .wht{
 	background: #fff;
+}
+
+.shadow{
+	@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
 }
 
 .tac{
@@ -4444,6 +4580,19 @@ aside{
 .claim-screen{
 	background: url('../screens/claim-screen.jpg');
 	height: 1681px;
+	background-position: top center;
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	left: 9px;
+	right: 0;
+	z-index: 99;
+	margin: auto;
+	display: none;
+}
+.history-orders-screen{
+	background: url('../screens/history-orders-screen.jpg');
+	height: 2060px;
 	background-position: top center;
 	opacity: .5;
 	position: absolute;
