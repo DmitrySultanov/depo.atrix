@@ -33,7 +33,7 @@
 									<li><label><input type="checkbox"><i></i><span>Завершенные</span></label></li>
 								</ul>
 							</div>
-							<button type="button" class="btn btn-small noshadow">Написать</button>
+							<a href="#" class="btn btn-small noshadow">Написать</a>
 						</div>
 
 						<div class="claims-accordeon accordeon">
@@ -72,7 +72,7 @@
 										</div>
 									</div>
 									<div class="btn-row">
-										<button type="button" class="btn btn-small claim-remove">Удалить</button>
+										<button type="button" class="btn btn-small red-btn claim-remove">Удалить</button>
 									</div>
 								</div>
 							</div>
@@ -105,7 +105,7 @@
 										</div>
 									</div>
 									<div class="btn-row">
-										<button type="button" class="btn btn-small claim-remove red-btn">Удалить</button>
+										<button type="button" class="btn btn-small red-btn claim-remove red-btn">Удалить</button>
 									</div>
 								</div>
 							</div>

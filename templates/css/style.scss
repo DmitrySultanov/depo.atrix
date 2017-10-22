@@ -413,7 +413,7 @@ a{
 
 	input{
 		width: 100%;
-		border-radius: 5px;
+		border-radius: 3px;
 		height: 46px;
 		border: 1px solid #d4edfa;
 		padding: 0 34px 0 22px;
@@ -432,7 +432,7 @@ a{
 
 	textarea{
 		width: 100%;
-		border-radius: 5px;
+		border-radius: 3px;
 		height: 90px;
 		border: 1px solid #d4edfa;
 		padding: 20px;
@@ -459,6 +459,21 @@ a{
 		top: 50%;
 		margin-top: -10px;
 		right: 12px;
+	}
+}
+
+.after-form{
+	margin-top: 20px;
+
+	p{
+		font-size: 15px;
+		line-height: 22px;
+		color: #384048;
+		margin-top: 10px;
+
+		a{
+			font-family: $gmedium;
+		}
 	}
 }
 
@@ -3937,13 +3952,30 @@ aside{
 	.form{
 		padding: 22px 25px 48px;
 
+		h2{
+			margin-bottom: 15px;
+		}
+
 		input{
 			background: #fff;
+			padding: 0 15px;
+		}
+
+		textarea{
+			padding: 15px;
+			height: 164px;
+		}
+
+		button{
+			margin-top: 3px;
 		}
 	}
 
 	.lside{
-		width: 52%;
+		width: 55%;
+	}
+	.rside{
+		width: 45%;
 	}
 
 	.filter.filter-row{
@@ -4202,6 +4234,99 @@ aside{
 			line-height: 20px;
 			font-family: $gbold;
 			width: calc(100% - 90px);
+		}
+	}
+
+	.txt{
+		padding: 22px 25px 48px 15px;
+
+		p{
+			font-size: 14px;
+			line-height: 22px;
+			color: #454b56;
+			margin-top: 30px;
+			max-width: 260px;
+		}
+	}
+
+	.upload-item{
+		border-radius: 5px;
+	    width: 31%;
+	    background: #fff;
+	    text-align: center;
+	    padding: 20px 20px 35px;
+	    margin-bottom: 3.5%;
+	    margin-right: 3.5%;
+
+	    &:nth-child(3n){
+	    	margin-right: 0;
+	    }
+
+		.upload-ico{
+			margin-top: 16px;
+		}
+
+		.upload-desc{
+			margin-top: 8px;
+
+			p{
+				color: #535353;
+				font-size: 15px;
+				line-height: 22px;
+				font-family: $glight;
+
+				strong{
+					font-family: $gmedium;
+				}
+			}
+		}
+
+		.btn{
+			margin-top: 25px;
+		}
+	}
+}
+
+.upload{
+	margin: 15px 0 25px;
+
+	.hide {
+		width: 0.1px;
+		height: 0.1px;
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;
+		z-index: -1;
+	}
+
+	label[for="upload"] {
+		display: inline-block;
+		cursor:pointer;
+		font-size: 15px;
+		color: $blue;
+		position: relative;
+		padding-left: 30px;
+
+		&:before{
+			content: '';
+			background: url('../img/skrepka.jpg');
+			width: 19px;
+			height: 21px;
+			position: absolute;
+			bottom: -3px;
+			left: 0;
+		}
+
+		span{
+			border-bottom: 1px dashed #7eb2f1;
+		}
+
+		&:hover{
+			color: #F44336;
+
+			span{
+				border-color: #F44336;
+			}
 		}
 	}
 }
@@ -4593,6 +4718,19 @@ aside{
 .history-orders-screen{
 	background: url('../screens/history-orders-screen.jpg');
 	height: 2060px;
+	background-position: top center;
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	left: 9px;
+	right: 0;
+	z-index: 99;
+	margin: auto;
+	display: none;
+}
+.uploads-screen{
+	background: url('../screens/uploads-screen.jpg');
+	height: 1747px;
 	background-position: top center;
 	opacity: .5;
 	position: absolute;
