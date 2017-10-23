@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Личный кабинет - история заказов</title>
+	<title>Личный кабинет - cтраница заказа</title>
 	<? include('inc/head.php'); ?>
 </head>
 <body>
@@ -10,7 +10,7 @@
 	<div class="wrapper">
 		<? include('inc/header.php'); ?>
 		<div class="container">
-			<h1>Заказ 785675</h1>
+			<h1>Страница заказа</h1>
 			<div class="flex-main flex jcsb cabinet tabs-wrapper">
 				<aside class="aside-panel">
 					<ul class="tabs">

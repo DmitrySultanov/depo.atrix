@@ -50,7 +50,7 @@
 						<ul class="submenu">
 							<li><a href="#">Меридиан</a></li>
 							<li><a href="#">Игромания</a></li>
-							<li><a href="#">бубен-тауэр</a></li>
+							<li><a href="#">gameland</a></li>
 						</ul>
 					</div>
 					<div class="menu-item flex align"><a href="#">Услуги</a></div>
