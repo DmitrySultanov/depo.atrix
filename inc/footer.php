@@ -51,11 +51,29 @@
 				</div>
 			</div>
 		</div>
-		<div class="middle-row flex">
-			<div class="city">Москва</div>
-			<span>Гурьевский проезд 11, корпус 1, строение 2</span>
-			<span>8 (495) 668-13-09</span>
-			<span>Пн-Пт 08:00 до 17:00</span>
+		<div class="middle-row flex align">
+			<div class="jselect">
+				<select id="change-city-info">
+					<option data-alias="check">Москва</option>
+					<option data-alias="check">Краснодар</option>
+					<option data-alias="check">Тольятти</option>
+				</select>
+			</div>
+			<ul class="city-adress">
+				<li class="active">Гурьевский проезд 11, корпус 1, строение 2</li>
+				<li>Кутузовский проспект 179</li>
+				<li>ул Свердлова 46</li>
+			</ul>
+			<ul class="city-phones">
+				<li class="active">8 (495) 668-13-09</li>
+				<li>8 (3454) 56-78-98</li>
+				<li>8 (8482) 45-56-23</li>
+			</ul>
+			<ul class="city-time-works">
+				<li class="active">Пн-Пт 07:00 до 16:00</li>
+				<li>Пн-Пт 08:00 до 16:45</li>
+				<li>Пн-Пт 08:00 до 18:00</li>
+			</ul>
 		</div>
 	</div>
 	<div class="bottom-row">

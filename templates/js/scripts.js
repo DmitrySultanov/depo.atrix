@@ -328,4 +328,12 @@ $(document).ready(function(){
       });
   });
 
+
+  $('footer .jselector').change(function(){
+    var index = $('option:selected', this).index();
+    $('.city-adress').children('li').removeClass('active').eq(index).addClass('active');
+    $('.city-phones').children('li').removeClass('active').eq(index).addClass('active');
+    $('.city-time-works').children('li').removeClass('active').eq(index).addClass('active');
+  });
+
 });

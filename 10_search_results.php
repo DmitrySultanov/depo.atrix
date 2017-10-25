@@ -4,10 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Результаты поиска</title>
 	<? include('inc/head.php'); ?>
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
-	<div class="about-screen"></div>
+	<div class="results-screen"></div>
 	<div class="wrapper">
 		<? include('inc/header.php'); ?>
 		<div class="container">
@@ -22,7 +21,7 @@
 			<ul class="search-results-list">
 				<li class="flex align jcsb">
 					<div class="res-ico">
-						<img src="templates/img/card-item5.jpg" alt="">
+						<img src="templates/img/res-ico1.png" alt="">
 					</div>
 					<div class="res-desc">
 						<a href="#">Пожарная машина с горкой</a>
@@ -30,7 +29,65 @@
 						форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
 					</div>
 				</li>
+				<li class="flex align jcsb">
+					<div class="res-ico">
+						<img src="templates/img/res-ico2.png" alt="">
+					</div>
+					<div class="res-desc">
+						<a href="#">Качели гнездо ДСП</a>
+						<p>Краткое описание. В то время некий безымянный печатник создал большую коллекцию размеров и 
+						форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+					</div>
+				</li>
+				<li class="flex align jcsb">
+					<div class="res-ico">
+						<img src="templates/img/res-ico3.png" alt="">
+					</div>
+					<div class="res-desc">
+						<a href="#">Пожарная машина с горкой</a>
+						<p>Краткое описание. В то время некий безымянный печатник создал большую коллекцию размеров и 
+						форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+					</div>
+				</li>
+				<li class="flex align jcsb">
+					<div class="res-ico">
+						<img src="templates/img/res-ico4.png" alt="">
+					</div>
+					<div class="res-desc">
+						<a href="#">Качели гнездо ДСП</a>
+						<p>Краткое описание. В то время некий безымянный печатник создал большую коллекцию размеров и 
+						форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+					</div>
+				</li>
+				<li class="flex align jcsb">
+					<div class="res-ico">
+						<img src="templates/img/res-ico5.png" alt="">
+					</div>
+					<div class="res-desc">
+						<a href="#">Качели гнездо ДСП</a>
+						<p>Краткое описание. В то время некий безымянный печатник создал большую коллекцию размеров и 
+						форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+					</div>
+				</li>
 			</ul>
+			<div class="pagination flex align mb130">
+				<a href="#" class="border-btn paginat-btn back"><i></i>назад</a>
+				<ul class="pages">
+					<li class="flex active">
+						<a href="#"></a>
+						<span>1</span>
+					</li>
+					<li class="flex">
+						<a href="#"></a>
+						<span>2</span>
+					</li>
+					<li class="flex">
+						<a href="#"></a>
+						<span>3</span>
+					</li>
+				</ul>
+				<a href="#" class="border-btn paginat-btn forward">вперед<i></i></a>
+			</div>
 		</div>
 		
 		<div class="blue-panel answer-questions mt0">
@@ -49,6 +106,5 @@
 	<? include('inc/footer.php'); ?>
 	<? include('inc/modal.php'); ?>
 	<? include('inc/scripts.php'); ?>
-	<script src="templates/js/yandex-map.js"></script>
 </body>
 </html>

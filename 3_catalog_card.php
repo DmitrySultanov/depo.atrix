@@ -116,7 +116,7 @@
 			<div class="flex-main flex jcsb aifs tabs-wrapper">
 				<aside class="aside-panel">
 					<ul class="ul tabs">
-						<li><a href="#">Описание</a></li>
+						<li class="active"><a href="#">Описание</a></li>
 						<li><a href="#">Техническая информация</a></li>
 						<li><a href="#">Материалы и цвета</a></li>
 						<li><a href="#">Загрузки</a></li>
