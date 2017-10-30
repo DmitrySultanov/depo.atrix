@@ -397,14 +397,19 @@
 							<div class="badge honors">ФОТО</div>
 						</div>
 
-						<div class="project-block video">
+						<div class="project-block video shadow withBadge">
 							<div class="flex">
 								<div class="l-col">
 									<p>Видеообращение наших довольных клиентов</p>
 									<span>Иванов Иван Иванович</span>
+									<div class="badge honors">ВИДЕО</div>
 								</div>
 								<div class="r-col">
-									
+									<div class="video-prev">
+										<a data-fancybox href="https://youtu.be/QGLTZykbz2M" data-rel="media">
+											<img src="templates/img/video-prev.png" alt=""/>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>

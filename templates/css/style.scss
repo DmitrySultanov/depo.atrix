@@ -1961,13 +1961,14 @@ footer{
 		line-height: 24px;
 		color: #454b56;
 		font-family: $glight;
+		margin-bottom: 30px;
 	}
 
 	.projects-row{
 
 		>.flex{
 			>div{
-				min-height: 322px;
+				min-height: 320px;
 				border-radius: 5px;
 				background: #fff;
 
@@ -1975,6 +1976,7 @@ footer{
 					background: #7c80ff;
 					width: 23%;
 					overflow: hidden;
+					margin: 0 2.6% 2.6% 0;
 
 					.intro-title{
 						font-size: 20px;
@@ -2011,7 +2013,7 @@ footer{
 				}
 
 				&.photo{
-					width: 31.6%;
+					width: 31.5%;
 					@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
 					position: relative;
 					@include transition(1s);
@@ -2129,8 +2131,15 @@ footer{
 				}
 
 				&.video{
+					margin-bottom: 2.6%;
+					max-width: 468px;
+
+					.flex{
+						height: 100%;
+					}
+
 					.l-col{
-						width: 60%;
+						width: calc(100% - 200px);
 						padding: 32px 25px;
 
 						p{
@@ -2147,10 +2156,47 @@ footer{
 							font-family: $glight;
 							color: #454b56;
 						}
+
+						.badge{
+							position: absolute;
+						    bottom: 23px;
+						    left: 25px;
+						}
 					}
 
 					.r-col{
-						width: 40%;
+						width: 200px;
+
+						.video-prev{
+							position: relative;
+
+							img{
+								@include transition(.5s);
+								opacity: .6;
+							}
+
+							&:after{
+								content: '';
+								background: url('../img/play-ico.png');
+								width: 68px;
+								height: 68px;
+								position: absolute;
+								top: 0;
+								left: 0;
+								right: 0;
+								bottom: 0;
+								z-index: 22;
+								margin: auto;
+								pointer-events: none;
+							}
+
+							&:hover{
+								img{
+									@include transition(.5s);
+									opacity: 1;
+								}
+							}
+						}
 					}
 				}
 
@@ -4322,28 +4368,6 @@ aside{
 		}
 	}
 
-	.order-notify{
-		margin-top: 30px;
-		border-radius: 5px;
-		padding: 45px 45px;
-
-		.notify-ico{
-			i{
-				font-size: 50px;
-				background: #fee23d;
-				border-radius: 50%;
-			}
-		}
-
-		.notify-desc{
-			color: #454b56;
-			font-size: 16px;
-			line-height: 20px;
-			font-family: $gbold;
-			width: calc(100% - 90px);
-		}
-	}
-
 	.txt{
 		padding: 22px 25px 48px 15px;
 
@@ -4525,6 +4549,28 @@ aside{
 				}
 			}
 		}
+	}
+}
+
+.order-notify{
+	margin-top: 30px;
+	border-radius: 5px;
+	padding: 45px 45px;
+
+	.notify-ico{
+		i{
+			font-size: 50px;
+			background: #fee23d;
+			border-radius: 50%;
+		}
+	}
+
+	.notify-desc{
+		color: #454b56;
+		font-size: 16px;
+		line-height: 20px;
+		font-family: $gbold;
+		width: calc(100% - 90px);
 	}
 }
 
@@ -4891,6 +4937,25 @@ aside{
 		}
 	}
 
+	&.cost-delivery{
+		background: $blue;
+		height: 390px;
+
+		.btn{
+			margin-top: 40px;
+		}
+
+		&:after{
+			content: '';
+			background-image: url('../img/truck-ico.jpg');
+			width: 120px;
+			height: 171px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+	}
+
 	p{
 		font-size: 23px;
 		line-height: 26px;
@@ -4918,6 +4983,62 @@ aside{
 		}
 	}
 }
+
+// услуги
+.services-wrap{
+	margin-bottom: 150px;
+
+	.w-large p{
+		font-size: 15px;
+		line-height: 26px;
+		color: #454b56;
+		padding-right: 20px;
+	}
+
+	.delivery-cards-desc{
+		margin-top: 37px;
+
+		li{
+			width: 48%;
+			background: #fff;
+			padding: 10px;
+			border-radius: 3px;
+			margin: 0 4% 4% 0;
+			height: 190px;
+			@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
+
+			&:nth-child(2n){
+				margin-right: 0;
+			}
+
+			>.flex{
+
+				img{
+					max-width: 82px;
+				}
+
+				div{
+					margin-left: 23px;
+
+					strong{
+						font-family: $gbold;
+						font-size: 16px;
+						line-height: 22px;
+						color: #454b56;
+					}
+				}
+			}
+		}
+	}
+
+	.order-notify{
+		margin-top: 40px;
+	}
+}
+
+
+
+
 
 .entry{
 	p{
@@ -5427,6 +5548,19 @@ aside{
 .results-screen{
 	background: url('../screens/results-screen.jpg');
 	height: 2123px;
+	background-position: top center;
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	left: 9px;
+	right: 0;
+	z-index: 99;
+	margin: auto;
+	display: none;
+}
+.delivery-screen{
+	background: url('../screens/services-delivery-screen.jpg');
+	height: 1785px;
 	background-position: top center;
 	opacity: .5;
 	position: absolute;
