@@ -183,7 +183,7 @@ h1{
 	color: #454b56;
 	font-family: $gmedium;
 	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 h2{
@@ -212,31 +212,6 @@ h2{
 	    transform:translateY(0);
 	}
 }
-
-
-
-// .loader{
-// 	display: -webkit-box;
-// 	display: -moz-box;
-// 	display: -ms-flexbox;
-// 	display: -webkit-flex;
-// 	display: flex;
-// 	flex-wrap: wrap;
-// 	justify-content: center;
-// 	-webkit-justify-content: center;
-// 	align-items: center;
-// 	-webkit-align-items: center;
-// 	height: 16px;
-// 	width: 16px;
-
-// 	span{
-// 		display: inline-block;
-// 		width: 5px;
-// 		height: 5px;
-// 		background: #2481e8;
-// 		margin: 1px;
-// 	}
-// }
 
 .section-title{
 	font-size: 28px;
@@ -335,30 +310,43 @@ a{
 	}
 }
 
-.quadraSpinnerBtn{
-	>div{
-		display: inline-block;
-		vertical-align: top;
-	}
+.withBack{
+	position: relative;
+}
 
-	// &:hover{
-		// .loader span:nth-child(1) {
-		//   animation: spin 1s infinite;
-		// 	animation-delay: 4s;
-		// }
-		// .loader span:nth-child(2) {
-		//   animation: span-2 1s infinite;
-		// 	animation-delay: 4s;
-		// }
-		// .loader span:nth-child(3) {
-		//   animation: span-3 1s  infinite;
-		// 	animation-delay: 4s;
-		// }
-		// .loader span:nth-child(4) {
-		//   animation: span-4 1s  infinite;
-		// 	animation-delay: 4s;
-		// }
-	// }
+.back-btn{
+	display: inline-block;
+	text-align: center;
+	width: 46px;
+    height: 46px;
+    border: 2px solid #d7f1fe;
+    border-radius: 50%;
+    position: absolute;
+    left: -70px;
+    background-color: transparent;
+    z-index: 21;
+    vertical-align: top;
+    top: 50%;
+    margin-top: -23px;
+
+    &:after{
+    	content: '';
+	    width: 13px;
+	    height: 14px;
+	    background-image: url(../img/w-left-arrow.png);
+	    background-position: bottom;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    margin: auto;
+    }
+
+    &:hover{
+    	border-color: #2481e8;
+    	background-position: top;
+    }
 }
 
 .btn-wrap{
@@ -1325,7 +1313,7 @@ footer{
 			position: relative;
 			background-color: transparent;
 			position: absolute;
-			bottom: 60px;
+			bottom: 50px;
 			left: 15px;
 			z-index: 21;
 
@@ -1361,12 +1349,22 @@ footer{
 				}
 			}
 			&.button-next{
-				margin-left: 56px;
+				margin-left: 98px;
 
 				&:after{
 					background-image: url('../img/w-right-arrow.png');
 				}
 			}
+		}
+
+		.swiper-pagination{
+			color: #fff;
+		    bottom: 65px;
+		    left: 70px;
+		    text-align: left;
+		    display: inline-block;
+		    width: auto;
+		    font-family: $glight;
 		}
 		
 		.swiper-slide{
@@ -1378,18 +1376,17 @@ footer{
 			}
 
 			.leftside{
-				width: 50%;
+				width: 51%;
 				height: 100%;
 				float: left;
 			}
 
 			.slide-content{
-				max-width: 370px;
 
 				h1{
 					font-family: $gbold;
-					font-size: 34px;
-					line-height: 36px;
+					font-size: 38px;
+					line-height: 38px;
 					color: #fff;
 				}
 				
@@ -1398,6 +1395,7 @@ footer{
 					line-height: 26px;
 					margin-top: 20px;
 					color: #fff;
+					padding-right: 10%;
 				}
 
 				.btn-wrap{
@@ -1420,7 +1418,7 @@ footer{
 }
 
 .good-cards{
-	margin-top: 50px;
+	margin-top: 30px;
 
 	.card{
 		width: 23%;
@@ -1966,8 +1964,6 @@ footer{
 	}
 
 	.projects-row{
-		margin-top: 30px;
-		margin-bottom: 36px;
 
 		>.flex{
 			>div{
@@ -2019,6 +2015,11 @@ footer{
 					@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
 					position: relative;
 					@include transition(1s);
+					margin: 0 2.6% 2.6% 0;
+
+					&:nth-child(3n){
+						margin-right: 0;
+					}
 
 					>a{
 						position: absolute;
@@ -2071,8 +2072,9 @@ footer{
 						}
 
 						.project-item img{
+							max-width: 100%;
 							@include transition(ease .5s);
-							@include transform(scale(1.05));
+							@include transform(scale(1.03));
 						}
 
 						.project-desc{
@@ -2102,6 +2104,8 @@ footer{
 							max-height: 181px;
 							@include transition(ease .5s);
 							border-radius: 5px 5px 0 0;
+							object-fit: cover;
+							object-position: center;
 						}
 					}
 
@@ -2165,6 +2169,10 @@ footer{
 			}
 		}
 	}
+}
+
+.completed-projects{
+	margin: 0 0 100px 0;
 }
 
 .about-company{
@@ -3568,9 +3576,9 @@ aside{
 
 
 // список новостей
-.list-news{
-	margin-top: 40px;
-}
+// .list-news{
+// 	margin-top: 40px;
+// }
 .news-wrapper{
 
 	.list-news-items{
@@ -4722,11 +4730,166 @@ aside{
 }
 
 
-.see-us{
-	background: url('../img/see-us.png');
+// реализованный проект
+.completed-project{
+	margin-bottom: 100px;
+
+	.cp-description{
+		background: #fff;
+		padding: 40px 40px 20px;
+		border-radius: 5px;
+		margin-bottom: 50px;
+
+		h2{
+			font-size: 23px;
+			color: #454b56;
+			font-family: $gmedium;
+		}
+
+		p{
+			font-size: 15px;
+			line-height: 24px;
+			color: #222222;
+			margin-top: 10px;
+		}
+
+		table{
+			margin-top: 25px;
+
+			tr{
+				border-top: 1px solid #ebf4fd;
+
+				td{
+					&:nth-child(1){
+						width: 30%;
+					}
+
+					color: #454b56;
+					font-size: 16px;
+					line-height: 24px;
+					padding: 19px 0;
+					vertical-align: middle;
+					padding-right: 10px;
+
+					strong{
+						font-family: $gmedium;
+					}
+				}
+			}
+		}
+	}
+
+	.gallery-list{
+		margin-top: 16px;
+
+		li{
+			padding: 13px;
+			background: #fff;
+			width: 31.6%;
+			margin: 0 2.6% 2.6% 0;
+			position: relative;
+			border-radius: 2px;
+			@include box-shadow(0px 3px 2px rgba(44, 85, 180, 0.06));
+			@include transition(ease-in-out .5s);
+
+			// >a{
+			// 	position: absolute;
+			// 	top: 0;
+			// 	left: 0;
+			// 	right: 0;
+			// 	bottom: 0;
+			// 	z-index: 11;
+			// }
+
+			// &:after{
+			// 	content: '';
+			// 	background: rgba(255,255,255, .4);
+			// 	position: absolute;
+			// 	top: 0;
+			// 	left: 0;
+			// 	right: 0;
+			// 	bottom: 0;
+			// 	@include transition(ease-in-out .5s);
+			// }
+
+			.lupa{
+				width: 46px;
+				height: 46px;
+				border-radius: 50%;
+				background: $blue;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				@include transition(ease-in-out .5s);
+				@include transform(scale(0));
+				pointer-events: none;
+
+				i.panton{
+					font-size: 22px;
+					color: #fff;
+					margin: auto;
+				}
+			}
+
+			img{
+				max-width: 100%;
+				@include transition(ease-in-out .5s);
+			}
+
+			&:hover{
+				@include transition(ease-in-out .5s);
+
+				img{
+					@include transition(ease-in-out .5s);
+					opacity: .4;
+				}
+
+				.lupa{
+					@include transition(ease-in-out .5s);
+					@include transform(scale(1));
+				}
+			}
+
+			&:nth-child(3n){
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+
+.image-block{
 	width: 270px;
-	height: 400px;
 	padding: 25px;
+	border-radius: 5px;
+	position: relative;
+
+	&.see-us{
+		background: url('../img/see-us.png');
+		height: 400px;
+	}
+
+	&.want-project{
+		background: $blue;
+		height: 390px;
+
+		.btn{
+			margin-top: 40px;
+		}
+
+		&:after{
+			content: '';
+			background-image: url('../img/want-project-ico.png');
+			width: 198px;
+			height: 306px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+	}
 
 	p{
 		font-size: 23px;
@@ -4736,8 +4899,19 @@ aside{
 		margin-top: 5px;
 	}
 
+	span{
+		font-size: 18px;
+		line-height: 24px;
+		color: #fff;
+		display: block;
+		max-width: 63%;
+		margin-top: 20px;
+	}
+
 	.btn{
 		margin-top: 145px;
+		position: relative;
+		z-index: 22;
 
 		i{
 			margin-right: 8px;
@@ -5001,6 +5175,110 @@ aside{
 	}
 }
 
+.see-more{
+	#circularG{
+		position:relative;
+		width:14px;
+		height:14px;
+		display: inline-block;
+		float: left;
+		margin-right: 10px;
+		margin-top: 2px;
+	}
+
+	.circularG{
+		position:absolute;
+		background-color: $blue;
+		width:6px;
+		height:6px;
+	}
+
+	#circularG_1{
+		left:0;
+		top:0;
+		animation-delay:0.6s;
+	}
+	#circularG_2{
+		right:0;
+		top:0;
+		animation-delay:0.8s;
+	}
+	#circularG_3{
+		bottom:0;
+		right:0;
+		animation-delay:1s;
+	}
+	#circularG_4{
+		left:0;
+		bottom:0;
+		animation-delay:1.2s;
+	}
+
+	&:hover{
+		.circularG{
+			animation-name:bounce_circularG;
+			-o-animation-name:bounce_circularG;
+			-ms-animation-name:bounce_circularG;
+			-webkit-animation-name:bounce_circularG;
+			-moz-animation-name:bounce_circularG;
+			animation-duration:.8s;
+			-o-animation-duration:.8s;
+			-ms-animation-duration:.8s;
+			-webkit-animation-duration:.8s;
+			-moz-animation-duration:.8s;
+			animation-iteration-count:infinite;
+			-o-animation-iteration-count:infinite;
+			-ms-animation-iteration-count:infinite;
+			-webkit-animation-iteration-count:infinite;
+			-moz-animation-iteration-count:infinite;
+			animation-direction:normal;
+			-o-animation-direction:normal;
+			-ms-animation-direction:normal;
+			-webkit-animation-direction:normal;
+			-moz-animation-direction:normal;
+		}
+	}
+}
+@keyframes bounce_circularG{
+	0%{
+		background-color: #9dc9f6;
+	}
+	100%{
+		background-color: $blue;
+	}
+}
+@-o-keyframes bounce_circularG{
+	0%{
+		background-color: #9dc9f6;
+	}
+	100%{
+		background-color: $blue;
+	}
+}
+@-ms-keyframes bounce_circularG{
+	0%{
+		background-color: #9dc9f6;
+	}
+	100%{
+		background-color: $blue;
+	}
+}
+@-webkit-keyframes bounce_circularG{
+	0%{
+		background-color: #9dc9f6;
+	}
+	100%{
+		background-color: $blue;
+	}
+}
+@-moz-keyframes bounce_circularG{
+	0%{
+		background-color: #9dc9f6;
+	}
+	100%{
+		background-color: $blue;
+	}
+}
 
 
 .toppage-screen{

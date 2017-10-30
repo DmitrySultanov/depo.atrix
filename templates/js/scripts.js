@@ -14,11 +14,17 @@ $(document).ready(function(){
   $('input.phone', this).inputmask("+79999999999");
 
   var mainBannerSlider = new Swiper ('.main-banner-slider .swiper-container', {
-    nextButton: '.main-banner-slider .button-next',
-    prevButton: '.main-banner-slider .button-prev',
+    navigation: {
+      nextEl: '.main-banner-slider .button-next',
+      prevEl: '.main-banner-slider .button-prev',
+    },
     loop: true,
     speed: 500,
     effect: 'coverflow',
+    pagination: {
+      el: '.main-banner-slider .swiper-pagination',
+      type: 'fraction',
+    },
   })   
 
   function headerClone(){

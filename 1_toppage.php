@@ -53,6 +53,7 @@
 			    </div>
 		    	<div class="container absolute">
 				    <button type="button" class="slider-btn button-prev"></button>
+				    <div class="swiper-pagination"></div>
 				    <button type="button" class="slider-btn button-next"></button>
 		    	</div>
 			</div>
@@ -173,17 +174,17 @@
 				</div>
 				<div class="btn-wrap">
 					<!-- <a href="#" class="border-btn quadraSpinnerBtn"><img src="templates/img/more_ico.png" alt="">Показать все</a> -->
-					<a href="#" class="border-btn quadraSpinnerBtn">
-						<div>
-							<div class="loader">
-							  <span></span>
-							  <span></span>
-							  <span></span>
-							  <span></span>
+					<div class="btn-wrap">
+				    	<a href="#" class="border-btn see-more">
+							<div id="circularG">
+								<div id="circularG_1" class="circularG"></div>
+								<div id="circularG_2" class="circularG"></div>
+								<div id="circularG_3" class="circularG"></div>
+								<div id="circularG_4" class="circularG"></div>
 							</div>
-						</div>
-						Показать все
-					</a>
+							показать еще
+						</a>
+				    </div>
 				</div>
 				<div class="romb f" data-100-bottom="transform: translateY(110%);" data-top="transform: translateY(0%);"><img src="templates/img/romb2.png" alt=""/></div>
 				<div class="romb s" data-bottom="transform: translateY(80%);" data-top="transform: translateY(10%);"><img src="templates/img/romb2.png" alt=""/></div>
@@ -411,7 +412,7 @@
 				</div>
 
 				<div class="projects-row">
-					<div class="flex jcsb">
+					<div class="flex">
 						<div class="project-block photo withBadge">
 							<a href="#"></a>
 							<div class="project-item">

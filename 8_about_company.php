@@ -35,7 +35,7 @@
 				</div>
 				<div class="w-small">
 					<aside>
-						<div class="see-us">
+						<div class="image-block see-us">
 							<p>Посмотрите
 							видео о нашем
 							производстве</p>
