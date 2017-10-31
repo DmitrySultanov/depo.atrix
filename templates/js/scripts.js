@@ -227,14 +227,18 @@ $(document).ready(function(){
       max: +maxCost.data('val'),
       values: [0,6000],
       range: true,
-      stop: function(event, ui) {
+      create: function(event, ui) {
         minCost.val(uiSldr.slider("values",0));
         maxCost.val(uiSldr.slider("values",1));
       },
       slide: function(event, ui){
         minCost.val(uiSldr.slider("values",0));
         maxCost.val(uiSldr.slider("values",1));
-      }
+      },
+      // stop: function(event, ui){
+      //   minCost.val(uiSldr.slider("values",0));
+      //   maxCost.val(uiSldr.slider("values",1));
+      // }
     });
 
     $("input#minCost").change(function(){

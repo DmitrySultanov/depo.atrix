@@ -70,7 +70,7 @@
 					<aside>
 						<form action="" class="form-sizes">
 							<div class="aside-panel">
-								<ul class="accordion accordion-sizes">
+								<ul class="accordeon accordeon-sizes">
 									<li>
 										<div class="acc-title">
 											<span>Ширина</span>
@@ -131,7 +131,7 @@
 						</form>
 					</aside>
 				</div>
-				<div class="main-panel flex jcsb">
+				<div class="main-panel flex">
 					<div class="card">
 						<a href="#"></a>
 		            	<div class="badge inslide hit">ХИТ</div>

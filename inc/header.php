@@ -100,23 +100,3 @@
 		</div>
 	</div>
 </header>
-
-<div class="pushy pushy-left">
-	<ul>
-	    <li class="pushy-link"><a href="#">Каталог</a></li>
-	    <li class="pushy-link"><a href="#">Проекты</a></li>
-	    <li class="pushy-link"><a href="#">Дилеры</a></li>
-		<li class="pushy-link"><a href="#">Услуги</a></li>
-		<li class="pushy-submenu">
-            <button>Дилеры</button>
-            <ul>
-                <li class="pushy-link"><a href="#">Меридиан</a></li>
-                <li class="pushy-link"><a href="#">Игромания</a></li>
-            </ul>
-        </li>
-	    <li class="pushy-link"><a href="#">Контакты</a></li>
-	</ul>
-</div>
-
-<div class="site-overlay"></div>
-

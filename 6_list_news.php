@@ -72,8 +72,16 @@
 						<div class="news-item blocks__block" id="6"></div>
 					</div>
 					<div class="btn-wrap">
-						<a href="#" class="border-btn">Показать еще</a>
-					</div>
+				    	<a href="#" class="border-btn see-more">
+							<div id="circularG">
+								<div id="circularG_1" class="circularG"></div>
+								<div id="circularG_2" class="circularG"></div>
+								<div id="circularG_3" class="circularG"></div>
+								<div id="circularG_4" class="circularG"></div>
+							</div>
+							показать еще
+						</a>
+				    </div>
 				</div>
 
 				<div class="w-small">
@@ -87,7 +95,7 @@
 						</div>
 					</aside>
 					<aside>
-						<div class="see-us">
+						<div class="image-block see-us">
 							<p>Посмотрите
 							видео о нашем
 							производстве</p>
@@ -102,278 +110,151 @@
 			<li class="news-content__content">
 				<div class="container">
 					<div class="w-panel-sides news-wrapper">
-						<div class="w-small">
-							<aside>
-								<div class="tac">
-									<div class="date">08.07.17</div>
-								</div>
-							</aside>
-						</div>
-						<div class="w-large">
-							<div class="news">
-								<h1>Выставка в Германии GalaBau</h1>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
-								<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
-								форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
-								только успешно пережил без заметных изменений пять веков, но и перешагнул в 
-								электронный дизайн.</p>
-								<div class="news-icons flex jcsb">
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-								</div>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
+						<div class="date">08.07.17</div>
+						<div class="news">
+							<h1>Выставка в Германии GalaBau</h1>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
+							<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
+							форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
+							только успешно пережил без заметных изменений пять веков, но и перешагнул в 
+							электронный дизайн.</p>
+							<div class="news-icons flex jcsb">
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
 							</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
 						</div>
 					</div>
-				</div>
-				<div class="blue-back-btn">
-					<a href="#"></a>
-					<div class="flex center align">
-						<div>
-							<span>д</span>
-							<span>а</span>
-							<span>з</span>
-							<span>а</span>
-							<span>н</span>
-							<i class="arrow"><img src="templates/img/scrollup-arrow.png" alt=""/></i>
-						</div>
-					</div>
+					<button class="back-news-btn"></button>
 				</div>
 			</li>
 			<li class="news-content__content">
 				<div class="container">
 					<div class="w-panel-sides news-wrapper">
-						<div class="w-small">
-							<aside>
-								<div class="tac">
-									<div class="date">08.07.17</div>
-								</div>
-							</aside>
-						</div>
-						<div class="w-large">
-							<div class="news">
-								<h1>Выставка в Германии GalaBau</h1>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
-								<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
-								форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
-								только успешно пережил без заметных изменений пять веков, но и перешагнул в 
-								электронный дизайн.</p>
-								<div class="news-icons flex jcsb">
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-								</div>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
+						<div class="date">08.07.17</div>
+						<div class="news">
+							<h1>Выставка в Германии GalaBau</h1>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
+							<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
+							форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
+							только успешно пережил без заметных изменений пять веков, но и перешагнул в 
+							электронный дизайн.</p>
+							<div class="news-icons flex jcsb">
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
 							</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
 						</div>
 					</div>
-				</div>
-				<div class="blue-back-btn">
-					<a href="#"></a>
-					<div class="flex center align">
-						<div>
-							<span>д</span>
-							<span>а</span>
-							<span>з</span>
-							<span>а</span>
-							<span>н</span>
-							<i class="arrow"><img src="templates/img/scrollup-arrow.png" alt=""/></i>
-						</div>
-					</div>
+					<button class="back-news-btn"></button>
 				</div>
 			</li>
 			<li class="news-content__content">
 				<div class="container">
 					<div class="w-panel-sides news-wrapper">
-						<div class="w-small">
-							<aside>
-								<div class="tac">
-									<div class="date">08.07.17</div>
-								</div>
-							</aside>
-						</div>
-						<div class="w-large">
-							<div class="news">
-								<h1>Выставка в Германии GalaBau</h1>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
-								<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
-								форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
-								только успешно пережил без заметных изменений пять веков, но и перешагнул в 
-								электронный дизайн.</p>
-								<div class="news-icons flex jcsb">
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-								</div>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
+						<div class="date">08.07.17</div>
+						<div class="news">
+							<h1>Выставка в Германии GalaBau</h1>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
+							<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
+							форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
+							только успешно пережил без заметных изменений пять веков, но и перешагнул в 
+							электронный дизайн.</p>
+							<div class="news-icons flex jcsb">
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
 							</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
 						</div>
 					</div>
-				</div>
-				<div class="blue-back-btn">
-					<a href="#"></a>
-					<div class="flex center align">
-						<div>
-							<span>д</span>
-							<span>а</span>
-							<span>з</span>
-							<span>а</span>
-							<span>н</span>
-							<i class="arrow"><img src="templates/img/scrollup-arrow.png" alt=""/></i>
-						</div>
-					</div>
+					<button class="back-news-btn"></button>
 				</div>
 			</li>
 			<li class="news-content__content">
 				<div class="container">
 					<div class="w-panel-sides news-wrapper">
-						<div class="w-small">
-							<aside>
-								<div class="tac">
-									<div class="date">08.07.17</div>
-								</div>
-							</aside>
-						</div>
-						<div class="w-large">
-							<div class="news">
-								<h1>Выставка в Германии GalaBau</h1>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
-								<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
-								форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
-								только успешно пережил без заметных изменений пять веков, но и перешагнул в 
-								электронный дизайн.</p>
-								<div class="news-icons flex jcsb">
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-								</div>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
+						<div class="date">08.07.17</div>
+						<div class="news">
+							<h1>Выставка в Германии GalaBau</h1>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
+							<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
+							форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
+							только успешно пережил без заметных изменений пять веков, но и перешагнул в 
+							электронный дизайн.</p>
+							<div class="news-icons flex jcsb">
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
 							</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
 						</div>
 					</div>
-				</div>
-				<div class="blue-back-btn">
-					<a href="#"></a>
-					<div class="flex center align">
-						<div>
-							<span>д</span>
-							<span>а</span>
-							<span>з</span>
-							<span>а</span>
-							<span>н</span>
-							<i class="arrow"><img src="templates/img/scrollup-arrow.png" alt=""/></i>
-						</div>
-					</div>
+					<button class="back-news-btn"></button>
 				</div>
 			</li>
 			<li class="news-content__content">
 				<div class="container">
 					<div class="w-panel-sides news-wrapper">
-						<div class="w-small">
-							<aside>
-								<div class="tac">
-									<div class="date">08.07.17</div>
-								</div>
-							</aside>
-						</div>
-						<div class="w-large">
-							<div class="news">
-								<h1>Выставка в Германии GalaBau</h1>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
-								<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
-								форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
-								только успешно пережил без заметных изменений пять веков, но и перешагнул в 
-								электронный дизайн.</p>
-								<div class="news-icons flex jcsb">
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-								</div>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
+						<div class="date">08.07.17</div>
+						<div class="news">
+							<h1>Выставка в Германии GalaBau</h1>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
+							<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
+							форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
+							только успешно пережил без заметных изменений пять веков, но и перешагнул в 
+							электронный дизайн.</p>
+							<div class="news-icons flex jcsb">
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
 							</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
 						</div>
 					</div>
-				</div>
-				<div class="blue-back-btn">
-					<a href="#"></a>
-					<div class="flex center align">
-						<div>
-							<span>д</span>
-							<span>а</span>
-							<span>з</span>
-							<span>а</span>
-							<span>н</span>
-							<i class="arrow"><img src="templates/img/scrollup-arrow.png" alt=""/></i>
-						</div>
-					</div>
+					<button class="back-news-btn"></button>
 				</div>
 			</li>
 			<li class="news-content__content">
 				<div class="container">
 					<div class="w-panel-sides news-wrapper">
-						<div class="w-small">
-							<aside>
-								<div class="tac">
-									<div class="date">08.07.17</div>
-								</div>
-							</aside>
-						</div>
-						<div class="w-large">
-							<div class="news">
-								<h1>Выставка в Германии GalaBau</h1>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
-								<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
-								форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
-								только успешно пережил без заметных изменений пять веков, но и перешагнул в 
-								электронный дизайн.</p>
-								<div class="news-icons flex jcsb">
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-								</div>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
-								<div class="news-icons flex jcsb">
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-									<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
-								</div>
-								<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
-								Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
-								XVI века.</p>
+						<div class="date">08.07.17</div>
+						<div class="news">
+							<h1>Выставка в Германии GalaBau</h1>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
+							<p>В то время некий безымянный печатник создал большую коллекцию размеров и 
+							форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не 
+							только успешно пережил без заметных изменений пять веков, но и перешагнул в 
+							электронный дизайн.</p>
+							<div class="news-icons flex jcsb">
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
+								<div class="n-ico"><img src="templates/img/news_ico1.jpg" alt=""/></div>
 							</div>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+							Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала 
+							XVI века.</p>
 						</div>
 					</div>
-				</div>
-				<div class="blue-back-btn">
-					<a href="#"></a>
-					<div class="flex center align">
-						<div>
-							<span>д</span>
-							<span>а</span>
-							<span>з</span>
-							<span>а</span>
-							<span>н</span>
-							<i class="arrow"><img src="templates/img/scrollup-arrow.png" alt=""/></i>
-						</div>
-					</div>
+					<button class="back-news-btn"></button>
 				</div>
 			</li>
 		</ul>
@@ -400,13 +281,13 @@
 			block = $('.news-item.blocks__block');
 			bname = $('.news-item.on');
 			content = $('.news-content__content');
-			closeBtn = $('.blue-back-btn');
+			closeBtn = $('.news-content__content .back-news-btn');
 			wHeight = $(window).outerHeight();
 			wWidth = $(window).outerWidth();
 			bHeight = block.outerHeight();
 			bWidth = block.outerWidth();
-			xVal = Math.round(wWidth / bWidth) * 3;
-			yVal = wHeight / bHeight * 3;
+			xVal = Math.round(wWidth / bWidth) * 2;
+			yVal = wHeight / bHeight * 2;
 
 			expand = function() {
 			  var aBlock, num;
@@ -421,18 +302,19 @@
 			    aBlock.addClass('active');
 			    openContent(num);
 			    $('.news-content').css('z-index', '101');
-
-			  	$('body').addClass('oh');
+		    	setTimeout(function(){
+			  		$('body').addClass('oh');
+		    	}, 700);
 			    return false
 			  }
 			};
 
 			openContent = function(num) {
 			  var aContent;
-			  // content.css({
-			  //   'transition': 'all 0.4s 0.5s ease-out',
-			  //   '-webkit-transition': 'all 0.4s 0.5s ease-out'
-			  // });
+			  content.css({
+			    'transition': 'all 0.2s 0.2s ease-out',
+			    '-webkit-transition': 'all 0.2s 0.2s ease-out'
+			  });
 			  aContent = content.eq(num);
 			  setTimeout(function(){
 			  	aContent.addClass('active');
