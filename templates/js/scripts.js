@@ -39,7 +39,7 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
       var scrollHeightDown = parseInt(($('header').height() + 200 + 'px')),
-          headerClone = $('.top-row.clone'),
+          headerClone = $('.header.clone'),
           s = $(this).scrollTop();
 
 
@@ -57,6 +57,19 @@ $(document).ready(function(){
     })
   }
   headerClone();
+
+  function headerMenuBottom(){
+    $('.gamburger-btn').on('click', function(){
+      $(this).toggleClass('active');
+
+      if($(this).hasClass('active')){
+        $(this).parents('.top-row').siblings('.bottom-row').addClass('active');
+      } else{
+        $(this).parents('.top-row').siblings('.bottom-row').removeClass('active');
+      }
+    });
+  }
+  headerMenuBottom();
 
   var catalogSlider = new Swiper('.catalog-slider .swiper-container', {
       // slidesPerView: 4,
@@ -103,7 +116,7 @@ $(document).ready(function(){
   }
   questionMe();
 
-  $('header .bottom-row .menu-item.has-child').hover(
+  $('.header .bottom-row .menu-item.has-child').hover(
     function(){
       $(this).addClass('active');
     },
@@ -154,8 +167,7 @@ $(document).ready(function(){
     });
   }
 
-
-
+  // модалки
   $(".entrance-btn").on('click', function(){
       var initialWidth = $('body').width();
       var initialHeight = $('html').height();
@@ -183,13 +195,15 @@ $(document).ready(function(){
       event.stopPropagation();
   });
 
+  // поиск в шапке
   $('.flex-main').on('click', '.search-toggle', function(e) {
     var selector = $(this).data('selector');
-
     $(selector).toggleClass('show').find('.search-input').focus();
-    $(this).toggleClass('active');
 
     e.preventDefault();
+  });
+  $('.search-box-close').on('click', function(){
+    $(this).parents('.flex-main.s').removeClass('show');
   });
 
   function accordeon(){
@@ -215,6 +229,7 @@ $(document).ready(function(){
   }
   accordeon();
 
+  // рейнд слайдер (в каталоге)
   $('.size-price-slider').each(function(){
     var $this = $(this),
         uiSldr = $('.slider-ui', $this),
@@ -345,5 +360,24 @@ $(document).ready(function(){
     $('.city-phones').children('li').removeClass('active').eq(index).addClass('active');
     $('.city-time-works').children('li').removeClass('active').eq(index).addClass('active');
   });
+
+  function moreInfoFunc(){
+    var $link = $('.see-more');
+
+    $link.on('click', function(){
+      $(this).toggleClass('active');
+
+      if($(this).hasClass('active')){
+        $(this).text('Свернуть');
+        $(this).parent().siblings('._hidden').slideDown();
+      } else{
+        $(this).text('Показать еще');
+        $(this).parent().siblings('._hidden').slideUp();
+      }
+
+      return false
+    });
+  }
+  moreInfoFunc();
 
 });

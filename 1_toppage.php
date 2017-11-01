@@ -13,7 +13,8 @@
 		<div class="main-banner-slider">
 			<div class="swiper-container">
 			    <div class="swiper-wrapper">
-			        <div class="swiper-slide" style="background-image: url('templates/img/main-banner-slide1.jpg')">
+			        <div class="swiper-slide">
+			        	<div class="bg" style="background-image: url('templates/img/main-banner-slide1.jpg')"></div>
 			        	<div class="container">
 			        		<div class="clearfix">
 				        		<div class="leftside">
@@ -32,7 +33,8 @@
 			        		</div>
 			        	</div>
 			        </div>
-			        <div class="swiper-slide" style="background-image: url('templates/img/main-banner-slide2.jpg')">
+			        <div class="swiper-slide">
+			        	<div class="bg" style="background-image: url('templates/img/main-banner-slide2.jpg')"></div>
 			        	<div class="container">
 			        		<div class="clearfix">
 				        		<div class="leftside">
@@ -60,7 +62,7 @@
 		</div>
 		<div class="good-cards">
 			<div class="container rombs-animate">
-				<div class="flex jcsb">
+				<div class="flex">
 					<div class="card">
 						<a href="#"></a>
 						<div class="card-item">
@@ -172,20 +174,39 @@
 						</div>
 					</div>
 				</div>
-				<div class="btn-wrap">
-					<!-- <a href="#" class="border-btn quadraSpinnerBtn"><img src="templates/img/more_ico.png" alt="">Показать все</a> -->
-					<div class="btn-wrap">
-				    	<a href="#" class="border-btn see-more">
-							<div id="circularG">
-								<div id="circularG_1" class="circularG"></div>
-								<div id="circularG_2" class="circularG"></div>
-								<div id="circularG_3" class="circularG"></div>
-								<div id="circularG_4" class="circularG"></div>
+				<div class="_hidden">
+					<div class="flex">
+						<div class="card">
+							<a href="#"></a>
+							<div class="card-item">
+								<img src="templates/img/card-item1.jpg" alt=""/>
 							</div>
-							Показать еще
-						</a>
-				    </div>
+							<div class="card-desc">
+								<p>Резиновые малые формы <span>85</span></p>
+							</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+							<div class="card-item">
+								<img src="templates/img/card-item2.jpg" alt=""/>
+							</div>
+							<div class="card-desc">
+								<p>Горки <span>31</span></p>
+							</div>
+						</div>
+					</div>
 				</div>
+				<div class="btn-wrap">
+			    	<a href="#" class="border-btn see-more">
+						<div id="circularG">
+							<div id="circularG_1" class="circularG"></div>
+							<div id="circularG_2" class="circularG"></div>
+							<div id="circularG_3" class="circularG"></div>
+							<div id="circularG_4" class="circularG"></div>
+						</div>
+						Показать еще
+					</a>
+			    </div>
 				<div class="romb f" data-100-bottom="transform: translateY(110%);" data-top="transform: translateY(0%);"><img src="templates/img/romb2.png" alt=""/></div>
 				<div class="romb s" data-bottom="transform: translateY(80%);" data-top="transform: translateY(10%);"><img src="templates/img/romb2.png" alt=""/></div>
 				<div class="romb t" data-center="transform: translateY(0%);" data-top="transform: translateY(50%);"><img src="templates/img/romb1.png" alt=""/></div>

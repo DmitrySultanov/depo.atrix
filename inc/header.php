@@ -1,4 +1,4 @@
-<header>
+<header class="header">
 	<div class="top-row">
 		<div class="container">
 			<div class="flex flex-main align jcsb">
@@ -34,7 +34,7 @@
 	</div>	
 	<div class="bottom-row">
 		<div class="container">
-			<div class="flex flex-main" id="search">
+			<div class="flex flex-main s" id="search">
 				<div class="flex h-menu jcsb">
 					<div class="menu-item flex align"><a href="#">Каталог</a></div>
 					<div class="menu-item flex align has-child">
@@ -57,7 +57,9 @@
 					<div class="menu-item flex align"><a href="#">Контакты</a></div>
 				</div>
 				<form action="" target="post_form" class="search-box">
-			      <input type="text" class="text search-input" placeholder="Введите фразу...">
+			      	<input type="text" class="text search-input" placeholder="Введите фразу...">
+					<button class="search-box-close"></button>
+					<button type="submit"><i class="panton a">j</i></button>
 			    </form>
 				<div class="h-search search-button flex">
 					<a href="#" class="search-toggle" data-selector="#search"><i class="panton a">j</i></a>
@@ -65,7 +67,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="top-row clone">
+</header>
+<div class="header clone">
+	<div class="top-row">
 		<div class="container">
 			<div class="flex flex-main align jcsb">
 				<div>
@@ -96,7 +100,42 @@
 					</div>
 				</div>
 			</div>
-			<button type="button" class="menu-btn"><span></span></button>
+			<button type="button" class="gamburger-btn"><span></span></button>
 		</div>
 	</div>
-</header>
+	<div class="bottom-row">
+		<div class="container">
+			<div class="flex flex-main s" id="search-clone">
+				<div class="flex h-menu jcsb">
+					<div class="menu-item flex align"><a href="#">Каталог</a></div>
+					<div class="menu-item flex align has-child">
+						<a href="#"><span>Каталог</span></a>
+						<ul class="submenu">
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+						</ul>
+					</div>
+					<div class="menu-item flex align"><a href="#">Проекты</a></div>
+					<div class="menu-item flex align has-child">
+						<a href="#"><span>Дилеры</span></a>
+						<ul class="submenu">
+							<li><a href="#">Меридиан</a></li>
+							<li><a href="#">Игромания</a></li>
+							<li><a href="#">gameland</a></li>
+						</ul>
+					</div>
+					<div class="menu-item flex align"><a href="#">Услуги</a></div>
+					<div class="menu-item flex align"><a href="#">Контакты</a></div>
+				</div>
+				<form action="" target="post_form" class="search-box">
+			      <input type="text" class="text search-input" placeholder="Введите фразу...">
+			      <button class="search-box-close"></button>
+			      <button type="submit"><i class="panton a">j</i></button>
+			    </form>
+				<div class="h-search search-button flex">
+					<a href="#" class="search-toggle" data-selector="#search-clone"><i class="panton a">j</i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

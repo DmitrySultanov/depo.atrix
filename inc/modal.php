@@ -131,7 +131,7 @@
 
 <iframe frameborder="0" id="post_form" name="post_form"></iframe>
 
-<div class="pushy pushy-left">
+<!-- <div class="pushy pushy-left">
 	<ul>
 	    <li class="pushy-link"><a href="#">Каталог</a></li>
 	    <li class="pushy-link"><a href="#">Проекты</a></li>
@@ -146,7 +146,7 @@
         </li>
 	    <li class="pushy-link"><a href="#">Контакты</a></li>
 	</ul>
-</div>
+</div> -->
 
-<div class="site-overlay"></div>
+<!-- <div class="site-overlay"></div> -->
 
