@@ -131,199 +131,248 @@
 						</form>
 					</aside>
 				</div>
-				<div class="main-panel flex">
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
+				<div class="main-panel">
+					<div class="flex">
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
+						<div class="card">
+							<a href="#"></a>
+			            	<div class="badge inslide hit">ХИТ</div>
+			            	<div class="badge inslide new">НОВИНКА</div>
+			            	<div class="slide-item">
+			            		<img src="templates/img/card-item4.jpg" alt=""/>
+			            		<div class="to-basket flex">
+			            			<a href="#" class="btn btn-small">В корзину</a>
+			            		</div>
+			            	</div>
+			            	<div class="slide-desc">
+			            		<p class="good-name">Качели гнездо ДСП</p>
+			            		<p><span>ДИО 1.152</span></p>
+			            		<div class="price"> 12 500 р.</div>
+			            	</div>
+						</div>
 					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
+					<div class="_hidden">
+						<div class="flex">
+							<div class="card">
+								<a href="#"></a>
+				            	<div class="badge inslide hit">ХИТ</div>
+				            	<div class="badge inslide new">НОВИНКА</div>
+				            	<div class="slide-item">
+				            		<img src="templates/img/card-item4.jpg" alt=""/>
+				            		<div class="to-basket flex">
+				            			<a href="#" class="btn btn-small">В корзину</a>
+				            		</div>
+				            	</div>
+				            	<div class="slide-desc">
+				            		<p class="good-name">Качели гнездо ДСП</p>
+				            		<p><span>ДИО 1.152</span></p>
+				            		<div class="price"> 12 500 р.</div>
+				            	</div>
+							</div>
+							<div class="card">
+								<a href="#"></a>
+				            	<div class="badge inslide hit">ХИТ</div>
+				            	<div class="badge inslide new">НОВИНКА</div>
+				            	<div class="slide-item">
+				            		<img src="templates/img/card-item4.jpg" alt=""/>
+				            		<div class="to-basket flex">
+				            			<a href="#" class="btn btn-small">В корзину</a>
+				            		</div>
+				            	</div>
+				            	<div class="slide-desc">
+				            		<p class="good-name">Качели гнездо ДСП</p>
+				            		<p><span>ДИО 1.152</span></p>
+				            		<div class="price"> 12 500 р.</div>
+				            	</div>
+							</div>
+						</div>
 					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
-					<div class="card">
-						<a href="#"></a>
-		            	<div class="badge inslide hit">ХИТ</div>
-		            	<div class="badge inslide new">НОВИНКА</div>
-		            	<div class="slide-item">
-		            		<img src="templates/img/card-item4.jpg" alt=""/>
-		            		<div class="to-basket flex">
-		            			<a href="#" class="btn btn-small">В корзину</a>
-		            		</div>
-		            	</div>
-		            	<div class="slide-desc">
-		            		<p class="good-name">Качели гнездо ДСП</p>
-		            		<p><span>ДИО 1.152</span></p>
-		            		<div class="price"> 12 500 р.</div>
-		            	</div>
-					</div>
+					<div class="btn-wrap mt0">
+				    	<a href="#" class="border-btn see-more">
+							<div id="circularG">
+								<div id="circularG_1" class="circularG"></div>
+								<div id="circularG_2" class="circularG"></div>
+								<div id="circularG_3" class="circularG"></div>
+								<div id="circularG_4" class="circularG"></div>
+							</div>
+							<span>Показать еще</span>
+						</a>
+				    </div>
 				</div>
 			</div>
 		</div>

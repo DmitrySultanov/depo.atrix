@@ -18,8 +18,11 @@
 						<div class="switcher">
 							<fieldset>
 								<label>
+								  	<input type="radio" name="type_buyer" checked  /><i></i> 
 									<span>Физическое лицо</span>
-								  	<input class="cb cb1" type="checkbox" name="social" onclick="cbChange(this)" /><i></i> 
+								</label>
+								<label>
+									<input type="radio" name="type_buyer" /><i></i> 
 								  	<span>Юридическое лицо</span> 
 								</label>
 							</fieldset>

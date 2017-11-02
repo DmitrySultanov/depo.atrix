@@ -196,7 +196,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="btn-wrap">
+				<div class="btn-wrap mt0">
 			    	<a href="#" class="border-btn see-more">
 						<div id="circularG">
 							<div id="circularG_1" class="circularG"></div>
@@ -204,7 +204,7 @@
 							<div id="circularG_3" class="circularG"></div>
 							<div id="circularG_4" class="circularG"></div>
 						</div>
-						Показать еще
+						<span>Показать еще</span>
 					</a>
 			    </div>
 				<div class="romb f" data-100-bottom="transform: translateY(110%);" data-top="transform: translateY(0%);"><img src="templates/img/romb2.png" alt=""/></div>
@@ -509,7 +509,7 @@
 				<div class="flex flex-main jcsb">
 					<div class="ac-block clearfix">
 						<div class="ac-item">
-							
+							<img src="templates/img/director.jpg" alt=""/>
 						</div>
 						<div class="ac-desc">
 							<div class="flex align">
@@ -518,6 +518,7 @@
 									в области изготовления детского оборудования</div>
 									<p>Высоко автоматизированное производство, грамотный персонал,  использование станков с ЧПУ в 
 									производстве позволяет создавать продукцию с исключительно  высокими техническими характеристиками.</p>
+									<p>Генеральный директор <strong>Давыдов Д.С.</strong></p>
 								</div>
 							</div>
 						</div>

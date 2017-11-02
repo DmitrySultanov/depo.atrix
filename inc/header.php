@@ -36,6 +36,11 @@
 		<div class="container">
 			<div class="flex flex-main s" id="search">
 				<div class="flex h-menu jcsb">
+					<button type="button" class="menu-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 					<div class="menu-item flex align"><a href="#">Каталог</a></div>
 					<div class="menu-item flex align has-child">
 						<a href="#"><span>Каталог</span></a>
@@ -107,6 +112,11 @@
 		<div class="container">
 			<div class="flex flex-main s" id="search-clone">
 				<div class="flex h-menu jcsb">
+					<button type="button" class="menu-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 					<div class="menu-item flex align"><a href="#">Каталог</a></div>
 					<div class="menu-item flex align has-child">
 						<a href="#"><span>Каталог</span></a>

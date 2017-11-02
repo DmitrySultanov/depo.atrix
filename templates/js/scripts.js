@@ -368,10 +368,10 @@ $(document).ready(function(){
       $(this).toggleClass('active');
 
       if($(this).hasClass('active')){
-        $(this).text('Свернуть');
+        $(this).find('span').text('Свернуть');
         $(this).parent().siblings('._hidden').slideDown();
       } else{
-        $(this).text('Показать еще');
+        $(this).find('span').text('Показать еще');
         $(this).parent().siblings('._hidden').slideUp();
       }
 
