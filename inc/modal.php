@@ -146,6 +146,22 @@
         </li>
 	    <li class="pushy-link"><a href="#">Контакты</a></li>
 	</ul>
+	<div>
+		<div class="h-phone-block">
+			<a class="h-phone-link" href="tel:88005552282"><i class="panton b">t</i>8 (800) 555-22-82</a>
+			<a href="#" class="h-callback">Обратный звонок</a>
+		</div>
+	</div>
+	<div>
+		<div class="h-entrance">
+			<a href="#" class="entrance-btn">Вход</a>
+			<a href="#" class="reg-btn">Регистрация</a>
+		</div>
+		<div class="h-basket">
+			<div class="basket-count"><i class="panton b">w</i><span>2</span></div>
+			<span><em>456 900</em> р.</span>
+		</div>
+	</div>
 </div>
 
 <div class="site-overlay"></div>

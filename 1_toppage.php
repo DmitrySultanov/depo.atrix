@@ -397,7 +397,7 @@
 				<h2 class="section-title">Наши проекты</h2>
 				<p class="after-title">В данном разделе мы разместили свои лучште работы и отзывы клиентов</p>
 				<div class="projects-row">
-					<div class="flex jcsb">
+					<div class="flex">
 						<div class="project-block intro">
 							<div class="intro-title">За 6 лет работы нами было реализовано свыше</div>
 							<div class="intro-bottom">
@@ -434,11 +434,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
 
-				<div class="projects-row">
-					<div class="flex">
 						<div class="project-block photo withBadge">
 							<a href="#"></a>
 							<div class="project-item">
@@ -450,6 +446,7 @@
 							</div>
 							<div class="badge honors">ФОТО</div>
 						</div>
+
 						<div class="project-block photo withBadge">
 							<a href="#"></a>
 							<div class="project-item">
@@ -461,6 +458,7 @@
 							</div>
 							<div class="badge honors">ФОТО</div>
 						</div>
+						
 						<div class="project-block photo withBadge">
 							<a href="#"></a>
 							<div class="project-item">
@@ -507,8 +505,8 @@
 			<div class="container">
 				<h2 class="section-title">О предприятии</h2>
 				<div class="flex flex-main jcsb">
-					<div class="ac-block clearfix">
-						<div class="ac-item">
+					<div class="ac-block flex">
+						<div class="ac-item flex">
 							<img src="templates/img/director.jpg" alt=""/>
 						</div>
 						<div class="ac-desc">

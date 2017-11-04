@@ -74,28 +74,46 @@ $(document).ready(function(){
   var catalogSlider = new Swiper('.catalog-slider .swiper-container', {
       // slidesPerView: 4,
       width: 270,
-      nextButton: '.catalog-slider .button-next',
-      prevButton: '.catalog-slider .button-prev',
+      navigation: {
+        nextEl: '.catalog-slider .button-next',
+        prevEl: '.catalog-slider .button-prev',
+      },
       // centeredSlides: true,
       // paginationClickable: true,
       // noSwiping: true,
       // noSwipingClass: 'swiper-no-swiping',
       loop: false,
-      spaceBetween: 30
+      spaceBetween: 30,
+      breakpoints: {
+      768: {
+        width: 240,
+        spaceBetween: 20
+        }
+      }
   });
   var newsSlider = new Swiper('.news-slider .swiper-container', {
       width: 270,
-      nextButton: '.news-slider .button-next',
-      prevButton: '.news-slider .button-prev',
+      navigation: {
+        nextEl: '.news-slider .button-next',
+        prevEl: '.news-slider .button-prev',
+      },
       // noSwiping: true,
       // noSwipingClass: 'swiper-no-swiping',
       loop: false,
-      spaceBetween: 30
+      spaceBetween: 30,
+      breakpoints: {
+        768: {
+          width: 240,
+          spaceBetween: 20
+        }
+      }
   });
   var awardsSlider = new Swiper('.honored-awards-slider .swiper-container', {
       slidesPerView: 3,
-      nextButton: '.honored-awards-slider .button-next',
-      prevButton: '.honored-awards-slider .button-prev',
+      navigation: {
+        nextEl: '.honored-awards-slider .button-next',
+        prevEl: '.honored-awards-slider .button-prev',
+      },
       loop: false
       // spaceBetween: 30
   });
@@ -126,7 +144,9 @@ $(document).ready(function(){
   );
 
   var s = skrollr.init({forceHeight: false}); 
-
+  if (s.isMobile()) {
+    s.destroy();
+  }
 
   var phold;
 

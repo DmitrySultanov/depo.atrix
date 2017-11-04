@@ -1330,6 +1330,7 @@ footer{
 			li{
 				font-size: 16px;
 				color: #3c3e40;
+				line-height: 20px;
 				display: none;
 
 				&.active{
@@ -1609,6 +1610,7 @@ footer{
 
 	.panel-content{
 		max-width: 500px;
+		z-index: 11;
 
 		.panel-title{
 			font-size: 35px;
@@ -2330,21 +2332,22 @@ footer{
 		}
 
 		.ac-item{
-			float: left;
 			width: 37%;
 			margin-right: 2%;
 			min-height: 1px;
 			vertical-align: top;
+			align-items: flex-end;
+			-webkit-align-items: flex-end;
 
 			img{
 				position: relative;
-				top: 20px;
+				top: 15px;
+				max-width: 100%;
 			}
 		}
 
 		.ac-desc{
 			width: 61%;
-			float: left;
 			vertical-align: top;
 			height: 100%;
 		}
@@ -5469,9 +5472,14 @@ aside{
 .pushy{
 	background-color: $blue;
 
+	a{
+		padding: 0;
+	}
+
 	.pushy-link{
 		a{
 			color: #fff;
+			padding: 15px 30px;
 		}
 	}
 	.pushy-submenu > button{
@@ -5484,6 +5492,119 @@ aside{
 			width: 13px;
 			height: 14px;
 			margin-top: 1px;
+		}
+	}
+
+	.h-phone-block{
+		margin-top: 20px;
+
+		.h-phone-link{
+			color: #000;
+			display: inline-block;
+			position: relative;
+			padding-left: 30px;
+			font-family: $gmedium;
+			text-decoration: none;
+			font-size: 15px;
+
+			i{
+				font-size: 26px;
+				margin-right: 5px;
+				position: absolute;
+				top: -3px;
+				left: 0;
+			}
+		}
+
+		.h-callback{
+			font-size: 14px;
+			color: $blue;
+			font-family: $gmedium;
+			margin-left: 15px;
+			text-decoration: none;
+
+			&:hover{
+				color: $red;
+			}
+		}
+	}
+
+	.h-entrance{
+		display: inline-block;
+		vertical-align: top;
+		overflow: hidden;
+
+		a{
+			font-size: 14px;
+			color: $blue;
+			font-family: $gmedium;
+			display: inline-block;
+			padding: 0 12px;
+			position: relative;
+			float: left;
+			text-decoration: none;
+
+			&:hover{
+				color: $red;
+			}
+
+			&:first-child{
+				&:after{
+					content: '';
+					background: #8d949e;
+					width: 1px;
+					height: 12px;
+					position: absolute;
+					bottom: 0;
+					right: 0;
+				}
+			}
+		}
+	}
+
+	.h-basket{
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		padding-left: 44px;
+		margin-left: 30px;
+
+		.basket-count{
+			display: inline-block;
+			vertical-align: top;
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			i{
+				font-size: 21px;
+				margin-right: 5px;
+				position: relative;
+				top: -1px;
+			}
+
+			span{
+				display: inline-block;
+				position: absolute;
+				top: -5px;
+				right: 0;
+				background: $red;
+				font-size: 11px;
+				font-family: $gmedium;
+				color: #fff;
+				padding: 2.5px 5px;
+				border-radius: 50%;
+			}
+		}
+
+		span{
+			font-size: 14px;
+			color: $blue;
+			font-family: $gmedium;
+
+			em{
+				font-style: normal;
+			}
 		}
 	}
 }
@@ -5575,6 +5696,16 @@ aside{
 				margin: 10px 0 0 30px;
 			}
 		}
+
+		&.clone{
+			.flex-main{
+				padding-right: 50px;
+			}
+
+			.gamburger-btn{
+				right: 15px;
+			}
+		}
 	}
 
 	h1{
@@ -5599,15 +5730,85 @@ aside{
 	}
 
 	.good-cards{
+
+		.flex{
+			justify-content: center;
+			-webkit-justify-content: center;
+		}
+
 		.card{
 			&:nth-child(4n){
-				margin-right: 30px;
+				margin-right: 10px;
+			}
+
+			margin: 0 10px 20px;
+		}
+	}
+
+	.our-projects .projects-row>.flex>div.video{
+		max-width: 378px;
+
+		.l-col{
+			p{
+				padding-right: 0;
+				word-wrap: break-word;
 			}
 		}
+
+		.r-col{
+			
+		} 
+	}
+
+	.about-company{
+		.ac-block{
+			padding: 15px;
+
+			.ac-item{
+				width: 43%;
+			}
+
+			.ac-desc{
+				width: 55%;
+			}
+		}
+	}
+
+	.blue-panel{
+		&.answer-questions{
+			.aq-wrap strong{
+				max-width: 200px;
+				margin-right: 25px;
+			}
+		}
+
+		.girl-anim{
+			top: 0;
+			right: 0;
+
+			img{
+				max-height: 100%;
+			}
+		}
+
+		.panel-content{
+			z-index: 33;
+		}
+	}
+
+	.map .map-dealers{
+		padding: 30px 20px 30px 20px;
+		width: 320px;
+		height: 320px;
+		left: 20px;
 	}
 }
 
 @media screen and(max-width: 992px){
+	.wrapper{
+		padding-bottom: 330px;
+	}
+
 	.header{
 		.top-row{
 			.flex-main{
@@ -5683,6 +5884,153 @@ aside{
 	.j .animitem{
 		display: none;
 	}
+
+	.our-projects .projects-row>.flex>div{
+
+		&.intro{
+			width: 31.5%;
+
+			.intro-title{
+				padding: 15px;
+			}
+		}
+
+		&.photo{
+
+			.badge{
+				bottom: 15px;
+				left: 15px;
+			}
+
+			.project-desc{
+				padding: 15px;
+			}
+		} 
+
+
+		&.video{
+			max-width: 378px;
+			width: 31.5%;
+
+			.l-col{
+				width: 100%;
+				padding: 15px;
+				padding-bottom: 50px;
+
+				.badge{
+					bottom: 15px;
+					left: 15px;
+				}
+
+				p{
+					padding-right: 0;
+					word-wrap: break-word;
+				}
+			}
+
+			.r-col{
+				width: 100%;
+
+				.video-prev{
+					height: 170px;
+
+					img{
+						height: 100%;
+						width: 100%;
+						object-fit: cover;
+						border-radius: 0 0 5px 5px;
+					}
+
+					// a{
+					// 	position: absolute;
+					// 	top: 0;
+					// 	left: 0;
+					// 	right: 0;
+					// 	bottom: 0;
+					// 	z-index: 11;
+
+					// 	img{
+					// 		display: none;
+					// 	}
+					// }
+				}
+			} 
+		}
+	}
+
+	.drag-slider{
+		margin-top: 40px;
+	}
+
+	.map{
+		margin-top: 40px;
+	}
+
+	.our-projects{
+		margin-top: 40px;
+	}
+
+	.about-company{
+		margin-top: 40px;
+
+		.ac-block:first-child{
+			.ac-caption{
+				width: calc(100% + 188px);
+    			margin-left: -188px;
+			}
+		}
+	}
+
+	footer{
+		.top-row{
+			padding-top: 20px;
+
+			.lside{
+				width: 63%;
+				padding-top: 0;
+			}
+
+			.rside{
+				width: 37%;
+				min-width: auto;
+			}
+
+			.search-form input{
+				width: 100%;
+			}
+
+			.f-nav>div{
+				margin-bottom: 20px;
+
+				a{
+					font-size: 15px;
+				}
+			}
+		}
+
+		.middle-row{
+			margin: 40px 0;
+			justify-content: space-between;
+			-webkit-justify-content: space-between;
+
+			.jselector{
+				width: 150px;
+			}
+
+			.city-adress, .city-phones, .city-time-works{
+				margin: 10px;
+			}
+
+			.city-adress{
+				width: 180px;
+				min-height: 40px;
+			}
+		}
+	}
+
+	.blue-panel.answer-questions{
+		margin-top: 50px;
+	}
 }
 
 @media screen and(max-width: 768px){
@@ -5706,6 +6054,275 @@ aside{
 
 		.rightside-panel{
 			padding: 20px;
+		}
+	}
+
+	.wrapper{
+		padding-bottom: 440px;
+	}
+
+	.section-title{
+		font-size: 22px;
+	}
+
+	.border-btn{
+		font-size: 15px;
+	}
+
+	.btn-wrap{
+		margin-top: 20px;
+	}
+
+	.question-me{
+		display: none;
+	}
+
+	.header{
+		.top-row{
+			padding: 10px 0;
+
+			.flex-main>div{
+				&:nth-child(2){
+					display: none;
+				}
+				&:last-child{
+					display: none;
+				}
+			}
+		}
+	}
+
+	.main-banner-slider .swiper-container{
+
+		.swiper-slide{
+
+			.leftside{
+				width: 100%;
+			}
+
+			.slide-content{
+				padding-bottom: 50px;
+
+				h1{
+					font-size: 24px;
+					line-height: 26px;
+					text-shadow: 0 1px 1px #222;
+				}
+
+				p{
+					font-size: 15px;
+					line-height: 22px;
+					text-shadow: 0 1px 1px #222;
+				}
+			} 
+		} 
+	} 
+
+	.blue-panel{
+		margin-top: 40px;
+		height: auto;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		.panel-content{
+
+			.panel-title{
+				font-size: 20px;
+				line-height: 26px;
+			}
+
+			p{
+				font-size: 15px;
+				line-height: 22px;
+			}
+		} 
+
+		.girl-anim{
+			display: none;
+		}
+
+		&.answer-questions{
+			height: auto;
+			margin-top: 40px;
+
+			.aq-wrap{
+
+				strong{
+					max-width: 100%;
+					margin: 0 0 10px 0;
+					font-size: 20px;
+				}
+
+				a{
+					font-size: 20px;
+					margin: 5px 0 10px;
+				}
+
+				span{
+					margin-bottom: 5px;
+				}
+			} 
+		}
+	} 
+
+	.good-cards .card{
+		width: 240px;
+	}
+
+	.drag-slider .before-slider .tabs{
+		margin: 0 0 15px 0;
+
+		a{
+			font-size: 15px;
+		}
+	}
+
+	.map{
+		padding-top: 230px;
+
+		.map-dealers{
+			margin-top: -230px;
+			width: 100%;
+			left: 0;
+    		padding: 20px 15px 20px 15px;
+    		height: 230px;
+
+    		h2{
+    			font-size: 22px;
+    		}
+
+    		p{
+    			margin-top: 10px;
+			    font-size: 15px;
+			    line-height: 22px;
+    		}
+
+    		.select{
+    			max-width: 240px;
+    		}
+		}
+	}
+
+	.our-projects{
+
+		.after-title{
+			margin-top: 10px;
+		    font-size: 15px;
+		    line-height: 22px;
+		    margin-bottom: 20px;
+		}
+
+	    .projects-row{
+	    	margin: 0 -10px;
+
+		    >.flex{
+
+		    	>div{
+		    		min-height: 270px;
+
+		    		&.intro{
+		    			width: 240px;
+		    			margin: 10px;
+
+		    			.intro-title{
+		    				font-size: 18px;
+	    					line-height: 22px;
+		    			}
+		    		}
+
+		    		&.photo{
+		    			width: 240px;
+		    			margin: 10px;
+		    		}
+
+		    		&.video{
+		    			width: 240px;
+		    			margin: 10px;
+		    		}
+		    	}
+		    }
+	    }
+	} 
+
+	.about-company{
+		.flex-main{
+			margin-top: 20px;
+		}
+
+		.ac-block{
+			width: 100%;
+			min-height: auto;
+			margin-bottom: 20px;
+
+			&:first-child{
+				.ac-caption{
+					width: 100%;
+    				margin-left: 0;
+				}
+			}
+
+			&:last-child{
+				width: 100%;
+			}
+
+			.ac-item{
+				width: 100%;
+			    margin: 0 0 10px;
+			    height: 200px;
+			    text-align: center;
+
+			    img{
+			    	max-width: 100%;
+				    max-height: 100%;
+				    margin: auto;
+				    position: static;
+			    }
+			}
+
+			.ac-desc{
+				width: 100%;
+    			height: auto;
+			}
+		}
+	}
+
+	footer{
+		.top-row{
+			.lside{
+				width: 100%;
+			}
+
+			.rside{
+				width: 100%;
+			}
+
+			.f-nav>div{
+				margin: 0 20px 10px 0;
+				width: auto;
+			}
+
+			.search-form{
+				margin-top: 10px;
+				float: none;
+				max-width: 240px;
+			}
+		}
+
+		.middle-row{
+			display: block;
+			margin: 20px 0 10px;
+
+			.jselector{
+				margin-bottom: 10px;
+			}
+
+			.city-adress, .city-phones, .city-time-works{
+				display: block;
+			}
+
+			.city-adress{
+				width: 100%;
+			}
 		}
 	}
 }
