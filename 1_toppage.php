@@ -3,10 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Главная</title>
+	<link rel="stylesheet" href="templates/css/jpreloader.css">
 	<? include('inc/head.php'); ?>
+	<script src="templates/js/jpreloader.js"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
+
 	<div class="toppage-screen"></div>
 	<div class="wrapper">
 		<? include('inc/header.php'); ?>
@@ -617,7 +620,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<? include('inc/footer.php'); ?>
 	<? include('inc/modal.php'); ?>
 	<? include('inc/scripts.php'); ?>

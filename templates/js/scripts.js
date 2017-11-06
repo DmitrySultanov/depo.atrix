@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $('body').jpreLoader();
 
   $('.jselect').jselector();  
 
@@ -183,7 +184,15 @@ $(document).ready(function(){
       slidesToScroll: 1,
       asNavFor: '.card-slider-for',
       // centerMode: true,
-      focusOnSelect: true
+      focusOnSelect: true,
+      responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
     });
   }
 
@@ -347,6 +356,8 @@ $(document).ready(function(){
 
         getWrapper.find('.tab-content>li').hide();
         getWrapper.find('.tab-content>li[data-tab='+dataTab+']').fadeIn('slow');
+
+        return false
       });
     });
   }
