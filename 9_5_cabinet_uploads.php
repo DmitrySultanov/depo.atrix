@@ -10,15 +10,15 @@
 	<div class="wrapper">
 		<? include('inc/header.php'); ?>
 		<div class="container">
-			<h1>Сменить пароль</h1>
+			<h1>Загрузки</h1>
 			<div class="flex-main flex jcsb cabinet">
 				<aside class="aside-panel">
 					<ul class="tabs">
 						<li><a href="#">Персональные данные</a></li>
 						<li><a href="#">История заказов</a></li>
 						<li><a href="#">Претензии</a></li>
-						<li><a href="#">Загрузки</a></li>
-						<li class="active"><a href="#">Сменить пароль</a></li>
+						<li class="active"><a href="#">Загрузки</a></li>
+						<li><a href="#">Сменить пароль</a></li>
 						<li><a href="#">Онлайн конструктор</a></li>
 					</ul>
 				</aside>

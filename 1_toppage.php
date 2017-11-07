@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Главная</title>
-	<link rel="stylesheet" href="templates/css/jpreloader.css">
 	<? include('inc/head.php'); ?>
-	<script src="templates/js/jpreloader.js"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
-
+	<div class="preloader">
+      <div class="line_preloader"></div>
+    </div>
 	<div class="toppage-screen"></div>
 	<div class="wrapper">
 		<? include('inc/header.php'); ?>

@@ -1,5 +1,23 @@
+window.onload = function(){
+  setTimeout(function(){
+    $('.preloader').fadeOut();
+    $('.wrapper').css({
+      'transform':'translateY(0)',   
+      'transition':'ease 1s',   
+    });
+  }, 1000)
+};
+
 $(document).ready(function(){
-  // $('body').jpreLoader();
+
+    $('.line_preloader').css('width', '95%')
+
+    // window.onload = function(){
+    //   $('.preloader').css('opacity', '0');
+    //   setTimeout(function(){
+    //     $('.preloader').css('display', 'none');
+    //   }, 2000)
+    // }
 
   $('.jselect').jselector();  
 
@@ -115,8 +133,15 @@ $(document).ready(function(){
         nextEl: '.honored-awards-slider .button-next',
         prevEl: '.honored-awards-slider .button-prev',
       },
-      loop: false
-      // spaceBetween: 30
+      loop: false,
+      breakpoints: {
+      992: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 1,
+        }
+      }
   });
 
   function questionMe(){
@@ -258,7 +283,7 @@ $(document).ready(function(){
   }
   accordeon();
 
-  // рейнд слайдер (в каталоге)
+  // рейндж слайдер (в каталоге)
   $('.size-price-slider').each(function(){
     var $this = $(this),
         uiSldr = $('.slider-ui', $this),
