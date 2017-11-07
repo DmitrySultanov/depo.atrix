@@ -118,8 +118,12 @@ body{
 	min-height: 100%;
 	padding-bottom: 380px;
 
-	transform: translateY(50px);
-	@include transition(ease 1s);
+	&.preload{
+		transform: translateY(50px);
+		@include transition(ease 1s);
+		
+	}
+
 }
 
 @media (min-width: 768px){

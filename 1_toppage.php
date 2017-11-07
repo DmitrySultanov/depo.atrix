@@ -11,7 +11,7 @@
       <div class="line_preloader"></div>
     </div>
 	<div class="toppage-screen"></div>
-	<div class="wrapper">
+	<div class="wrapper preload">
 		<? include('inc/header.php'); ?>
 		<div class="main-banner-slider">
 			<div class="swiper-container">
