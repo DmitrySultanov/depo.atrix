@@ -35,77 +35,78 @@
 							</div>
 							<a href="#" class="btn btn-small noshadow">Написать</a>
 						</div>
-
-						<div class="claims-accordeon accordeon">
-							<div class="ca-thead ca-row flex">
-								<div class="col">№ Заказа</div>
-								<div class="col">Дата составления</div>
-								<div class="col">основание</div>
-								<div class="col">Статус</div>
-							</div>
-							<div class="ca-row acc-item">
-								<div class="ca-title flex acc-title">
-									<div class="col"><span>098777</span></div>
-									<div class="col"><span>11.07.2017</span></div>
-									<div class="col"><span>Брак</span></div>
-									<div class="col"><span>Принята, на рассмотрении</span></div>
+						<div class="claims-wrap">
+							<div class="claims-accordeon accordeon">
+								<div class="ca-thead ca-row flex">
+									<div class="col">№ Заказа</div>
+									<div class="col">Дата составления</div>
+									<div class="col">основание</div>
+									<div class="col">Статус</div>
 								</div>
-								<div class="ca-hidden acc-hidden">
-									<div class="claim-row">
-										<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
-										<div class="form">
-											<form action="" target="post_form">
-												<div class="element">
-													<textarea name="" placeholder="Комментарий если он есть"></textarea>
-												</div>
-											</form>
-										</div>
+								<div class="ca-row acc-item">
+									<div class="ca-title flex acc-title">
+										<div class="col"><span>098777</span></div>
+										<div class="col"><span>11.07.2017</span></div>
+										<div class="col"><span>Брак</span></div>
+										<div class="col"><span>Принята, на рассмотрении</span></div>
 									</div>
-									<div class="claim-row">
-										<span>Ответ на претензию:</span> <a href="#">ответ на претензию №098777.pdf</a>
-										<div class="form">
-											<form action="" target="post_form">
-												<div class="element">
-													<textarea name="" placeholder="Комментарий если он есть"></textarea>
-												</div>
-											</form>
+									<div class="ca-hidden acc-hidden">
+										<div class="claim-row">
+											<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
+											<div class="form">
+												<form action="" target="post_form">
+													<div class="element">
+														<textarea name="" placeholder="Комментарий если он есть"></textarea>
+													</div>
+												</form>
+											</div>
 										</div>
-									</div>
-									<div class="btn-row">
-										<button type="button" class="btn btn-small red-btn claim-remove">Удалить</button>
+										<div class="claim-row">
+											<span>Ответ на претензию:</span> <a href="#">ответ на претензию №098777.pdf</a>
+											<div class="form">
+												<form action="" target="post_form">
+													<div class="element">
+														<textarea name="" placeholder="Комментарий если он есть"></textarea>
+													</div>
+												</form>
+											</div>
+										</div>
+										<div class="btn-row">
+											<button type="button" class="btn btn-small red-btn claim-remove">Удалить</button>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="ca-row acc-item">
-								<div class="ca-title flex acc-title">
-									<div class="col"><span>098777</span></div>
-									<div class="col"><span>11.07.2017</span></div>
-									<div class="col"><span>Брак</span></div>
-									<div class="col"><span>Принята, на рассмотрении</span></div>
-								</div>
-								<div class="ca-hidden acc-hidden">
-									<div class="claim-row">
-										<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
-										<div class="form">
-											<form action="" target="post_form">
-												<div class="element">
-													<textarea name="" placeholder="Комментарий если он есть"></textarea>
-												</div>
-											</form>
-										</div>
+								<div class="ca-row acc-item">
+									<div class="ca-title flex acc-title">
+										<div class="col"><span>098777</span></div>
+										<div class="col"><span>11.07.2017</span></div>
+										<div class="col"><span>Брак</span></div>
+										<div class="col"><span>Принята, на рассмотрении</span></div>
 									</div>
-									<div class="claim-row">
-										<span>Ответ на претензию:</span> <a href="#">ответ на претензию №098777.pdf</a>
-										<div class="form">
-											<form action="" target="post_form">
-												<div class="element">
-													<textarea name="" placeholder="Комментарий если он есть"></textarea>
-												</div>
-											</form>
+									<div class="ca-hidden acc-hidden">
+										<div class="claim-row">
+											<span>Загруженный файл:</span> <a href="#">претензия.pdf</a>
+											<div class="form">
+												<form action="" target="post_form">
+													<div class="element">
+														<textarea name="" placeholder="Комментарий если он есть"></textarea>
+													</div>
+												</form>
+											</div>
 										</div>
-									</div>
-									<div class="btn-row">
-										<button type="button" class="btn btn-small red-btn claim-remove red-btn">Удалить</button>
+										<div class="claim-row">
+											<span>Ответ на претензию:</span> <a href="#">ответ на претензию №098777.pdf</a>
+											<div class="form">
+												<form action="" target="post_form">
+													<div class="element">
+														<textarea name="" placeholder="Комментарий если он есть"></textarea>
+													</div>
+												</form>
+											</div>
+										</div>
+										<div class="btn-row">
+											<button type="button" class="btn btn-small red-btn claim-remove red-btn">Удалить</button>
+										</div>
 									</div>
 								</div>
 							</div>

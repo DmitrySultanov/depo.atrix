@@ -34,193 +34,194 @@
 								</ul>
 							</div>
 						</div>
-
-						<div class="history-orders-accordeon accordeon">
-							<div class="hoa-thead hoa-row flex">
-								<div class="col">№ Заказа</div>
-								<div class="col">Дата</div>
-								<div class="col">Количество</div>
-								<div class="col">Сумма</div>
-								<div class="col">Оплата</div>
-								<div class="col">Статус</div>
-							</div>
-							<div class="hoa-row acc-item">
-								<div class="hoa-title flex acc-title">
-									<div class="col"><a href="#">098777</a></div>
-									<div class="col"><span>07.07.2017</span></div>
-									<div class="col"><span>3 шт</span></div>
-									<div class="col"><span>120 000р.</span></div>
-									<div class="col"><span>Не оплачен</span></div>
-									<div class="col"><span>Выполнен, ожидается оплата</span></div>
+						<div class="hoa-wrap">
+							<div class="history-orders-accordeon accordeon">
+								<div class="hoa-thead hoa-row flex">
+									<div class="col">№ Заказа</div>
+									<div class="col">Дата</div>
+									<div class="col">Количество</div>
+									<div class="col">Сумма</div>
+									<div class="col">Оплата</div>
+									<div class="col">Статус</div>
 								</div>
-								<div class="hoa-hidden acc-hidden">
-									<div class="hoa-hidden-row flex">
-										<div class="hoa-thead hoa-row flex">
-											<div class="col">Товар</div>
-											<div class="col">Цена</div>
-											<div class="col">Количество</div>
-											<div class="col">Сумма</div>
+								<div class="hoa-row acc-item">
+									<div class="hoa-title flex acc-title">
+										<div class="col"><a href="#">098777</a></div>
+										<div class="col"><span>07.07.2017</span></div>
+										<div class="col"><span>3 шт</span></div>
+										<div class="col"><span>120 000р.</span></div>
+										<div class="col"><span>Не оплачен</span></div>
+										<div class="col"><span>Выполнен, ожидается оплата</span></div>
+									</div>
+									<div class="hoa-hidden acc-hidden">
+										<div class="hoa-hidden-row flex">
+											<div class="hoa-thead hoa-row flex">
+												<div class="col">Товар</div>
+												<div class="col">Цена</div>
+												<div class="col">Количество</div>
+												<div class="col">Сумма</div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка для детей дерево сборная комплект 58 элементов инструкция купить размерность </a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
 										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
-										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка для детей дерево сборная комплект 58 элементов инструкция купить размерность </a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
+										<div class="btn-row">
+											<button type="button" class="btn btn-small noshadow">Подробнее</button>
+											<button type="button" class="btn btn-small red-btn">Удалить</button>
 										</div>
 									</div>
-									<div class="btn-row">
-										<button type="button" class="btn btn-small noshadow">Подробнее</button>
-										<button type="button" class="btn btn-small red-btn">Удалить</button>
+								</div>
+								<div class="hoa-row acc-item">
+									<div class="hoa-title flex acc-title">
+										<div class="col"><a href="#">098777</a></div>
+										<div class="col"><span>07.07.2017</span></div>
+										<div class="col"><span>3 шт</span></div>
+										<div class="col"><span>120 000р.</span></div>
+										<div class="col"><span>Не оплачен</span></div>
+										<div class="col"><span>Подтверждение, заказа</span></div>
+									</div>
+									<div class="hoa-hidden acc-hidden">
+										<div class="hoa-hidden-row flex">
+											<div class="hoa-thead hoa-row flex">
+												<div class="col">Товар</div>
+												<div class="col">Цена</div>
+												<div class="col">Количество</div>
+												<div class="col">Сумма</div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
+										</div>
+										<div class="btn-row">
+											<button type="button" class="btn btn-small noshadow">Подробнее</button>
+											<button type="button" class="btn btn-small red-btn">Удалить</button>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="hoa-row acc-item">
-								<div class="hoa-title flex acc-title">
-									<div class="col"><a href="#">098777</a></div>
-									<div class="col"><span>07.07.2017</span></div>
-									<div class="col"><span>3 шт</span></div>
-									<div class="col"><span>120 000р.</span></div>
-									<div class="col"><span>Не оплачен</span></div>
-									<div class="col"><span>Подтверждение, заказа</span></div>
-								</div>
-								<div class="hoa-hidden acc-hidden">
-									<div class="hoa-hidden-row flex">
-										<div class="hoa-thead hoa-row flex">
-											<div class="col">Товар</div>
-											<div class="col">Цена</div>
-											<div class="col">Количество</div>
-											<div class="col">Сумма</div>
+								<div class="hoa-row acc-item">
+									<div class="hoa-title flex acc-title">
+										<div class="col"><a href="#">098777</a></div>
+										<div class="col"><span>07.07.2017</span></div>
+										<div class="col"><span>3 шт</span></div>
+										<div class="col"><span>120 000р.</span></div>
+										<div class="col"><span>Не оплачен</span></div>
+										<div class="col"><span>Сборка, <br>заказа</span></div>
+									</div>
+									<div class="hoa-hidden acc-hidden">
+										<div class="hoa-hidden-row flex">
+											<div class="hoa-thead hoa-row flex">
+												<div class="col">Товар</div>
+												<div class="col">Цена</div>
+												<div class="col">Количество</div>
+												<div class="col">Сумма</div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
 										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
-										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
+										<div class="btn-row">
+											<button type="button" class="btn btn-small noshadow">Подробнее</button>
+											<button type="button" class="btn btn-small red-btn">Удалить</button>
 										</div>
 									</div>
-									<div class="btn-row">
-										<button type="button" class="btn btn-small noshadow">Подробнее</button>
-										<button type="button" class="btn btn-small red-btn">Удалить</button>
+								</div>
+								<div class="hoa-row acc-item">
+									<div class="hoa-title flex acc-title">
+										<div class="col"><a href="#">098777</a></div>
+										<div class="col"><span>07.07.2017</span></div>
+										<div class="col"><span>3 шт</span></div>
+										<div class="col"><span>120 000р.</span></div>
+										<div class="col"><span>Не оплачен</span></div>
+										<div class="col"><span>Ожидание, транспортировки</span></div>
+									</div>
+									<div class="hoa-hidden acc-hidden">
+										<div class="hoa-hidden-row flex">
+											<div class="hoa-thead hoa-row flex">
+												<div class="col">Товар</div>
+												<div class="col">Цена</div>
+												<div class="col">Количество</div>
+												<div class="col">Сумма</div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
+										</div>
+										<div class="btn-row">
+											<button type="button" class="btn btn-small noshadow">Подробнее</button>
+											<button type="button" class="btn btn-small red-btn">Удалить</button>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="hoa-row acc-item">
-								<div class="hoa-title flex acc-title">
-									<div class="col"><a href="#">098777</a></div>
-									<div class="col"><span>07.07.2017</span></div>
-									<div class="col"><span>3 шт</span></div>
-									<div class="col"><span>120 000р.</span></div>
-									<div class="col"><span>Не оплачен</span></div>
-									<div class="col"><span>Сборка, <br>заказа</span></div>
-								</div>
-								<div class="hoa-hidden acc-hidden">
-									<div class="hoa-hidden-row flex">
-										<div class="hoa-thead hoa-row flex">
-											<div class="col">Товар</div>
-											<div class="col">Цена</div>
-											<div class="col">Количество</div>
-											<div class="col">Сумма</div>
-										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
-										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
-										</div>
+								<div class="hoa-row acc-item">
+									<div class="hoa-title flex acc-title">
+										<div class="col"><a href="#">098777</a></div>
+										<div class="col"><span>07.07.2017</span></div>
+										<div class="col"><span>3 шт</span></div>
+										<div class="col"><span>120 000р.</span></div>
+										<div class="col"><span>Не оплачен</span></div>
+										<div class="col"><span>Заказ в пути</span></div>
 									</div>
-									<div class="btn-row">
-										<button type="button" class="btn btn-small noshadow">Подробнее</button>
-										<button type="button" class="btn btn-small red-btn">Удалить</button>
-									</div>
-								</div>
-							</div>
-							<div class="hoa-row acc-item">
-								<div class="hoa-title flex acc-title">
-									<div class="col"><a href="#">098777</a></div>
-									<div class="col"><span>07.07.2017</span></div>
-									<div class="col"><span>3 шт</span></div>
-									<div class="col"><span>120 000р.</span></div>
-									<div class="col"><span>Не оплачен</span></div>
-									<div class="col"><span>Ожидание, транспортировки</span></div>
-								</div>
-								<div class="hoa-hidden acc-hidden">
-									<div class="hoa-hidden-row flex">
-										<div class="hoa-thead hoa-row flex">
-											<div class="col">Товар</div>
-											<div class="col">Цена</div>
-											<div class="col">Количество</div>
-											<div class="col">Сумма</div>
+									<div class="hoa-hidden acc-hidden">
+										<div class="hoa-hidden-row flex">
+											<div class="hoa-thead hoa-row flex">
+												<div class="col">Товар</div>
+												<div class="col">Цена</div>
+												<div class="col">Количество</div>
+												<div class="col">Сумма</div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
+											<div class="hoa-body hoa-row flex">
+												<div class="col"><a href="#">Качалка Медвежонок</a></div>
+												<div class="col"><span>5 000 р.</span></div>
+												<div class="col"><span>3 шт</span></div>
+												<div class="col"><span>15 000р.</span></div>
+											</div>
 										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
+										<div class="btn-row">
+											<button type="button" class="btn btn-small noshadow">Подробнее</button>
+											<button type="button" class="btn btn-small red-btn">Удалить</button>
 										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
-										</div>
-									</div>
-									<div class="btn-row">
-										<button type="button" class="btn btn-small noshadow">Подробнее</button>
-										<button type="button" class="btn btn-small red-btn">Удалить</button>
-									</div>
-								</div>
-							</div>
-							<div class="hoa-row acc-item">
-								<div class="hoa-title flex acc-title">
-									<div class="col"><a href="#">098777</a></div>
-									<div class="col"><span>07.07.2017</span></div>
-									<div class="col"><span>3 шт</span></div>
-									<div class="col"><span>120 000р.</span></div>
-									<div class="col"><span>Не оплачен</span></div>
-									<div class="col"><span>Заказ в пути</span></div>
-								</div>
-								<div class="hoa-hidden acc-hidden">
-									<div class="hoa-hidden-row flex">
-										<div class="hoa-thead hoa-row flex">
-											<div class="col">Товар</div>
-											<div class="col">Цена</div>
-											<div class="col">Количество</div>
-											<div class="col">Сумма</div>
-										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
-										</div>
-										<div class="hoa-body hoa-row flex">
-											<div class="col"><a href="#">Качалка Медвежонок</a></div>
-											<div class="col"><span>5 000 р.</span></div>
-											<div class="col"><span>3 шт</span></div>
-											<div class="col"><span>15 000р.</span></div>
-										</div>
-									</div>
-									<div class="btn-row">
-										<button type="button" class="btn btn-small noshadow">Подробнее</button>
-										<button type="button" class="btn btn-small red-btn">Удалить</button>
 									</div>
 								</div>
 							</div>

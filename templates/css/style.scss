@@ -4311,6 +4311,7 @@ aside{
 		textarea{
 			padding: 15px;
 			height: 164px;
+			background: #fff;
 		}
 
 		button{
@@ -4724,7 +4725,7 @@ aside{
 
 		.hoa-hidden{
 			.hoa-thead{
-				padding: 0;
+				padding: 0!important;
 			}
 
 			.hoa-row{
@@ -6006,6 +6007,10 @@ aside{
 			margin: 0 -20px;
 		}
 
+		.claims-accordeon .ca-thead .col{
+			font-size: 12px;
+		}
+
 		.history-orders{
 
 			.basket-goods{
@@ -6032,12 +6037,25 @@ aside{
 				} 
 			} 
 		} 
+
+		.history-orders-accordeon .hoa-thead .col{
+			font-size: 12px;
+		}
+
+		.filter.filter-row .filter-list{
+			margin-left: 0;
+			margin-top: 10px;
+		}
 	} 
 }
 
 @media screen and(max-width: 992px){
 	.wrapper{
 		padding-bottom: 330px;
+	}
+
+	h2{
+		font-size: 20px;
 	}
 
 	.header{
@@ -6324,6 +6342,17 @@ aside{
 				}
 			}
 		}
+
+		&.filter-row .f-wrap{
+			.filter-list{
+				display: block;
+
+				li{
+					width: auto;
+					margin-left: 42px;
+				}
+			}
+		}
 	}
 
 	.main-card{
@@ -6425,6 +6454,20 @@ aside{
 
 		.lside{
 			width: 100%;
+		}
+
+		.rside{
+			width: 100%;
+			margin-top: -30px;
+			
+			.txt{
+				padding: 0 20px 20px;
+
+				p{
+					margin-top: 0;
+					max-width: 100%;
+				}
+			}
 		}
 	}
 }
@@ -6743,10 +6786,6 @@ aside{
 		}
 	}
 
-	.filter .filter-title{
-		font-size: 18px;
-	}
-
 	.main-panel{
 		.card{
 			width: 240px;
@@ -6909,6 +6948,74 @@ aside{
 
 		.history-orders .basket-goods table tbody tr td{
 			padding: 20px 5px 20px 0;
+		}
+
+		.filter{
+
+			.filter-title{
+				font-size: 18px;
+			}
+
+			&.filter-row{
+				padding: 10px 20px;
+
+				.f-wrap{
+					width: 100%;
+					
+					.filter-list{
+						display: block;
+
+						li{
+							width: 100%;
+							margin: 5px 0;
+						}
+					}
+				}
+
+				.f-wrap + .btn{
+					margin-top: 10px;
+				}
+			} 
+		} 
+
+		.claims-wrap{
+			overflow: auto;
+
+			.claims-accordeon{
+				min-width: 660px;
+			}
+		}
+
+		.form{
+			padding: 22px 20px 48px;
+		}
+
+		.hoa-wrap{
+			overflow: auto;
+
+			.history-orders-accordeon{
+				min-width: 660px;
+
+				.hoa-thead{
+					padding: 0 20px;
+				}
+
+				.hoa-row{
+
+					.hoa-title{
+						padding: 0 20px;
+					}
+
+					.hoa-hidden{
+						padding: 0 20px;
+					}
+
+					.btn-row{
+						padding: 15px 20px;
+						margin: 0 -20px;
+					}
+				} 
+			}
 		}
 	} 
 
