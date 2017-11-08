@@ -6081,6 +6081,11 @@ aside{
 	.leadership .ldsp-wrap li{
 		width: 50%;
 	}
+
+	.services-wrap .delivery-cards-desc li>.flex div{
+		margin-left: 10px;
+    	max-width: 180px;
+	}
 }
 
 @media screen and(max-width: 992px){
@@ -6528,6 +6533,16 @@ aside{
 				}
 			}
 		}
+	}
+
+	.leadership{
+		h2{
+			font-size: 20px;
+		}
+	}
+
+	.services-wrap{
+		margin-bottom: 80px;
 	}
 }
 
@@ -7041,6 +7056,39 @@ aside{
 		}
 	}
 
+	.leadership{
+		margin: 30px 0;
+
+		.ldsp-wrap{
+			margin-top: 30px;
+
+			li{
+				width: 260px;
+				margin-right: 10px;
+				padding: 0;
+
+				&:nth-child(2n){
+					margin-right: 0;
+				}
+
+				.l-ico{
+					img{
+						width: 90px;
+						height: auto;
+					}
+				}
+
+				.l-desc{
+					padding: 0 0 0 100px;
+
+					.leader-phone, .leader-contact{
+						margin-top: 0px;
+					}
+				}
+			}
+		}
+	}
+
 	.cabinet{
 
 		.history-orders .basket-goods table tbody tr td{
@@ -7151,6 +7199,32 @@ aside{
 			width: 100%;
 		}
 	}
+
+	.services-wrap{
+		margin-bottom: 50px;
+
+		.w-large p{
+			line-height: 22px;
+		}
+
+		.delivery-cards-desc{
+			margin-top: 20px;
+
+			li>.flex{
+				align-items: flex-start;
+				-webkit-align-items: flex-start;
+
+				div{
+					max-width: 100%;
+					margin-left: 0;
+				}
+			} 
+		}
+
+		.order-notify{
+			margin-top: 20px;
+		}
+	} 
 }
 
 
