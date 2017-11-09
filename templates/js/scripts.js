@@ -1,11 +1,11 @@
 window.onload = function(){
   setTimeout(function(){
     $('.preloader').fadeOut();
-    $('.wrapper').css({
-      'transform':'translateY(0)',   
-      'transition':'ease 1s',   
-    });
-  }, 1000)
+    // $('.wrapper').css({
+    //   'transform':'translateY(0);',   
+    //   'transition':'1s;',   
+    // });
+  }, 1000);
 };
 
 $(document).ready(function(){

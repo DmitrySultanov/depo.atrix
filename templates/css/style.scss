@@ -118,12 +118,10 @@ body{
 	min-height: 100%;
 	padding-bottom: 380px;
 
-	&.preload{
-		transform: translateY(50px);
-		@include transition(ease 1s);
-		
-	}
-
+	// &.preload{
+	// 	transform: translateY(50px);
+	// 	@include transition(1s);
+	// }
 }
 
 @media (min-width: 768px){
@@ -3170,7 +3168,7 @@ aside{
 		}
 
 		.w-small{
-			width: 300px;
+			width: 270px;
 		}
 	}
 }
@@ -3807,6 +3805,7 @@ aside{
 // 	margin-top: 40px;
 // }
 .news-wrapper{
+	position: relative;
 
 	.list-news-items{
 		position: relative;
@@ -3833,11 +3832,16 @@ aside{
 	    width: 270px;
 	    height: 310px;
 	    z-index: 2;
+	    margin: 0 30px 30px 0;
+
+	    &:nth-child(3n){
+	    	margin-right: 0;
+	    }
 
 	    &.blocks__block{
 			z-index: 1;
 			-webkit-transition: all 1.2s cubic-bezier(0.23, 1, 0.32, 1);
-    		transition: all 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+    		transition: all .8s cubic-bezier(0.23, 1, 0.32, 1);
     		border-radius: 0;
 
 			&.active{
@@ -3948,7 +3952,7 @@ aside{
 		list-style-type: none;
 	    margin: 0;
 	    padding: 0;
-	    position: absolute;
+	    position: fixed;
 	    top: 0;
 	    bottom: 0;
 	    left: 0;
@@ -3988,7 +3992,7 @@ aside{
     		.container{
     			height: auto;
     			padding: 0 15px;
-    			margin: auto;
+    			margin: 0 auto;
 
     			.w-panel-sides{
     				max-width: 770px;
@@ -5140,7 +5144,6 @@ aside{
 	padding: 25px;
 	border-radius: 5px;
 	position: relative;
-	margin-left: 30px;
 
 	&.see-us{
 		background: url('../img/see-us.png');
@@ -6090,6 +6093,12 @@ aside{
 		margin-left: 10px;
     	max-width: 180px;
 	}
+
+	.news-wrapper .news-item{
+		&:nth-child(3n){
+			margin-right: 30px;
+		}
+	}
 }
 
 @media screen and(max-width: 992px){
@@ -6743,7 +6752,37 @@ aside{
     			max-width: 240px;
     		}
 		}
+
+		&.map-select{
+			padding-top: 300px;
+
+			.map-dealers{
+				margin-top: -300px;
+				height: 300px;
+
+				.after-select-ul{
+					max-height: 160px;
+					margin-right: 20px;
+				}
+			}
+		}
 	}
+
+	.after-select-ul li{
+
+		img{
+			max-width: 66px; 
+			max-height: 66px;
+		}
+
+		.item-desc{
+			padding-left: 80px;
+
+			p{
+				line-height: 22px;
+			}
+		}
+	} 
 
 	.our-projects{
 

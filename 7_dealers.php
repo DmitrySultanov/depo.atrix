@@ -19,7 +19,7 @@
 				<p>Использование станков с ЧПУ в производстве позволяет создавать продукцию с исключительно  высокими</p>
 			</div>
 		</div>
-		<div class="map" id="map">
+		<div class="map map-select" id="map">
 			<div class="container">
 				<div class="map-dealers">
 					<h2 class="section-title">Карта дилеров</h2>
