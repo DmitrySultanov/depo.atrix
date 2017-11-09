@@ -11,7 +11,7 @@
 		<? include('inc/header.php'); ?>
 		<div class="completed-project">
 			<div class="container">
-				<h1>Площадка ЖК «Мечта» в селе Ягодное <a href="#" class="back-btn"></a></h1>
+				<h1 class="with-back">Площадка ЖК «Мечта» в селе Ягодное <a href="#" class="back-btn"></a></h1>
 
 				<div class="w-panel-sides large-sides">
 					<div class="w-large list-news-items">
@@ -26,7 +26,7 @@
 										<strong>Площадь проекта:</strong>
 									</td>
 									<td>
-										<p>15000*17000*25000</p>
+										<p>15000 * 17000 * 25000</p>
 									</td>
 								</tr>
 								<tr>
