@@ -260,7 +260,7 @@ a{
 	display: inline-block;
 	border: 2px solid #ffe54c;
 	border-radius: 30px;
-	@include box-shadow(0 1px 0px #377863);
+	@include box-shadow(0 1px 0px rgba(55, 120, 99, 0.5));
 	vertical-align: top;
 
 	&.noshadow{
@@ -687,7 +687,7 @@ a{
 
 .overlay{
 	position: fixed;
-	background: rgba(255,255,255, .7);
+	background: rgba(30, 141, 243, 0.26);
 	top: 0;
 	left: 0;
 	right: 0;
@@ -720,7 +720,8 @@ a{
 		}
 
 		.h-logo img{
-			max-width: 100%;
+			width: 140px;
+			height: 36px;
 		}
 
 		.h-languages{
@@ -858,10 +859,16 @@ a{
 				}
 			}
 
-			span{
+			a{
 				font-size: 14px;
 				color: $blue;
 				font-family: $gmedium;
+				text-decoration: none;
+
+				&:hover{
+					color: $red;
+				}
+
 
 				em{
 					font-style: normal;
@@ -967,7 +974,7 @@ a{
 							.submenu{
 								z-index: 97;
 								opacity: 1;
-								@include transform(translateY(0px));
+								@include transform(scale(1));
 								@include transition(.3s);
 								pointer-events: auto;
 							}
@@ -980,7 +987,7 @@ a{
 							left: -25px;
 							z-index: -11;
 							opacity: 0;
-							@include transform(translateY(-10px));
+							@include transform(scale(.9));
 							@include transition(.3s);
 							pointer-events: none;
 
@@ -1162,6 +1169,7 @@ a{
 			right: 0;
 			margin: auto;
 			margin-top: -6px;
+			@include transition(.4s);
 	    }
 
 	    &:after{
@@ -1175,6 +1183,7 @@ a{
 			right: 0;
 			margin: auto;
 			margin-top: 6px;
+			@include transition(.4s);
 	    }
 
 		span{
@@ -1191,11 +1200,27 @@ a{
 		}
 
 		&:hover{
-			border-color: #9cc6f2;
+			border-color: $blue;
 		}
 
 		&.active{
-			border-color: #9cc6f2;
+			border-color: $blue;
+
+			&:after{
+				@include transition(.4s);
+				@include transform(rotate(45deg));
+				margin-top: -1px;
+			}
+
+			&:before{
+				@include transition(.4s);
+				@include transform(rotate(-45deg));
+				margin-top: -1px;
+			}
+
+			span{
+				display: none;
+			}
 		}
 	}
 
@@ -1205,10 +1230,11 @@ a{
 		left: 0;
 		right: 0;
 		z-index: 90;
-		@include transition(.5s);
+		@include transition(.3s);
+		height: 72px;
 
 		&.active{
-			@include transition(.5s);
+			@include transition(.3s);
 			top: 0;
 		}
 
@@ -1492,12 +1518,14 @@ footer{
 
 			.slide-content{
 				max-width: 480px;
+				margin-top: 110px;
 
 				h1{
 					font-family: $gbold;
 					font-size: 38px;
 					line-height: 38px;
 					color: #fff;
+					margin-top: 0;
 				}
 				
 				p{
@@ -1584,6 +1612,8 @@ footer{
 		}
 
 		.card-item{
+			text-align: center;
+
 			img{
 				max-width: 100%;
 			}
@@ -2411,6 +2441,12 @@ footer{
 			margin-top: 22px;
 		}
 	}
+
+	img.signature{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
 }
 
 .news-slider{
@@ -2924,6 +2960,11 @@ aside{
 		pointer-events: none;
 	}
 }
+.form-sizes{
+	.aside-panel{
+		margin-bottom: 30px;
+	}
+}
 .filter{
 
 	.filter-title{
@@ -3117,7 +3158,6 @@ aside{
 	}
 }
 .btn-wrap{
-	margin-top: 30px;
 
 	.reset{
 		font-size: 15px;
@@ -3815,6 +3855,9 @@ aside{
 		&.blocks{
 			position: absolute;
 			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 50px;
 		}
 	}
 
@@ -3843,6 +3886,7 @@ aside{
 			-webkit-transition: all 1.2s cubic-bezier(0.23, 1, 0.32, 1);
     		transition: all .8s cubic-bezier(0.23, 1, 0.32, 1);
     		border-radius: 0;
+    		@include box-shadow(none);
 
 			&.active{
 		        z-index: 55;
@@ -4085,9 +4129,9 @@ aside{
 
 //о компании
 .honored-awards-slider{
-	margin-top: 55px;
+	margin-top: 65px;
 	background: #2481e8;
-	padding: 60px 0 75px;
+	padding: 60px 0 62px;
 
 	h2{
 		font-family: $gmedium;
@@ -4152,6 +4196,8 @@ aside{
 
 	.swiper-slide{
 		background: transparent;
+		@include box-shadow(none);
+		margin-bottom: 0;
 	}
 
 	.award-ico{
@@ -4195,6 +4241,7 @@ aside{
 				margin-left: 15px;
 				text-transform: uppercase;
 				font-size: 14px;
+				margin-bottom: 10px;
 				color: rgba(255,255,255, .54);
 			}
 		}
@@ -4202,8 +4249,8 @@ aside{
 }
 
 .leadership{
-	margin-top: 86px;
-	margin-bottom: 78px;
+	margin-top: 70px;
+	margin-bottom: 70px;
 
 	h2{
 		font-size: 28px;
@@ -5400,7 +5447,7 @@ aside{
 
 .question-me{
 	position: fixed;
-	top: 100px;
+	top: 118px;
 	right: 0;
 	z-index: 91;
 	@include transition(.3s);
@@ -5890,7 +5937,7 @@ aside{
 		}
 
 		&.clone{
-			.flex-main{
+			.top-row .flex-main{
 				padding-right: 50px;
 			}
 
@@ -5923,17 +5970,18 @@ aside{
 
 	.good-cards{
 
-		.flex{
-			justify-content: center;
-			-webkit-justify-content: center;
-		}
-
 		.card{
+			width: 32%;
+			margin: 0 2% 2% 0;
+
+
 			&:nth-child(4n){
-				margin-right: 10px;
+				margin-right: 2%;
 			}
 
-			margin: 0 10px 20px;
+			&:nth-child(3n){
+				margin-right: 0;
+			}
 		}
 	}
 
@@ -5962,6 +6010,10 @@ aside{
 
 			.ac-desc{
 				width: 55%;
+			}
+
+			p strong{
+				display: block;
 			}
 		}
 	}
@@ -5996,8 +6048,11 @@ aside{
 	}
 
 	.main-panel .card{
+		width: 31%;
+    	margin: 0 3.5% 3.5% 0;
+
 		&:nth-child(3n){
-			margin-right: 30px;
+			margin-right: 0;
 		}
 	}
 
@@ -6095,15 +6150,38 @@ aside{
 	}
 
 	.news-wrapper .news-item{
+		width: 31%;
+		margin: 0 3.5% 3.5% 0;
+		
+
+		.slide-desc{
+			padding: 20px;
+
+			&:before{
+				width: 36px;
+				height: 36px;
+				margin: -18px auto 0;
+			}
+
+			p.good-name{
+				font-size: 15px;
+				line-height: 22px;
+			}
+		}
+
 		&:nth-child(3n){
-			margin-right: 30px;
+			margin-right: 0px;
 		}
 	}
 }
 
 @media screen and(max-width: 992px){
 	.wrapper{
-		padding-bottom: 330px;
+		padding-bottom: 220px;
+	}
+
+	.btn.btn-large{
+		padding: 15px 30px 15px;
 	}
 
 	h1{
@@ -6160,6 +6238,8 @@ aside{
 		.swiper-container{
 
 			.swiper-slide .slide-content{
+				margin-top: 50px;
+
 				h1{
 					font-size: 28px;
 					line-height: 28px;
@@ -6186,16 +6266,80 @@ aside{
 	}
 
 	.blue-panel{
-		height: 300px;
+		height: 580px;
 
-		.panel-content .panel-title{
-			font-size: 28px;
-			line-height: 32px;
+		.flex.align{
+			align-items: flex-start;
+			-webkit-align-items: flex-start;
 		}
+
+		.panel-content{
+			padding-top: 20px;
+			.panel-title{
+				font-size: 28px;
+				line-height: 32px;
+			}
+		} 
+
+		.girl-anim{
+			top: auto;
+			left: 0;
+			right: 0;
+			text-align: center;
+
+			img{
+				max-width: 90%;
+			}
+
+			.romb.s{
+				right: 0;
+
+				img{
+					max-width: 100px;
+				}
+			}
+
+			.romb.f{
+				left: 0;
+
+				img{
+					max-width: 150px;
+				}
+			}
+		}
+
+		&.answer-questions{
+			padding: 40px 0;
+			height: auto;
+
+			.flex.align{
+				align-items: center;
+	    		-webkit-align-items: center;
+			}
+
+			.aq-wrap{
+				height: auto;
+
+				strong{
+					max-width: 100%;
+					margin-bottom: 10px;
+				}
+
+				span{
+					margin-bottom: 10px;
+				}
+			} 
+		} 
 	}
 
 	.j .animitem{
-		display: none;
+		right: 0;
+		left: 0;
+		text-align: center;
+
+		img{
+			max-width: 90%;
+		}
 	}
 
 	.our-projects .projects-row>.flex>div{
@@ -6297,6 +6441,7 @@ aside{
 	footer{
 		.top-row{
 			padding-top: 20px;
+			display: none;
 
 			.lside{
 				width: 63%;
@@ -6325,9 +6470,11 @@ aside{
 			margin: 40px 0;
 			justify-content: space-between;
 			-webkit-justify-content: space-between;
+			text-align: center;
 
 			.jselector{
 				width: 150px;
+				margin-right: 0;
 			}
 
 			.city-adress, .city-phones, .city-time-works{
@@ -6337,6 +6484,18 @@ aside{
 			.city-adress{
 				width: 180px;
 				min-height: 40px;
+				margin-left: 0;
+			}
+		}
+
+		.bottom-row{
+			.developer{
+				display: none;
+			}
+
+			.flex{
+				justify-content: center;
+				-webkit-justify-content: center;
 			}
 		}
 	}
@@ -6603,7 +6762,7 @@ aside{
 	}
 
 	.wrapper{
-		padding-bottom: 440px;
+		padding-bottom: 305px;
 	}
 
 	h1{
@@ -6618,10 +6777,6 @@ aside{
 
 	.border-btn{
 		font-size: 15px;
-	}
-
-	.btn-wrap{
-		margin-top: 20px;
 	}
 
 	.question-me{
@@ -6675,6 +6830,8 @@ aside{
 		padding-top: 15px;
 		padding-bottom: 15px;
 
+		height: 500px;
+
 		.panel-content{
 
 			.panel-title{
@@ -6686,10 +6843,12 @@ aside{
 				font-size: 15px;
 				line-height: 22px;
 			}
-		} 
+		}
 
 		.girl-anim{
-			display: none;
+			bottom: -15px;
+			left: 0;
+			text-align: center;
 		}
 
 		&.answer-questions{
@@ -6697,27 +6856,45 @@ aside{
 			margin-top: 40px;
 
 			.aq-wrap{
+				margin: 0 -15px;
 
 				strong{
 					max-width: 100%;
-					margin: 0 0 10px 0;
+					margin: 0 15px 10px 15px;
 					font-size: 20px;
 				}
 
 				a{
 					font-size: 20px;
-					margin: 5px 0 10px;
+					margin: 0 15px 10px 15px;
 				}
 
 				span{
-					margin-bottom: 5px;
+					margin: 0 15px 10px 15px;
 				}
 			} 
 		}
 	} 
 
+	.j .animitem img{
+		max-width: 130%;
+	}
+
 	.good-cards .card{
-		width: 240px;
+		width: 49%;
+		margin: 0 2% 2% 0!important;
+
+		.card-desc{
+			padding: 12px 0px 10px;
+
+			p{
+				font-size: 14px;
+			}
+		}
+
+		&:nth-child(2n){
+			margin-right: 0!important;
+		}
 	}
 
 	.drag-slider .before-slider .tabs{
@@ -6729,13 +6906,13 @@ aside{
 	}
 
 	.map{
-		padding-top: 230px;
+		padding-top: 250px;
 
 		.map-dealers{
-			margin-top: -230px;
+			margin-top: -250px;
 			width: 100%;
 			left: 0;
-    		padding: 20px 15px 20px 15px;
+    		padding: 20px 25px 20px 25px;
     		height: 230px;
 
     		h2{
@@ -6895,7 +7072,7 @@ aside{
 
 		.middle-row{
 			display: block;
-			margin: 20px 0 10px;
+			margin: 20px 0 20px;
 
 			.jselector{
 				margin-bottom: 10px;
@@ -6930,6 +7107,10 @@ aside{
 		.card{
 			width: 240px;
 			margin: 0 20px 20px 0;
+
+			&:nth-child(3n){
+				margin-right: 20px;
+			}
 		}
 	}
 
@@ -7115,6 +7296,10 @@ aside{
 
 	.honored-awards-slider{
 		padding: 20px 0;
+
+		.swiper-container{
+			margin-top: 25px;
+		}
 
 		.award-desc .award-txt{
 			font-size: 15px;
@@ -7342,6 +7527,26 @@ aside{
 				font-size: 14px;
 			}
 		} 
+	}
+
+	.news-wrapper .news-item{
+		width: 240px;
+		margin: 0 30px 30px 0!important;
+
+		&:nth-child(2n){
+			margin-right: 0!important;
+		}
+		
+
+		.slide-desc{
+			padding: 20px;
+
+			&:before{
+				width: 46px;
+				height: 46px;
+				margin: -24px auto 0;
+			}
+		}
 	}
 }
 

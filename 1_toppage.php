@@ -21,7 +21,7 @@
 			        	<div class="container">
 			        		<div class="clearfix">
 				        		<div class="leftside">
-				        			<div class="flex align">
+				        			<div class="flex">
 				        				<div class="slide-content">
 				        					<h1 class="h1">Производим лучшее
 											детское игровое оборудование!</h1>
@@ -41,7 +41,7 @@
 			        	<div class="container">
 			        		<div class="clearfix">
 				        		<div class="leftside">
-				        			<div class="flex align">
+				        			<div class="flex">
 				        				<div class="slide-content">
 				        					<h1 class="h1">Производим безопасные малые архитектурные формы!</h1>
 											<p>Запросите свежий прайс-лист 
@@ -228,7 +228,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="animitem" data-bottom="transform: translate(20%, 20%);" data-center-bottom="transform: translate(0%, 0%);"><img src="templates/img/journal_ico.jpg" alt=""></div>
+				<div class="animitem" data-bottom="transform: translate(20%, 20%);" data-center-bottom="transform: translate(0%, 0%);"><img src="templates/img/journal_ico.png" alt=""></div>
 			</div>
 		</div>
 		<div class="drag-slider catalog-slider">
@@ -522,6 +522,7 @@
 									<p>Генеральный директор <strong>Давыдов Д.С.</strong></p>
 								</div>
 							</div>
+							<img class="signature" src="templates/img/signature.png" alt=""/>
 						</div>
 					</div>
 					<div class="ac-block">

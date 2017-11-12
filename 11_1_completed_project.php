@@ -135,7 +135,7 @@
 								<div id="circularG_3" class="circularG"></div>
 								<div id="circularG_4" class="circularG"></div>
 							</div>
-							показать еще
+							Показать еще
 						</a>
 				    </div>
 				</div>

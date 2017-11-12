@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="flex flex-main align jcsb">
 				<div>
-					<div class="h-logo"><a href="#"><img src="templates/img/logo.jpg" alt=""></a></div>
+					<div class="h-logo"><a href="#"><img src="templates/img/logo.svg" alt=""></a></div>
 					<div class="h-languages">
 						<div class="lang">
 							<a class="flex active" href="#"><span>Ru</span></a>
@@ -26,7 +26,7 @@
 					</div>
 					<div class="h-basket">
 						<div class="basket-count"><i class="panton b">w</i><span>2</span></div>
-						<span><em>456 900</em> р.</span>
+						<a href="#"><em>456 900</em> р.</a>
 					</div>
 				</div>
 			</div>
@@ -78,7 +78,7 @@
 		<div class="container">
 			<div class="flex flex-main align jcsb">
 				<div>
-					<div class="h-logo"><a href="#"><img src="templates/img/logo.jpg" alt=""></a></div>
+					<div class="h-logo"><a href="#"><img src="templates/img/logo.svg" alt=""></a></div>
 					<div class="h-languages">
 						<div class="lang">
 							<a class="flex active" href="#"><span>Ru</span></a>
@@ -101,7 +101,7 @@
 					</div>
 					<div class="h-basket">
 						<div class="basket-count"><i class="panton b">w</i><span>2</span></div>
-						<span><em>456 900</em> р.</span>
+						<a href="#"><em>456 900</em> р.</a>
 					</div>
 				</div>
 			</div>
