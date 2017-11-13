@@ -436,4 +436,27 @@ $(document).ready(function(){
   }
   moreInfoFunc();
 
+  function submenu(){
+    $('.submenu-btn').on('click', function(){
+      $(this).toggleClass('active');
+
+      if($(this).hasClass('active')){
+        $('.submenu-after').slideDown();
+      } else{
+        $('.submenu-after').slideUp();
+      }
+    });
+
+    $('.submenu-after .sub-item.has-child').on('click', function(){
+      $(this).toggleClass('active');
+
+      if($(this).hasClass('active')){
+        $(this).children('ul').slideDown();
+      } else{
+        $(this).children('ul').slideUp();
+      }
+    });
+  }
+  submenu();
+
 });

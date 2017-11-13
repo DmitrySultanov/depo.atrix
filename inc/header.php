@@ -36,7 +36,7 @@
 		<div class="container">
 			<div class="flex flex-main s" id="search">
 				<div class="flex h-menu jcsb">
-					<button type="button" class="menu-btn">
+					<button type="button" class="submenu-btn">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -71,6 +71,22 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="submenu-after">
+		<ul class="submenu-list">
+			<li class="sub-item has-child">
+				<span>Каталог</span>
+				<ul>
+					<li><a href="#">Категория 1</a></li>
+					<li><a href="#">Категория 2</a></li>
+				</ul>
+			</li>
+			<li class="sub-item"><a href="#">Компания</a></li>
+			<li class="sub-item"><a href="#">Проекты</a></li>
+			<li class="sub-item"><a href="#">Дилеры</a></li>
+			<li class="sub-item"><a href="#">Услуги</a></li>
+			<li class="sub-item"><a href="#">Контакты</a></li>
+		</ul>
 	</div>
 </header>
 <div class="header clone">
