@@ -237,7 +237,7 @@
 		<div class="drag-slider catalog-slider">
 			<div class="container">
 				<div class="before-slider clearfix">
-					<div class="tabs">
+					<div class="tabs-items">
 						<a href="#" class="active">Хиты</a>
 						<a href="#">Новинки</a>
 						<a href="#">Скидки</a>

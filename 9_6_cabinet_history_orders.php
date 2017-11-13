@@ -13,7 +13,7 @@
 			<h1>История заказов</h1>
 			<div class="flex-main flex jcsb cabinet tabs-wrapper">
 				<aside class="aside-panel">
-					<ul class="tabs">
+					<ul class="tabs-items">
 						<li><a href="#">Персональные данные</a></li>
 						<li class="active"><a href="#">История заказов</a></li>
 						<li><a href="#">Претензии</a></li>

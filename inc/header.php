@@ -25,8 +25,8 @@
 						<a href="#" class="reg-btn">Регистрация</a>
 					</div>
 					<div class="h-basket">
-						<div class="basket-count"><i class="panton b">w</i><span>2</span></div>
-						<a href="#"><em>456 900</em> р.</a>
+						<a href="#"><div class="basket-count"><i class="panton b">w</i><span>2</span></div>
+						<em>456 900 р.</em></a>
 					</div>
 				</div>
 			</div>
@@ -37,9 +37,12 @@
 			<div class="flex flex-main s" id="search">
 				<div class="flex h-menu jcsb">
 					<button type="button" class="submenu-btn original">
-						<span></span>
-						<span></span>
-						<span></span>
+						<div>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<em>Меню</em>
 					</button>
 					<div class="menu-item flex align"><a href="#">Каталог</a></div>
 					<div class="menu-item flex align has-child">
@@ -73,6 +76,16 @@
 		</div>
 	</div>
 	<div class="submenu-after original">
+		<div class="submenu-info flex align jcsb">
+			<div class="h-phone-block">
+				<a class="h-phone-link" href="tel:88005552282"><i class="panton b">t</i>8 (800) 555-22-82</a>
+				<a href="#" class="h-callback">Обратный звонок</a>
+			</div>
+			<div class="h-entrance">
+				<a href="#" class="entrance-btn">Вход</a>
+				<a href="#" class="reg-btn">Регистрация</a>
+			</div>
+		</div>
 		<ul class="submenu-list">
 			<li class="sub-item has-child">
 				<span><em>Каталог</em></span>
@@ -116,8 +129,8 @@
 						<a href="#" class="reg-btn">Регистрация</a>
 					</div>
 					<div class="h-basket">
-						<div class="basket-count"><i class="panton b">w</i><span>2</span></div>
-						<a href="#"><em>456 900</em> р.</a>
+						<a href="#"><div class="basket-count"><i class="panton b">w</i><span>2</span></div>
+						<em>456 900 р.</em></a>
 					</div>
 				</div>
 			</div>
@@ -129,9 +142,12 @@
 			<div class="flex flex-main s" id="search-clone">
 				<div class="flex h-menu jcsb">
 					<button type="button" class="submenu-btn clone">
-						<span></span>
-						<span></span>
-						<span></span>
+						<div>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<em>Меню</em>
 					</button>
 					<div class="menu-item flex align"><a href="#">Каталог</a></div>
 					<div class="menu-item flex align has-child">
@@ -165,6 +181,16 @@
 		</div>
 	</div>
 	<div class="submenu-after">
+		<div class="submenu-info flex align jcsb">
+			<div class="h-phone-block">
+				<a class="h-phone-link" href="tel:88005552282"><i class="panton b">t</i>8 (800) 555-22-82</a>
+				<a href="#" class="h-callback">Обратный звонок</a>
+			</div>
+			<div class="h-entrance">
+				<a href="#" class="entrance-btn">Вход</a>
+				<a href="#" class="reg-btn">Регистрация</a>
+			</div>
+		</div>
 		<ul class="submenu-list">
 			<li class="sub-item has-child">
 				<span><em>Каталог</em></span>

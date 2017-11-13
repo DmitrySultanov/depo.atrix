@@ -1,4 +1,4 @@
-<div class="modal sign-in">
+<div class="amodal sign-in">
 	<div class="flex">
 		<div class="modal_wrap">
 			<button type="button" class="modal-close"><i class="panton c">I</i></button>
@@ -37,7 +37,7 @@
 	</div>
 </div>
 
-<div class="modal forgot-pass">
+<div class="amodal forgot-pass">
 	<div class="flex">
 		<div class="modal_wrap">
 			<button type="button" class="modal-close"><i class="panton c">I</i></button>
@@ -69,7 +69,7 @@
 	</div>
 </div>
 
-<div class="modal change-pass">
+<div class="amodal change-pass">
 	<div class="flex">
 		<div class="modal_wrap">
 			<button type="button" class="modal-close"><i class="panton c">I</i></button>
@@ -109,7 +109,7 @@
 	</div>
 </div>
 
-<div class="modal changed-pass">
+<div class="amodal changed-pass">
 	<div class="flex">
 		<div class="modal_wrap">
 			<button type="button" class="modal-close"><i class="panton c">I</i></button>
@@ -131,35 +131,20 @@
 
 <iframe frameborder="0" id="post_form" name="post_form"></iframe>
 
-<div class="pushy pushy-left">
-	<ul>
-	    <li class="pushy-link"><a href="#">Каталог</a></li>
-	    <li class="pushy-link"><a href="#">Проекты</a></li>
-	    <li class="pushy-link"><a href="#">Дилеры</a></li>
-		<li class="pushy-link"><a href="#">Услуги</a></li>
-		<li class="pushy-submenu">
-            <button>Дилеры</button>
-            <ul>
-                <li class="pushy-link"><a href="#">Меридиан</a></li>
-                <li class="pushy-link"><a href="#">Игромания</a></li>
-            </ul>
-        </li>
-	    <li class="pushy-link"><a href="#">Контакты</a></li>
-	</ul>
-	<div>
-		<div class="h-phone-block">
-			<a class="h-phone-link" href="tel:88005552282"><i class="panton b">t</i>8 (800) 555-22-82</a>
-			<a href="#" class="h-callback">Обратный звонок</a>
-		</div>
-	</div>
-	<div>
-		<div class="h-entrance">
-			<a href="#" class="entrance-btn">Вход</a>
-			<a href="#" class="reg-btn">Регистрация</a>
-		</div>
-		<div class="h-basket">
-			<div class="basket-count"><i class="panton b">w</i><span>2</span></div>
-			<span><em>456 900</em> р.</span>
+<div class="preloader-circle">
+	<div class="flex center">
+		<div class="preloader-wrapper small active">
+			<div class="spinner-layer spinner-blue-only">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

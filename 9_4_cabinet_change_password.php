@@ -14,7 +14,7 @@
 			<h1>Сменить пароль</h1>
 			<div class="flex-main flex jcsb cabinet">
 				<aside class="aside-panel">
-					<ul class="tabs">
+					<ul class="tabs-items">
 						<li><a href="#">Персональные данные</a></li>
 						<li><a href="#">История заказов</a></li>
 						<li><a href="#">Претензии</a></li>
