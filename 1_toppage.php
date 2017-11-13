@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Главная</title>
 	<? include('inc/head.php'); ?>
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+	<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="templates/js/map.js"></script>
 </head>
 <body>
 	<div class="preloader">
@@ -625,6 +628,6 @@
 	<? include('inc/footer.php'); ?>
 	<? include('inc/modal.php'); ?>
 	<? include('inc/scripts.php'); ?>
-	<script src="templates/js/yandex-map.js"></script>
+	<!-- <script src="templates/js/yandex-map.js"></script> -->
 </body>
 </html>

@@ -56,6 +56,9 @@ $(document).ready(function(){
     var fooHeight = $('footer').height();
     var fscroll = fooOffset - fooHeight - 1000;
 
+    var topHeaderSub = $('.header .submenu-after.original');
+    var cloneHeaderSub = $('.header.clone .submenu-after');
+
     $(window).scroll(function(){
       var scrollHeightDown = parseInt(($('header').height() + 200 + 'px')),
           headerClone = $('.header.clone'),
@@ -64,8 +67,12 @@ $(document).ready(function(){
 
       if(s > scrollHeightDown){
         headerClone.addClass('active');
+        topHeaderSub.slideUp();
+        $('.submenu-btn.original').removeClass('active');
       } else if(s < scrollHeightDown){
         headerClone.removeClass('active');
+        cloneHeaderSub.slideUp();
+        $('.submenu-btn.clone').removeClass('active');
       }
 
       if($(window).scrollTop() > fscroll){
@@ -441,9 +448,9 @@ $(document).ready(function(){
       $(this).toggleClass('active');
 
       if($(this).hasClass('active')){
-        $('.submenu-after').slideDown();
+        $(this).parents('.bottom-row').siblings('.submenu-after').slideDown();
       } else{
-        $('.submenu-after').slideUp();
+        $(this).parents('.bottom-row').siblings('.submenu-after').slideUp();
       }
     });
 

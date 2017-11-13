@@ -2,7 +2,7 @@
 	<div class="top-row">
 		<div class="container">
 			<div class="flex flex-main align jcsb">
-				<div>
+				<div class="flex align">
 					<div class="h-logo"><a href="#"><img src="templates/img/logo.svg" alt=""></a></div>
 					<div class="h-languages">
 						<div class="lang">
@@ -36,7 +36,7 @@
 		<div class="container">
 			<div class="flex flex-main s" id="search">
 				<div class="flex h-menu jcsb">
-					<button type="button" class="submenu-btn">
+					<button type="button" class="submenu-btn original">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -72,10 +72,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="submenu-after">
+	<div class="submenu-after original">
 		<ul class="submenu-list">
 			<li class="sub-item has-child">
-				<span>Каталог</span>
+				<span><em>Каталог</em></span>
 				<ul>
 					<li><a href="#">Категория 1</a></li>
 					<li><a href="#">Категория 2</a></li>
@@ -93,7 +93,7 @@
 	<div class="top-row">
 		<div class="container">
 			<div class="flex flex-main align jcsb">
-				<div>
+				<div class="flex align">
 					<div class="h-logo"><a href="#"><img src="templates/img/logo.svg" alt=""></a></div>
 					<div class="h-languages">
 						<div class="lang">
@@ -128,7 +128,7 @@
 		<div class="container">
 			<div class="flex flex-main s" id="search-clone">
 				<div class="flex h-menu jcsb">
-					<button type="button" class="menu-btn">
+					<button type="button" class="submenu-btn clone">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -163,5 +163,21 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="submenu-after">
+		<ul class="submenu-list">
+			<li class="sub-item has-child">
+				<span><em>Каталог</em></span>
+				<ul>
+					<li><a href="#">Категория 1</a></li>
+					<li><a href="#">Категория 2</a></li>
+				</ul>
+			</li>
+			<li class="sub-item"><a href="#">Компания</a></li>
+			<li class="sub-item"><a href="#">Проекты</a></li>
+			<li class="sub-item"><a href="#">Дилеры</a></li>
+			<li class="sub-item"><a href="#">Услуги</a></li>
+			<li class="sub-item"><a href="#">Контакты</a></li>
+		</ul>
 	</div>
 </div>
