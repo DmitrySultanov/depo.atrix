@@ -14,7 +14,7 @@
 			<h1>Персональные данные</h1>
 			<div class="flex-main flex jcsb cabinet">
 				<aside class="aside-panel">
-					<ul class="tabs">
+					<ul class="tabs-items">
 						<li class="active"><a href="#">Персональные данные</a></li>
 						<li><a href="#">История заказов</a></li>
 						<li><a href="#">Претензии</a></li>

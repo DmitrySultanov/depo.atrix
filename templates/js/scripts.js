@@ -471,13 +471,4 @@ $(document).ready(function(){
     });
   }
   submenu();
-
-  $('.catalog-slider .tabs-items a').on('click', function(){
-    $('.preloader-circle').fadeIn().delay(1700).fadeOut('slow');
-  
-    $('.preloader-wrapper').delay(2200);
-    return false
-  });
-
-
 });

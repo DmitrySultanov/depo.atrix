@@ -1,5 +1,5 @@
 <script type="text/javascript" src="templates/js/jquery.jselector.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
 <script type="text/javascript" src="templates/js/jquery.inputmask.js"></script>
 <script type="text/javascript" src="templates/js/jquery.cutleta.js"></script>
 <script type="text/javascript" src="templates/js/skrollr.min.js"></script>
