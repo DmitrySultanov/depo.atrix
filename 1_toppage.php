@@ -379,7 +379,7 @@
 			    </div>
 			</div>
 		</div>
-		<div class="map" id="map">
+		<div class="map">
 			<div class="container">
 				<div class="map-dealers">
 					<h2 class="section-title">Карта дилеров</h2>
@@ -397,6 +397,7 @@
 					</div>
 				</div>
 			</div>
+			<div id="map"></div>
 		</div>
 		<div class="our-projects">
 			<div class="container rombs-animate">

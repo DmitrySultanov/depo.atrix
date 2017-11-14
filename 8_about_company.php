@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<title>О компании</title>
 	<? include('inc/head.php'); ?>
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="templates/js/map.js"></script>
 </head>
 <body>
 	<div class="about-screen"></div>
@@ -182,7 +184,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="map" id="map">
+		<div class="map">
 			<div class="container">
 				<div class="map-dealers">
 					<h2 class="section-title">Карта дилеров</h2>
@@ -200,6 +202,7 @@
 					</div>
 				</div>
 			</div>
+			<div id="map"></div>
 		</div>
 		<div class="blue-panel answer-questions mt0">
 			<div class="container">
@@ -217,6 +220,6 @@
 	<? include('inc/footer.php'); ?>
 	<? include('inc/modal.php'); ?>
 	<? include('inc/scripts.php'); ?>
-	<script src="templates/js/yandex-map.js"></script>
+	<!-- <script src="templates/js/yandex-map.js"></script> -->
 </body>
 </html>

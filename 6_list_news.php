@@ -288,8 +288,8 @@
 			wWidth = $(window).outerWidth();
 			bHeight = block.outerHeight();
 			bWidth = block.outerWidth();
-			xVal = Math.round(wWidth / bWidth) * 2;
-			yVal = wHeight / bHeight * 2;
+			xVal = Math.round(wWidth / bWidth) * 4;
+			yVal = wHeight / bHeight * 4;
 
 			expand = function() {
 			  var aBlock, num;
