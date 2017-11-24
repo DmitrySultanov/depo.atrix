@@ -35,35 +35,35 @@
 	<div class="bottom-row">
 		<div class="container">
 			<div class="flex flex-main s" id="search">
-				<div class="flex h-menu jcsb">
-					<button type="button" class="submenu-btn original">
-						<div>
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-						<em>Меню</em>
-					</button>
-					<div class="menu-item flex align"><a href="#">Каталог</a></div>
-					<div class="menu-item flex align has-child">
+				<button type="button" class="submenu-btn original">
+					<div>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<em>Меню</em>
+				</button>
+				<ul class="flex h-menu jcsb">
+					<li class="menu-item flex align"><a href="#">Каталог</a></li>
+					<li class="menu-item flex align has-child">
 						<a href="#"><span>Каталог</span></a>
 						<ul class="submenu">
 							<li><a href="#">Пункт 1</a></li>
 							<li><a href="#">Пункт 2</a></li>
 						</ul>
-					</div>
-					<div class="menu-item flex align"><a href="#">Проекты</a></div>
-					<div class="menu-item flex align has-child">
+					</li>
+					<li class="menu-item flex align"><a href="#">Проекты</a></li>
+					<li class="menu-item flex align has-child">
 						<a href="#"><span>Дилеры</span></a>
 						<ul class="submenu">
 							<li><a href="#">Меридиан</a></li>
 							<li><a href="#">Игромания</a></li>
 							<li><a href="#">gameland</a></li>
 						</ul>
-					</div>
-					<div class="menu-item flex align"><a href="#">Услуги</a></div>
-					<div class="menu-item flex align"><a href="#">Контакты</a></div>
-				</div>
+					</li>
+					<li class="menu-item flex align"><a href="#">Услуги</a></li>
+					<li class="menu-item flex align"><a href="#">Контакты</a></li>
+				</ul>
 				<form action="" target="post_form" class="search-box">
 			      	<input type="text" class="text search-input" placeholder="Введите фразу...">
 					<button class="search-box-close"></button>
@@ -140,35 +140,35 @@
 	<div class="bottom-row">
 		<div class="container">
 			<div class="flex flex-main s" id="search-clone">
-				<div class="flex h-menu jcsb">
-					<button type="button" class="submenu-btn clone">
-						<div>
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-						<em>Меню</em>
-					</button>
-					<div class="menu-item flex align"><a href="#">Каталог</a></div>
-					<div class="menu-item flex align has-child">
+				<button type="button" class="submenu-btn clone">
+					<div>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<em>Меню</em>
+				</button>
+				<ul class="flex h-menu jcsb">
+					<li class="menu-item flex align"><a href="#">Каталог</a></li>
+					<li class="menu-item flex align has-child">
 						<a href="#"><span>Каталог</span></a>
 						<ul class="submenu">
 							<li><a href="#">Пункт 1</a></li>
 							<li><a href="#">Пункт 2</a></li>
 						</ul>
-					</div>
-					<div class="menu-item flex align"><a href="#">Проекты</a></div>
-					<div class="menu-item flex align has-child">
+					</li>
+					<li class="menu-item flex align"><a href="#">Проекты</a></li>
+					<li class="menu-item flex align has-child">
 						<a href="#"><span>Дилеры</span></a>
 						<ul class="submenu">
 							<li><a href="#">Меридиан</a></li>
 							<li><a href="#">Игромания</a></li>
 							<li><a href="#">gameland</a></li>
 						</ul>
-					</div>
-					<div class="menu-item flex align"><a href="#">Услуги</a></div>
-					<div class="menu-item flex align"><a href="#">Контакты</a></div>
-				</div>
+					</li>
+					<li class="menu-item flex align"><a href="#">Услуги</a></li>
+					<li class="menu-item flex align"><a href="#">Контакты</a></li>
+				</ul>
 				<form action="" target="post_form" class="search-box">
 			      <input type="text" class="text search-input" placeholder="Введите фразу...">
 			      <button class="search-box-close"></button>

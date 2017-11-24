@@ -897,18 +897,10 @@ a{
 			align-items: center;
 			-webkit-align-items: center;
 
-			>div{
-				&:first-child{
-					width: calc(100% - 185px);
-				}
-
-				&:last-child{
-					width: 185px;
-				}
-			}
 
 			.h-menu{
 				height: 100%;
+				width: calc(100% - 185px);
 
 				.menu-item{
 					height: 100%;
@@ -1040,6 +1032,7 @@ a{
 				align-items: center;
 				-webkit-align-items: center;
 				height: 100%;
+				width: 185px;
 
 				a{
 					font-size: 26px;
@@ -6156,6 +6149,10 @@ aside{
 						padding-right: 0;
 					}
 				}
+
+				.h-search{
+
+				}
 			}
 
 			.h-phone-block .h-callback{
@@ -6469,7 +6466,7 @@ aside{
 				justify-content: space-between;
 				-webkit-justify-content: space-between;
 
-				.h-menu .menu-item{
+				.h-menu{
 					display: none;
 				}
 
