@@ -2294,6 +2294,23 @@ footer{
 			width: 8px;
 			background: #aec2cc;
 		}
+
+		&.i-contatcs{
+			ul{
+				font-size: 16px;
+				line-height: 18px;
+				margin-top: 20px;
+
+				li{
+					display: none;
+					color: #3c3e40;
+
+					&.active{
+						display: block;
+					}
+				}
+			}
+		}
 	}
 
 	.container{
@@ -5526,6 +5543,84 @@ aside{
 }
 
 
+.contacts-table{
+	background: #fff;
+	margin-top: 40px;
+	padding: 0px 30px;
+	border-radius: 5px;
+	overflow: auto;
+
+	table{
+		min-width: 700px;
+
+		 tr{
+		 	border-bottom: 1px solid #e0f3fc;
+
+			&:last-child{
+				border-bottom: none;
+			}
+
+		 	td{
+		 		padding-bottom: 30px;
+		 		padding-top: 30px;
+		 		padding-right: 10px;
+
+		 		&:nth-child(1){
+		 			width: 25%;
+
+		 			strong{
+		 				font-size: 18px;
+		 			}
+		 		}
+		 		&:nth-child(2){
+		 			width: 25%;
+		 		}
+		 		&:nth-child(3){
+		 			width: 25%;
+		 		}
+		 		&:nth-child(4){
+		 			width: 25%;
+		 		}
+
+		 		strong{
+		 			font-size: 16px;
+		 			color: #454b56;
+		 			font-family: $gmedium;
+		 			display: block;
+		 			margin-bottom: 10px;
+		 		}
+
+		 		p{
+		 			font-size: 14px;
+		 			color: #454b56;
+		 			line-height: 16px;
+		 			margin: 4px 0; 
+
+		 			&:first-child{
+		 				margin-top: 10px;
+		 			}
+		 		}
+
+		 		.btn.btn-small{
+		 			margin-top: 30px;
+		 			display: none;
+		 			padding: 10px 25px 11px;
+		 			text-align: center;
+		 		}
+		 	}
+
+		 	&:hover{
+				td{
+					.btn{
+						display: inline-block;
+					}
+				}
+		 	}
+		}
+	}
+}
+
+
 
 ._hidden{
 	display: none;
@@ -6763,6 +6858,30 @@ aside{
 			.flex{
 				justify-content: center;
 				-webkit-justify-content: center;
+			}
+		}
+	}
+
+	.contacts-table{
+		margin-top: 20px;
+		padding: 0 10px;
+
+		table{
+			tr{
+				td{
+					strong{
+						font-size: 15px;
+					}
+
+					p{
+						font-size: 13px;
+					}
+
+					.btn.btn-small{
+						padding: 10px 20px 11px;
+						display: inline-block;
+					}
+				}
 			}
 		}
 	}
